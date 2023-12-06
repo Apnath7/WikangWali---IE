@@ -1,0 +1,113 @@
+.logout-popup-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-31xl);
+  background-color: #88e9ff;
+  box-shadow: 2px 5px 13px 4px rgba(0, 0, 0, 0.25);
+  width: 729px;
+  height: 438px;
+}
+.are-you-sure {
+  margin: 0;
+}
+.are-you-sure-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.are-you-sure-container {
+  position: absolute;
+  top: 43px;
+  left: 211px;
+  font-family: var(--font-love-ya-like-a-sister);
+  display: flex;
+  align-items: center;
+  width: 385px;
+  height: 133px;
+}
+.group-child7 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 260.9px;
+  height: 80px;
+}
+.cancel {
+  position: absolute;
+  top: 12.7px;
+  left: 49.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159.8px;
+  height: 54.6px;
+}
+.group-frame {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 260.9px;
+  height: 80px;
+}
+.group-container {
+  position: absolute;
+  top: 235px;
+  left: 0px;
+  width: 260.9px;
+  height: 80px;
+  color: var(--color-steelblue-100);
+}
+.group-child8 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-steelblue-100);
+  width: 260.9px;
+  height: 80px;
+}
+.group-wrapper2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 260.9px;
+  height: 80px;
+  cursor: pointer;
+}
+.group-wrapper1 {
+  position: absolute;
+  top: 235px;
+  left: 322.1px;
+  width: 260.9px;
+  height: 80px;
+  color: var(--color-white);
+}
+.image-43-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 211px;
+  height: 220px;
+  object-fit: cover;
+}
+.are-you-sure-you-want-to-logou-parent {
+  position: absolute;
+  top: 45px;
+  left: 67px;
+  width: 596px;
+  height: 315px;
+}
+.logout-popup {
+  position: relative;
+  width: 729px;
+  height: 438px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-bangers);
+}

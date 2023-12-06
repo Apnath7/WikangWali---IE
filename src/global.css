@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-inter: Inter;
+  --font-love-ya-like-a-sister: "Love Ya Like A Sister";
+  --font-bangers: Bangers;
+  --font-inherit: inherit;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-4xl: 23px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-31xl: 50px;
+  --font-size-6xl: 25px;
+  --font-size-16xl: 35px;
+  --font-size-51xl: 70px;
+  --font-size-21xl: 40px;
+  --font-size-45xl: 64px;
+  --font-size-41xl: 60px;
+  --font-size-13xl: 32px;
+  --font-size-2xl: 21px;
+  --font-size-3xl: 22px;
+  --font-size-mini: 15px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-darkslateblue-100: #0745a3;
+  --color-darkslateblue-200: #0c1a49;
+  --color-darkslateblue-300: rgba(12, 26, 74, 0.67);
+  --color-deepskyblue-100: #3bb8fe;
+  --color-deepskyblue-200: #38b7fe;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+  --color-steelblue-100: #2b6bb0;
+  --color-steelblue-200: rgba(43, 107, 176, 0.5);
+  --color-dodgerblue-100: rgba(0, 140, 255, 0.5);
+  --color-gainsboro-100: #d9d9d9;
+  --color-gold: #ffd700;
+  --color-mediumslateblue: #9665ff;
+  --color-goldenrod: #fbb52e;
+  --color-whitesmoke: rgba(234, 234, 234, 0.61);
+  --color-lightgreen: #a0e09a;
+  --color-mediumturquoise: #4acdc5;
+  --color-olivedrab: #8ab446;
+  --color-khaki: #fdf080;
+  --color-saddlebrown: #755008;
+  --color-lightgray: #bacdd2;
+  --color-navajowhite: #ffdbb0;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-142xl: 161px;
+  --padding-36xl: 55px;
+  --padding-xl: 20px;
+  --padding-8xl: 27px;
+  --padding-24xl: 43px;
+  --padding-5xs: 8px;
+  --padding-sm: 14px;
+  --padding-mid: 17px;
+
+  /* border radiuses */
+  --br-31xl: 50px;
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-81xl: 100px;
+  --br-42xl-5: 61.5px;
+  --br-87xl: 106px;
+  --br-8xs: 5px;
+}

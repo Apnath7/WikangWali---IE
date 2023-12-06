@@ -1,0 +1,164 @@
+.notocloud-icon12 {
+  position: absolute;
+  top: 0px;
+  left: 64px;
+  width: 346px;
+  height: 298px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.notocloud-icon13 {
+  position: absolute;
+  top: 246px;
+  left: 1363px;
+  width: 346px;
+  height: 298px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.lougoutthankyou-child {
+  position: absolute;
+  top: 94px;
+  left: 200px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 20px 25px 50px 5px rgba(0, 0, 0, 0.25);
+  width: 1344px;
+  height: 921px;
+}
+.lougoutthankyou-item {
+  position: absolute;
+  top: 94px;
+  left: 200px;
+  border-radius: var(--br-xl) 0px 0px var(--br-xl);
+  background: linear-gradient(90deg, #cbedff, rgba(203, 237, 255, 0) 59.38%);
+  width: 672px;
+  height: 921px;
+}
+.vector-icon13 {
+  position: absolute;
+  height: 14.66%;
+  width: 18.67%;
+  top: 19.5%;
+  right: 65.87%;
+  bottom: 65.85%;
+  left: 15.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vector-icon14 {
+  position: absolute;
+  height: 6.24%;
+  width: 18.71%;
+  top: 30.9%;
+  right: 65.87%;
+  bottom: 62.86%;
+  left: 15.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wikang-wali-logo2 {
+  position: absolute;
+  top: 268px;
+  left: 89px;
+  width: 775px;
+  height: 751px;
+  object-fit: cover;
+}
+.notocloud-icon14 {
+  position: absolute;
+  top: 731px;
+  left: 477px;
+  width: 346px;
+  height: 298px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.notocloud-icon15 {
+  position: absolute;
+  top: 171px;
+  left: 695px;
+  width: 91px;
+  height: 69px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.lougoutthankyou-inner {
+  position: absolute;
+  top: 559px;
+  left: 1080px;
+  background-color: var(--color-gainsboro-100);
+  width: 1px;
+  height: 1px;
+}
+.group-child14 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-steelblue-100);
+  width: 449px;
+  height: 63px;
+}
+.return-home {
+  position: absolute;
+  top: 10px;
+  left: 133px;
+}
+.rectangle-parent6 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 449px;
+  height: 63px;
+}
+.group-wrapper3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 449px;
+  height: 63px;
+  cursor: pointer;
+}
+.lougoutthankyou-inner1 {
+  position: absolute;
+  top: 722px;
+  left: 976px;
+  width: 449px;
+  height: 63px;
+}
+.salamat-sa-pag-aaral {
+  position: absolute;
+  top: 549px;
+  left: 897px;
+  font-size: 48px;
+  font-family: var(--font-love-ya-like-a-sister);
+  color: var(--color-steelblue-100);
+  text-align: center;
+  display: inline-block;
+  width: 607px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-54-icon {
+  position: absolute;
+  top: 325px;
+  left: 1084px;
+  width: 233px;
+  height: 233px;
+  object-fit: cover;
+}
+.lougoutthankyou {
+  position: relative;
+  background: linear-gradient(180deg, #38b7fe, #f9fdff 92.2%, #fff);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-bangers);
+}

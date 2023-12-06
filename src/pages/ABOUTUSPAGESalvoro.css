@@ -1,0 +1,240 @@
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 20px 25px 50px 5px rgba(0, 0, 0, 0.25);
+  width: 1589px;
+  height: 950px;
+}
+.group-item {
+  position: absolute;
+  top: 0px;
+  left: 615.5px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    270deg,
+    #cbedff,
+    rgba(203, 237, 255, 0.94) 0.01%,
+    rgba(203, 237, 255, 0) 59.38%,
+    rgba(203, 237, 255, 0)
+  );
+  width: 973.5px;
+  height: 950px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 84px;
+  left: 70px;
+  width: 1589px;
+  height: 950px;
+}
+.about-us {
+  position: absolute;
+  top: 284px;
+  left: 153px;
+}
+.nathaniel-salvoro {
+  position: absolute;
+  top: 316px;
+  left: 153px;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+}
+.role {
+  position: absolute;
+  top: 466px;
+  left: 258px;
+  font-weight: 600;
+}
+.hobbies {
+  position: absolute;
+  top: 466px;
+  left: 769px;
+  font-weight: 600;
+}
+.motto {
+  position: absolute;
+  top: 672px;
+  left: 258px;
+  font-weight: 600;
+}
+.uiux-designer-developer {
+  position: absolute;
+  top: 511px;
+  left: 258px;
+  font-size: var(--font-size-xl);
+}
+.watching-movies-playing {
+  margin: 0;
+}
+.watching-movies-playing-container {
+  position: absolute;
+  top: 511px;
+  left: 769px;
+  font-size: var(--font-size-xl);
+}
+.program-with-passion-container {
+  position: absolute;
+  top: 717px;
+  left: 258px;
+  font-size: var(--font-size-xl);
+  text-align: justify;
+}
+.about-us-page-salvoro-child {
+  position: absolute;
+  top: 284px;
+  left: 1132px;
+  border-radius: var(--br-31xl);
+  width: 440px;
+  height: 594px;
+  object-fit: cover;
+}
+.about-us-page-salvoro-item {
+  position: absolute;
+  top: 475px;
+  left: 153px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue-100);
+  width: 72px;
+  height: 71px;
+}
+.about-us-page-salvoro-inner {
+  position: absolute;
+  top: 475px;
+  left: 664px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue-100);
+  width: 72px;
+  height: 71px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 678px;
+  left: 153px;
+  border-radius: 50%;
+  background-color: var(--color-deepskyblue-100);
+  width: 72px;
+  height: 71px;
+}
+.group-icon {
+  position: absolute;
+  height: 3.76%;
+  width: 2.37%;
+  top: 62.04%;
+  right: 87.85%;
+  bottom: 34.2%;
+  left: 9.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wikang-wali-logo-1 {
+  position: absolute;
+  top: 134px;
+  left: 129px;
+  width: 192px;
+  height: 102px;
+  object-fit: cover;
+}
+.vector-icon {
+  position: absolute;
+  height: 2.6%;
+  width: 1.56%;
+  top: 44.23%;
+  right: 88.19%;
+  bottom: 53.18%;
+  left: 10.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about-us-page-salvoro-child1 {
+  position: absolute;
+  height: 2.78%;
+  width: 1.39%;
+  top: 44.14%;
+  right: 58.8%;
+  bottom: 53.09%;
+  left: 39.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about-us-page-salvoro-child2 {
+  position: absolute;
+  top: 553.4px;
+  left: 1255.7px;
+  width: 5.3px;
+  height: 68.7px;
+  object-fit: cover;
+}
+.icround-play-arrow-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 87px;
+  height: 74px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icround-play-arrow-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 914px;
+  left: 1289px;
+  width: 87px;
+  height: 74px;
+}
+.div {
+  position: absolute;
+  top: 0px;
+  left: 156px;
+  display: flex;
+  align-items: center;
+  width: 12px;
+  height: 38px;
+}
+.get-started {
+  text-decoration: none;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  color: inherit;
+  cursor: pointer;
+}
+.contact-us {
+  text-decoration: none;
+  position: absolute;
+  top: 6px;
+  left: 179px;
+  color: inherit;
+  cursor: pointer;
+}
+.parent {
+  position: absolute;
+  top: 132px;
+  left: 1238px;
+  width: 319px;
+  height: 38px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-darkslateblue-200);
+}
+.about-us-page-salvoro {
+  position: relative;
+  background: linear-gradient(180deg, #38b7fe, #fff);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

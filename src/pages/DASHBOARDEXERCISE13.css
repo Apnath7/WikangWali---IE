@@ -1,0 +1,606 @@
+.group-child15 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslateblue-100);
+  width: 336px;
+  height: 94px;
+}
+.vector-icon15 {
+  position: absolute;
+  height: 35.71%;
+  width: 7.84%;
+  top: 10.71%;
+  right: 92.16%;
+  bottom: 53.57%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.courses {
+  position: absolute;
+  top: 0px;
+  left: 42px;
+  display: inline-block;
+  width: 231px;
+  height: 84px;
+}
+.vector-parent {
+  position: absolute;
+  height: 14.46%;
+  width: 95.45%;
+  top: 17.73%;
+  right: 4.55%;
+  bottom: 67.81%;
+  left: 0%;
+  cursor: pointer;
+}
+.vector-icon16 {
+  position: absolute;
+  height: 35.71%;
+  width: 10.49%;
+  top: 8.33%;
+  right: 89.51%;
+  bottom: 55.95%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.progress1 {
+  position: absolute;
+  top: 0px;
+  left: 46px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-love-ya-like-a-sister);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 240px;
+  height: 84px;
+}
+.vector-group {
+  position: relative;
+  width: 286px;
+  height: 84px;
+}
+.progress {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 206px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group-icon7 {
+  position: absolute;
+  height: 35.71%;
+  width: 10.47%;
+  top: 8.33%;
+  right: 89.53%;
+  bottom: 55.95%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.settings1 {
+  position: absolute;
+  top: 0px;
+  left: 44px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-love-ya-like-a-sister);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 231px;
+  height: 84px;
+}
+.group-group {
+  position: relative;
+  width: 275px;
+  height: 84px;
+}
+.settings {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 309px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-icon17 {
+  position: absolute;
+  height: 58.4%;
+  width: 45.83%;
+  top: 0%;
+  right: 27.98%;
+  bottom: 41.6%;
+  left: 26.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.parent-mode1 {
+  position: absolute;
+  top: 64px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 61px;
+}
+.vector-container {
+  position: relative;
+  width: 168px;
+  height: 125px;
+}
+.group-child16 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkslateblue-100);
+  width: 84px;
+  height: 46px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+.rectangle-parent8 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 84px;
+  height: 46px;
+}
+.parent-mode {
+  position: absolute;
+  top: 410px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslateblue-100);
+}
+.home1 {
+  position: absolute;
+  top: 0px;
+  left: 44px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-love-ya-like-a-sister);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 171px;
+  height: 84px;
+}
+.vector-icon18 {
+  position: absolute;
+  height: 35.71%;
+  width: 12.51%;
+  top: 8.33%;
+  right: 87.49%;
+  bottom: 55.95%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.home-parent {
+  position: relative;
+  width: 215px;
+  height: 84px;
+}
+.home {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group-parent1 {
+  position: absolute;
+  height: 100%;
+  width: 85.12%;
+  top: 0%;
+  right: 8.04%;
+  bottom: 0%;
+  left: 6.85%;
+}
+.rectangle-parent7 {
+  position: absolute;
+  top: 335px;
+  left: 23px;
+  width: 336px;
+  height: 581px;
+}
+.fluenttriangle-16-filled {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.microsoftteams-image-1-2 {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  width: 372px;
+  height: 116px;
+  object-fit: cover;
+}
+.dashboard-exercise-13-child {
+  position: absolute;
+  top: 1098px;
+  left: 315px;
+  background-color: var(--color-deepskyblue-200);
+  width: 1413px;
+  height: 19px;
+}
+.group-child17 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-87xl) 0px 0px var(--br-xl);
+  background-color: var(--color-white);
+  width: 1361px;
+  height: 1009px;
+}
+.group-child18 {
+  position: absolute;
+  top: 989.4px;
+  left: 21px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  width: 783.4px;
+  height: 1276.6px;
+  transform: rotate(-90.07deg);
+  transform-origin: 0 0;
+}
+.group-child19 {
+  position: absolute;
+  top: 24px;
+  left: 17px;
+  border-radius: var(--br-42xl-5) 0px 0px 0px;
+  background-color: var(--color-goldenrod);
+  width: 1279px;
+  height: 155px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 55px;
+  left: 805px;
+  border-radius: var(--br-31xl);
+  width: 449px;
+  height: 110px;
+  object-fit: cover;
+}
+.gelu-ursal {
+  position: absolute;
+  top: 97px;
+  left: 1025px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-open-sans);
+  width: 181px;
+  height: 32px;
+}
+.vector-icon19 {
+  position: absolute;
+  height: 7.33%;
+  width: 3.89%;
+  top: 6.24%;
+  right: 89.35%;
+  bottom: 86.42%;
+  left: 6.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.microsoftteams-image-1-6 {
+  position: absolute;
+  top: 78px;
+  left: 938px;
+  width: 58px;
+  height: 54px;
+  object-fit: cover;
+}
+.vector-icon20 {
+  position: absolute;
+  height: 4.36%;
+  width: 3.6%;
+  top: 7.93%;
+  right: 33.28%;
+  bottom: 87.71%;
+  left: 63.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vector-icon21 {
+  position: absolute;
+  height: 1.3%;
+  width: 1.03%;
+  top: 10.51%;
+  right: 12.42%;
+  bottom: 88.2%;
+  left: 86.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-child20 {
+  position: absolute;
+  top: 238px;
+  left: 56px;
+  border-radius: var(--br-31xl);
+  width: 1128px;
+  height: 141px;
+  object-fit: cover;
+}
+.group-child21 {
+  position: absolute;
+  top: 238px;
+  left: 1004px;
+  border-radius: var(--br-31xl);
+  width: 180px;
+  height: 141px;
+  object-fit: cover;
+}
+.return-arrow-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-31xl) 0px 0px var(--br-31xl);
+  background-color: var(--color-goldenrod);
+  width: 99px;
+  height: 129px;
+}
+.group-icon8 {
+  position: absolute;
+  height: 65.12%;
+  width: 68.69%;
+  top: 34.88%;
+  right: 15.15%;
+  bottom: 0%;
+  left: 16.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.return-arrow {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 240px;
+  left: 62px;
+  width: 99px;
+  height: 129px;
+}
+.continue-child {
+  position: absolute;
+  top: -0.5px;
+  left: -3px;
+  border-radius: var(--br-31xl);
+  width: 217px;
+  height: 85.1px;
+  object-fit: cover;
+}
+.continue1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-bangers);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 77px;
+}
+.continue {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 877px;
+  left: 577px;
+  width: 208px;
+  height: 77px;
+}
+.good-job {
+  position: absolute;
+  top: 0px;
+  left: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 253px;
+  height: 60px;
+}
+.group-child22 {
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  width: 338px;
+  height: 330.7px;
+  object-fit: cover;
+}
+.good-job-parent {
+  position: absolute;
+  top: 460px;
+  left: 502px;
+  width: 338px;
+  height: 382.7px;
+  color: var(--color-deepskyblue-200);
+}
+.aralin-1 {
+  margin: 0;
+}
+.pagbati-at-karaniwang {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.aralin-1-pagbati-container {
+  position: absolute;
+  top: 57px;
+  left: 163px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 630px;
+  height: 100px;
+}
+.ehersisyo-1- {
+  position: absolute;
+  top: 271px;
+  left: 178px;
+  color: var(--color-goldenrod);
+  text-align: left;
+  display: inline-block;
+  width: 797px;
+  height: 63px;
+}
+.microsoftteams-image-6-icon {
+  position: absolute;
+  top: 262px;
+  left: 1051px;
+  width: 85.6px;
+  height: 85px;
+  object-fit: cover;
+}
+.rectangle-parent9 {
+  position: absolute;
+  top: 59px;
+  left: 315px;
+  width: 1361px;
+  height: 1009px;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-bangers);
+}
+.rectangle-sign-in-button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-steelblue-100);
+  border: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  width: 203px;
+  height: 63px;
+}
+.rectangle-sign-in-button-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 203px;
+  height: 63px;
+}
+.log-out1 {
+  position: absolute;
+  top: 14px;
+  left: 46px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-love-ya-like-a-sister);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 142px;
+  height: 52px;
+}
+.group-parent3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 203px;
+  height: 66px;
+}
+.group-icon9 {
+  position: absolute;
+  height: 45.45%;
+  width: 13.45%;
+  top: 25.76%;
+  right: 75.22%;
+  bottom: 28.79%;
+  left: 11.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-parent2 {
+  position: relative;
+  width: 203px;
+  height: 66px;
+}
+.logout {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xl) 0px 0px;
+  background-color: transparent;
+  position: absolute;
+  top: 968px;
+  left: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dashboard-exercise-13 {
+  position: relative;
+  background-color: var(--color-deepskyblue-200);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-love-ya-like-a-sister);
+}

@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project_name": "WikangWali",
+    "id": "656ffd9726c4bb22622084e7",
+    "framework": "react",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "c:\\Users\\DenFrost\\Desktop\\wikangwali app\\src\\components",
+    "screensPath": "c:\\Users\\DenFrost\\Desktop\\wikangwali app\\src\\pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Pascal Case"
+  }
+}

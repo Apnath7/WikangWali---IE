@@ -1,0 +1,202 @@
+import { useState, useCallback } from "react";
+import LogoutPopup from "../components/LogoutPopup";
+import PortalPopup from "../components/PortalPopup";
+import { useNavigate } from "react-router-dom";
+import "./DASHBOARDHOME.css";
+const DASHBOARDHOME = () => {
+  const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const onCoursesClick = useCallback(() => {
+    navigate("/7-dashboard-courses");
+  }, [navigate]);
+
+  const onProgressClick = useCallback(() => {
+    navigate("/13-dashboard-progress");
+  }, [navigate]);
+
+  const onSettingsClick = useCallback(() => {
+    navigate("/14-dashboard-settings");
+  }, [navigate]);
+
+  const onGroupContainerClick = useCallback(() => {
+    navigate("/6-dashboard-home");
+  }, [navigate]);
+
+  const openLogoutPopup = useCallback(() => {
+    setLogoutPopupOpen(true);
+  }, []);
+
+  const closeLogoutPopup = useCallback(() => {
+    setLogoutPopupOpen(false);
+  }, []);
+
+  const onGroupButtonClick = useCallback(() => {
+    // Please sync "16- DASHBOARD -ParentMode Login" to the project
+  }, []);
+
+  const onLessonArrowClick = useCallback(() => {
+    navigate("/8-dashboard-lessons");
+  }, [navigate]);
+
+  const onProgressArrowClick = useCallback(() => {
+    navigate("/13-dashboard-progress");
+  }, [navigate]);
+
+  const onAchievementsArrowClick = useCallback(() => {
+    navigate("/13-dashboard-progress");
+  }, [navigate]);
+
+  const onFrameButtonClick = useCallback(() => {
+    navigate("/9-dashboard-exercise-1");
+  }, [navigate]);
+
+  return (
+    <>
+      <div className="dashboard-home">
+        <div className="rectangle-parent29">
+          <div className="group-child84" />
+          <div className="courses-parent">
+            <button className="courses6" onClick={onCoursesClick}>
+              <div className="vector-parent27">
+                <img className="vector-icon58" alt="" src="/undefined38.png" />
+                <div className="courses7">Courses</div>
+              </div>
+            </button>
+            <button className="progress12" onClick={onProgressClick}>
+              <div className="vector-parent28">
+                <img className="vector-icon59" alt="" src="/undefined39.png" />
+                <div className="progress13">Progress</div>
+              </div>
+            </button>
+            <button className="settings12" onClick={onSettingsClick}>
+              <div className="group-parent24">
+                <img className="group-icon23" alt="" src="/undefined40.png" />
+                <div className="settings13">Settings</div>
+              </div>
+            </button>
+            <div className="home-parent4" onClick={onGroupContainerClick}>
+              <div className="home12">Home</div>
+              <img className="vector-icon60" alt="" src="/undefined43.png" />
+            </div>
+            <div className="parent-mode12" />
+          </div>
+        </div>
+        <button className="logout6" onClick={openLogoutPopup}>
+          <div className="group-parent25">
+            <div className="group-parent26">
+              <div className="rectangle-sign-in-button-wrapper4">
+                <div className="rectangle-sign-in-button6" />
+              </div>
+              <div className="log-out7">Log Out</div>
+            </div>
+            <img className="group-icon24" alt="" src="/undefined56.png" />
+          </div>
+        </button>
+        <div className="group-parent27">
+          <div className="vector-parent29">
+            <img className="vector-icon61" alt="" src="/undefined41.png" />
+            <div className="parent-mode13">Parent Mode</div>
+          </div>
+          <button className="rectangle-parent30" onClick={onGroupButtonClick}>
+            <div className="group-child85" />
+            <img className="group-child86" alt="" src="/undefined42.png" />
+          </button>
+        </div>
+        <div className="dashboard-home-child" />
+        <div className="dashboard-home-item" />
+        <img className="dashboard-home-inner" alt="" src="/undefined84.png" />
+        <div className="dashboard-home-child1" />
+        <button className="lesson-arrow" onClick={onLessonArrowClick}>
+          <img className="vector-icon62" alt="" src="/undefined85.png" />
+        </button>
+        <button className="progress-arrow" onClick={onProgressArrowClick}>
+          <img className="vector-icon62" alt="" src="/undefined85.png" />
+        </button>
+        <button
+          className="achievements-arrow"
+          onClick={onAchievementsArrowClick}
+        >
+          <img className="vector-icon62" alt="" src="/undefined85.png" />
+        </button>
+        <div className="hi-gelu">Hi Gelu!</div>
+        <img
+          className="microsoftteams-image-1-1"
+          alt=""
+          src="/undefined86.png"
+        />
+        <div className="your-current-lesson">Your current lesson</div>
+        <div className="recent-progress">Recent progress</div>
+        <div className="your-achievements">Your Achievements</div>
+        <div className="aralin-1-nouns">Aralin 1: Nouns</div>
+        <div className="stars">
+          <span className="stars-txt">
+            <p className="p1">10</p>
+            <p className="stars1">Stars</p>
+          </span>
+        </div>
+        <div className="diamonds">
+          <span className="stars-txt">
+            <p className="p1">10</p>
+            <p className="stars1">Diamonds</p>
+          </span>
+        </div>
+        <div className="div10">70%</div>
+        <div className="dashboard-home-child2" />
+        <div className="dashboard-home-child3" />
+        <img className="line-icon" alt="" src="/undefined87.png" />
+        <img className="mdimedal-outline-icon" alt="" src="/undefined30.png" />
+        <div className="dashboard-home-child4" />
+        <div className="dashboard-home-child5" />
+        <button className="continue-wrapper" onClick={onFrameButtonClick}>
+          <div className="continue6">Continue</div>
+        </button>
+        <div className="kurso-1-pambungad-container1">
+          <p className="p1">Kurso 1:</p>
+          <p className="p1">Pambungad sa Wikang Filipino</p>
+        </div>
+        <div className="aralin-1-pagbati-container7">
+          <p className="p1">Aralin 1:</p>
+          <p className="pagbati-at-karaniwang4">
+            Pagbati at Karaniwang Pananalita
+          </p>
+        </div>
+        <div className="dashboard-home-child6" />
+        <img className="dashboard-home-child7" alt="" src="/undefined88.png" />
+        <img className="image-38-icon" alt="" src="/undefined89.png" />
+        <img
+          className="microsoftteams-image-5-icon"
+          alt=""
+          src="/undefined90.png"
+        />
+        <img
+          className="microsoftteams-image-1-62"
+          alt=""
+          src="/undefined91.png"
+        />
+        <div className="vector-parent30">
+          <img className="group-child87" alt="" src="/undefined45.png" />
+          <b className="gelu-ursal7">Gelu Ursal</b>
+          <img
+            className="microsoftteams-image-1-75"
+            alt=""
+            src="/undefined47.png"
+          />
+          <img className="vector-icon65" alt="" src="/undefined59.png" />
+          <img className="vector-icon66" alt="" src="/undefined49.png" />
+        </div>
+      </div>
+      {isLogoutPopupOpen && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closeLogoutPopup}
+        >
+          <LogoutPopup onClose={closeLogoutPopup} />
+        </PortalPopup>
+      )}
+    </>
+  );
+};
+
+export default DASHBOARDHOME;

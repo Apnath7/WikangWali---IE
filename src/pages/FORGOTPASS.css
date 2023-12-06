@@ -1,0 +1,112 @@
+.notocloud-icon19 {
+  position: absolute;
+  top: 835px;
+  left: 0px;
+  width: 338px;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.forgot-pass-child {
+  position: absolute;
+  top: 98px;
+  left: 192px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue-100);
+  width: 1344px;
+  height: 921px;
+}
+.n-1-icon1 {
+  position: absolute;
+  top: 486px;
+  left: 126px;
+  width: 650px;
+  height: 631px;
+  object-fit: cover;
+}
+.forgot-password1 {
+  position: absolute;
+  top: 135px;
+  left: 631px;
+  letter-spacing: 0.1em;
+  line-height: 111.5%;
+  display: flex;
+  align-items: center;
+  width: 528px;
+  height: 141px;
+}
+.rectangle-email {
+  border: 1px solid var(--color-black);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 486px;
+  left: 669px;
+  border-radius: var(--br-11xl);
+  box-sizing: border-box;
+  width: 453px;
+  height: 73px;
+}
+.username2 {
+  position: absolute;
+  top: 440px;
+  left: 835px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+}
+.sign-in6 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.sign-in-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs) var(--padding-36xl);
+  background-color: var(--color-deepskyblue-200);
+  position: absolute;
+  top: 642px;
+  left: 794px;
+  border-radius: var(--br-11xl);
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in-wrapper:hover {
+  background-color: #057fc6;
+}
+.notocloud-icon20 {
+  position: absolute;
+  top: 0px;
+  left: 1357px;
+  width: 270px;
+  height: 262px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.notocloud-icon21 {
+  position: absolute;
+  top: 910px;
+  left: 1122px;
+  width: 208px;
+  height: 199px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.forgot-pass {
+  position: relative;
+  background: linear-gradient(#38b7fe, #38b7fe),
+    linear-gradient(180deg, #38b7fe, rgba(56, 183, 254, 0)), #fff;
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-bangers);
+}

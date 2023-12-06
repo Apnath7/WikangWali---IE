@@ -1,0 +1,184 @@
+.contentcontainer-child {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 20px 25px 50px 5px rgba(0, 0, 0, 0.25);
+  width: 1500px;
+  height: 850px;
+  z-index: 0;
+}
+.contentcontainer-item {
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 581px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    270deg,
+    #cbedff,
+    rgba(203, 237, 255, 0.94) 0.01%,
+    rgba(203, 237, 255, 0) 59.38%,
+    rgba(203, 237, 255, 0)
+  );
+  width: 919px;
+  height: 850px;
+  z-index: 1;
+}
+.image-34 {
+  position: absolute;
+  margin: 0 !important;
+  top: 184px;
+  left: 903px;
+  width: 459.3px;
+  height: 437px;
+  z-index: 2;
+}
+.discover-wikangwali-your {
+  position: absolute;
+  top: 241px;
+  left: 59px;
+  line-height: 111.5%;
+  display: flex;
+  align-items: center;
+  width: 589px;
+  height: 141px;
+}
+.designed-to-help {
+  position: absolute;
+  top: 433px;
+  left: 59px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-love-ya-like-a-sister);
+  color: #363636;
+  text-align: justify;
+  display: inline-block;
+  width: 495px;
+  height: 83px;
+}
+.wikang-wali-logo-14 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 367px;
+  height: 181px;
+  object-fit: cover;
+}
+.get-started4 {
+  position: relative;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-bangers);
+  color: var(--color-white);
+  text-align: left;
+}
+.get-started-button {
+  cursor: pointer;
+  border: none;
+  padding: 16px 151px;
+  background-color: var(--color-deepskyblue-200);
+  position: absolute;
+  top: 630px;
+  left: 49px;
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.get-started-button:hover {
+  background-color: #0067a2;
+}
+.microsoftteams-image-3-icon {
+  position: absolute;
+  top: 135px;
+  left: 765px;
+  width: 605px;
+  height: 605px;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 15px;
+  width: 1370px;
+  height: 740px;
+  z-index: 3;
+}
+.sign-in5 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 83px;
+  height: 38px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.sign-in5:hover {
+  color: var(--color-darkslateblue-300);
+}
+.div4 {
+  position: relative;
+  color: var(--color-black);
+}
+.contact-us4 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  text-align: right;
+  cursor: pointer;
+}
+.contact-us4:hover {
+  color: rgba(12, 26, 73, 0.67);
+}
+.about-us4 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  text-align: right;
+  cursor: pointer;
+}
+.about-us4:hover {
+  color: var(--color-darkslateblue-300);
+}
+.links {
+  margin: 0 !important;
+  position: absolute;
+  top: 30px;
+  left: 1027px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+  z-index: 4;
+  font-size: var(--font-size-4xl);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-open-sans);
+}
+.contentcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.landing-page {
+  position: relative;
+  background: linear-gradient(180deg, #38b7fe, #fff);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 133px 103px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-bangers);
+}

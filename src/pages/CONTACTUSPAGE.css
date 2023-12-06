@@ -1,0 +1,295 @@
+.group-child12 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 20px 25px 50px 5px rgba(0, 0, 0, 0.25);
+  width: 1589px;
+  height: 950px;
+}
+.group-child13 {
+  position: absolute;
+  top: 950px;
+  left: 973.5px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    270deg,
+    #cbedff,
+    rgba(203, 237, 255, 0.94) 0.01%,
+    rgba(203, 237, 255, 0) 59.38%,
+    rgba(203, 237, 255, 0)
+  );
+  width: 973.5px;
+  height: 950px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 101px;
+  left: 74px;
+  width: 1589px;
+  height: 950px;
+}
+.contact-us5 {
+  position: absolute;
+  top: 212px;
+  left: 193px;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-bangers);
+}
+.lets-talk {
+  position: absolute;
+  top: 212px;
+  left: 1003px;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-bangers);
+}
+.were-here-to {
+  position: absolute;
+  top: 276px;
+  left: 193px;
+  font-family: var(--font-love-ya-like-a-sister);
+}
+.feel-free-to {
+  position: absolute;
+  top: 276px;
+  left: 1003px;
+  font-family: var(--font-love-ya-like-a-sister);
+}
+.get-started5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+.get-started-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 135px;
+  left: 1404px;
+  width: 145px;
+  height: 31px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-darkslateblue-200);
+}
+.contact-us-page-child {
+  position: absolute;
+  top: 863px;
+  left: 1506.9px;
+  width: 6.7px;
+  height: 8px;
+  object-fit: cover;
+}
+.contact-us-page-item {
+  position: absolute;
+  top: 864.3px;
+  left: 1508.6px;
+  width: 8.2px;
+  height: 9.6px;
+  object-fit: cover;
+}
+.contact-us-page-inner {
+  position: absolute;
+  top: 865.5px;
+  left: 1509.5px;
+  width: 10.6px;
+  height: 12px;
+  object-fit: cover;
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.submit-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-steelblue-100);
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) 54px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.group-button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 908px;
+  left: 1326px;
+  width: 202px;
+  height: 65px;
+}
+.frame-input {
+  border: none;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 375px;
+  left: 1003px;
+  width: 526px;
+  height: 71px;
+}
+.email3 {
+  border: none;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 470px;
+  left: 1003px;
+  width: 526px;
+  height: 71px;
+}
+.password3 {
+  border: none;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 565px;
+  left: 1003px;
+  width: 526px;
+  height: 71px;
+}
+.message {
+  border: none;
+  background-color: transparent;
+  font-family: var(--font-open-sans);
+  font-size: var(--font-size-xl);
+  position: absolute;
+  top: 689px;
+  left: 1003px;
+  width: 526px;
+  height: 195px;
+}
+.contact-us-page-child1 {
+  position: absolute;
+  top: 397px;
+  left: 193px;
+  width: 98px;
+  height: 100.4px;
+  object-fit: cover;
+}
+.contact-us-page-child2 {
+  position: absolute;
+  top: 564px;
+  left: 193px;
+  width: 98px;
+  height: 100.4px;
+  object-fit: cover;
+}
+.contact-us-page-child3 {
+  position: absolute;
+  top: 731px;
+  left: 193px;
+  width: 98px;
+  height: 100.4px;
+  object-fit: cover;
+}
+.vector-icon11 {
+  position: absolute;
+  height: 4.03%;
+  width: 3.41%;
+  top: 52.91%;
+  right: 84.26%;
+  bottom: 43.06%;
+  left: 12.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vector-icon12 {
+  position: absolute;
+  height: 4.74%;
+  width: 3.13%;
+  top: 37.6%;
+  right: 84.43%;
+  bottom: 57.65%;
+  left: 12.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contact-us-page-child4 {
+  position: absolute;
+  height: 4.03%;
+  width: 2.49%;
+  top: 67.86%;
+  right: 84.72%;
+  bottom: 28.11%;
+  left: 12.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.phone {
+  position: absolute;
+  top: 404px;
+  left: 341px;
+  font-weight: 600;
+}
+.email4 {
+  position: absolute;
+  top: 576px;
+  left: 341px;
+  font-weight: 600;
+}
+.location {
+  position: absolute;
+  top: 742px;
+  left: 341px;
+  font-weight: 600;
+}
+.div7 {
+  position: absolute;
+  top: 439px;
+  left: 341px;
+  font-size: var(--font-size-6xl);
+}
+.wikangwaligmailcom {
+  position: absolute;
+  top: 611px;
+  left: 341px;
+  font-size: var(--font-size-6xl);
+}
+.cebu-city {
+  position: absolute;
+  top: 777px;
+  left: 341px;
+  font-size: var(--font-size-6xl);
+}
+.wikang-wali-logo-2 {
+  position: absolute;
+  top: 909px;
+  left: 193px;
+  width: 192px;
+  height: 102px;
+  object-fit: cover;
+}
+.contact-us-page {
+  position: relative;
+  background: linear-gradient(180deg, #38b7fe, #fff);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
