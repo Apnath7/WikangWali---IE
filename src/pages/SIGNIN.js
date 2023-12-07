@@ -1,10 +1,10 @@
-import { useCallback } from "react";
+import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { Icon } from '@iconify/react';
 import "./SIGNIN.css";
 
-
 const SIGNIN = () => {
+  const [isEmailTyped, setIsEmailTyped] = useState(false);
   const navigate = useNavigate();
 
   const onSigninButtonClick = useCallback(() => {
@@ -23,6 +23,10 @@ const SIGNIN = () => {
     navigate("/2-sign-in-sign-up");
   }, [navigate]);
 
+  const handleEmailInputChange = (e) => {
+    setIsEmailTyped(e.target.value !== "");
+  };
+
   return (
     <div className="sign-in3">
       <div className="notocloud-icon7"/>
@@ -36,13 +40,10 @@ const SIGNIN = () => {
       <div className="notocloud-icon10"/>
       <div className="notocloud-icon11"/>
       
-      
       <div className="welcome2">Welcome!</div>
       <div className="sign-in-to">Sign in to your Account</div>
       <input className="rectangle-password" type="text" />
 
-      
-      
       <div className="email2">Email</div>
       <button className="signinbutton" onClick={onSigninButtonClick}>
         <div className="sign-in4">SIGN IN</div>
@@ -54,8 +55,13 @@ const SIGNIN = () => {
       </a>
       <Icon className="vector-icon10" alt="" icon="octicon:eye-24" />
       <div className="email-border-parent">
-        <input className="email-border" type="text" />
-        <Icon icon="ic:outline-email" className="group-icon6"/>
+        <input
+          className="email-border"
+          type="text"
+          onChange={handleEmailInputChange}
+        />
+        {/* Render email icon conditionally based on input */}
+        {isEmailTyped ? null : <Icon icon="ic:outline-email" className="group-icon6" />}
       </div>
       <Icon className="octiconlock-242" alt="" icon="solar:lock-outline" />
       <Icon icon="solar:lock-linear" className="octiconlock-242"/>
