@@ -52,7 +52,7 @@ const CONTACTUSPAGE = () => {
         <img className="contact-us-page-child2" alt="" src="/undefined31.png" />
         <img className="contact-us-page-child3" alt="" src="/undefined31.png" />
         <img className="vector-icon11" alt="" src="/undefined32.png" />
-        <Icon className="vector-icon12"  icon="teenyicons:phone-solid" />
+        <Icon className="vector-icon12"  icon="el:phone-alt" color="#3bb8fe" /> 
         <img className="contact-us-page-child4"  Icon="" />
         <div className="phone">PHONE</div>
         <div className="email4">EMAIL</div>
