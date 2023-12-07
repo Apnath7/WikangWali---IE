@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Icon } from '@iconify/react';
 import "./SIGNUP.css";
 
+//fixed icons/images
 
 const SIGNUP = () => {
   const navigate = useNavigate();
@@ -43,7 +44,7 @@ const SIGNUP = () => {
       <img className="notocloud-icon3" alt="" src="/cloud.png" />
       <img className="notocloud-icon4" alt="" src="/cloud.png" />
       <div className="email1">Email</div>
-      
+
       <button className="sign-up-button" onClick={onSignUpButtonClick}>
         <div className="sign-up1">SIGN UP</div>
       </button>
