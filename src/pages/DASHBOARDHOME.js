@@ -101,7 +101,7 @@ const DASHBOARDHOME = () => {
           </div>
           <button className="rectangle-parent30" onClick={onGroupButtonClick}>
             <div className="group-child85" />
-            <img className="group-child86" alt="" src="/undefined42.png" />
+            <Icon className="group-child86" alt="" icon="twemoji:white-circle" />
           </button>
         </div>
         <div className="dashboard-home-child" />

@@ -76,7 +76,7 @@ const DASHBOARDCOURSES = () => {
                 onClick={onGroupButtonClick}
               >
                 <div className="group-child80" />
-                <img className="group-child81" alt="" src="/undefined42.png" />
+                <Icon className="group-child81" alt="" icon="twemoji:white-circle" />
               </button>
             </div>
             <button className="home10" onClick={onHomeClick}>
