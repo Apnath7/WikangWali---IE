@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./ABOUTUSPAGEUrsal.css";
 const ABOUTUSPAGEUrsal = () => {
   const navigate = useNavigate();
@@ -47,26 +48,22 @@ const ABOUTUSPAGEUrsal = () => {
       <div className="about-us-page-ursal-item" />
       <div className="about-us-page-ursal-inner" />
       <div className="about-us-page-ursal-child1" />
-      <img className="group-icon2" alt="" src="/undefined1.png" />
+      <Icon className="group-icon2" icon="mingcute:message-3-line" color="white" />
       <img className="wikang-wali-logo-12" alt="" src="/undefined2.png" />
-      <img className="vector-icon4" alt="" src="/undefined3.png" />
-      <img
-        className="about-us-page-ursal-child2"
-        alt=""
-        src="/undefined4.png"
-      />
+      <Icon className="vector-icon4" icon="bi:person-gear" color="white" />
+      <Icon className="about-us-page-ursal-child2"icon="heroicons:fire-solid" color="white" />
       <div className="icround-play-arrow-group">
         <button
           className="icround-play-arrow2"
           onClick={onIcroundPlayArrowClick}
         >
-          <img className="vector-icon5" alt="" src="/undefined8.png" />
+          <Icon className="vector-icon5" icon="bxs:right-arrow" color="#2C5F7C" />
         </button>
         <button
           className="icround-play-arrow3"
           onClick={onIcroundPlayArrow1Click}
         >
-          <img className="vector-icon6" alt="" src="/undefined8.png" />
+          <Icon className="vector-icon6"  icon="bxs:left-arrow" /> 
         </button>
       </div>
       <div className="container">

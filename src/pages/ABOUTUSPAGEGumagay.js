@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./ABOUTUSPAGEGumagay.css";
 const ABOUTUSPAGEGumagay = () => {
   const navigate = useNavigate();
@@ -48,14 +49,11 @@ const ABOUTUSPAGEGumagay = () => {
       <div className="about-us-page-gumagay-item" />
       <div className="about-us-page-gumagay-inner" />
       <div className="about-us-page-gumagay-child1" />
-      <img className="group-icon3" alt="" src="/undefined1.png" />
+      <Icon className="group-icon3"  icon="mingcute:message-3-line" color="white" />
       <img className="wikang-wali-logo-13" alt="" src="/undefined2.png" />
-      <img className="vector-icon7" alt="" src="/undefined3.png" />
-      <img
-        className="about-us-page-gumagay-child2"
-        alt=""
-        src="/undefined4.png"
-      />
+      <Icon className="vector-icon7"  icon="bi:person-gear" color="white" />  
+      <Icon  className="about-us-page-gumagay-child2"  icon="heroicons:fire-solid" color="white" />
+      
       <div className="parent1">
         <div className="div3">|</div>
         <a className="get-started3" onClick={onGETSTARTEDClick}>
@@ -69,11 +67,7 @@ const ABOUTUSPAGEGumagay = () => {
         className="icround-play-arrow-container"
         onClick={onGroupButtonClick}
       >
-        <img
-          className="icround-play-arrow-icon1"
-          alt=""
-          src="/undefined11.png"
-        />
+        <Icon className="icround-play-arrow-icon1"  icon="bxs:right-arrow" color="#2C5F7C" />
       </button>
     </div>
   );

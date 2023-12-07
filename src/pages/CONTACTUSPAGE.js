@@ -48,11 +48,9 @@ const CONTACTUSPAGE = () => {
         <input className="email3" type="text" />
         <input className="password3" type="text" />
         <textarea className="message" />
-       
-        <img className="contact-us-page-child3" alt="" src="/undefined31.png" />
         <Icon className="vector-icon11"  icon="ic:twotone-email" color="#3bb8fe" />
         <Icon className="vector-icon12"  icon="el:phone-alt" color="#3bb8fe" /> 
-        <img className="contact-us-page-child4"  Icon="" />
+        <Icon className="contact-us-page-child4"  icon="fluent:location-12-filled" color="#3bb8fe"  />
         <div className="phone">PHONE</div>
         <div className="email4">EMAIL</div>
         <div className="location">LOCATION</div>
