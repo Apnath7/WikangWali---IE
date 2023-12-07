@@ -3,6 +3,7 @@ import LogoutPopup from "../components/LogoutPopup";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDCOURSES.css";
+import { Icon } from "@iconify/react";
 const DASHBOARDCOURSES = () => {
   const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -50,24 +51,24 @@ const DASHBOARDCOURSES = () => {
           <div className="group-child79" />
           <div className="group-parent20">
             <div className="vector-parent20" onClick={onGroupContainerClick}>
-              <img className="vector-icon48" alt="" src="/undefined38.png" />
+              <Icon className="vector-icon48" alt="" icon="carbon:course" />
               <div className="courses5">Courses</div>
             </div>
             <button className="progress10" onClick={onProgressClick}>
               <div className="vector-parent21">
-                <img className="vector-icon49" alt="" src="/undefined39.png" />
+                <Icon className="vector-icon49" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress11">Progress</div>
               </div>
             </button>
             <button className="settings10" onClick={onSettingsClick}>
               <div className="group-parent21">
-                <img className="group-icon21" alt="" src="/undefined40.png" />
+                <Icon className="group-icon21" alt="" icon="solar:settings-outline" color="white" />
                 <div className="settings11">Settings</div>
               </div>
             </button>
             <div className="parent-mode10">
               <div className="vector-parent22">
-                <img className="vector-icon50" alt="" src="/undefined41.png" />
+                <Icon className="vector-icon50" alt="" icon="ri:parent-line" />
                 <div className="parent-mode11">Parent Mode</div>
               </div>
               <button
@@ -81,7 +82,7 @@ const DASHBOARDCOURSES = () => {
             <button className="home10" onClick={onHomeClick}>
               <div className="home-parent3">
                 <div className="home11">Home</div>
-                <img className="vector-icon51" alt="" src="/undefined43.png" />
+                <Icon className="vector-icon51" alt="" icon="material-symbols-light:home-outline" color="white" />
               </div>
             </button>
           </div>
@@ -129,7 +130,6 @@ const DASHBOARDCOURSES = () => {
           </div>
         </button>
         <button className="unang-antas-2">
-          <img className="unang-antas-2-child" alt="" src="/undefined72.png" />
           <div className="kurso-2-pagsasalita-at-pagsul-parent">
             <b className="kurso-2-pagsasalita">
               Kurso 2: Pagsasalita at Pagsulat
@@ -149,11 +149,7 @@ const DASHBOARDCOURSES = () => {
         <button className="ikalawang-antas">
           <div className="ikalawang-antas1">Ikalawang Antas</div>
           <div className="vector-parent23">
-            <img
-              className="ikalawang-antas-2-child"
-              alt=""
-              src="/undefined75.png"
-            />
+            
             <div className="kurso-1-gitnang-antas-ng-wika-parent">
               <b className="kurso-1-gitnang-container">
                 <p className="mas-malalim-na">{`Kurso 1: `}</p>
@@ -227,12 +223,7 @@ const DASHBOARDCOURSES = () => {
         <div className="dashboard-courses-child3" />
         <div className="unang-antas">Unang Antas</div>
         <button className="frame-button" onClick={onFrameButtonClick}>
-          <img
-            className="frame-child2"
-            alt=""
-            src="/undefined78.png"
-            onClick={onRectangle13Click}
-          />
+          
           <div className="rectangle-parent28">
             <div className="frame-child3" />
             <div className="frame-child4" />
@@ -264,7 +255,7 @@ const DASHBOARDCOURSES = () => {
         <div className="dashboard-courses-inner1">
           <div className="kurso-group">
             <div className="kurso1">kurso</div>
-            <img className="vector-icon54" alt="" src="/undefined46.png" />
+            <Icon className="vector-icon54" alt="" icon="carbon:course" />
           </div>
         </div>
         <button className="logout5" onClick={openLogoutPopup}>
@@ -275,7 +266,7 @@ const DASHBOARDCOURSES = () => {
               </div>
               <div className="log-out6">Log Out</div>
             </div>
-            <img className="group-icon22" alt="" src="/undefined56.png" />
+            <Icon className="group-icon22" alt="" icon="carbon:logout"  color="white"/>
           </div>
         </button>
       </div>

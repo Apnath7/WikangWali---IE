@@ -93,7 +93,7 @@ const DASHBOARDPROGRESS = () => {
           <img
             className="circular-progress-icon"
             alt=""
-            src="/undefined99.png"
+            src="/progress.png"
           />
           <div className="summary">Summary</div>
           <div className="performance">Performance</div>
@@ -166,48 +166,10 @@ const DASHBOARDPROGRESS = () => {
           />
         </div>
         <div className="performance1">
-          <img className="performance-child" alt="" src="/undefined29.png" />
-          <div className="ellipse-group">
-            <div className="group-child97" />
-            <div className="group-child98" />
-            <div className="group-child99" />
-            <div className="efficiency1">
-              <div className="y1">y</div>
-              <div className="c2">c</div>
-              <div className="n4">n</div>
-              <div className="e7">e</div>
-              <div className="i4">i</div>
-              <div className="c3">c</div>
-              <div className="i5">i</div>
-              <div className="f2">f</div>
-              <div className="f3">f</div>
-              <div className="e8">E</div>
-            </div>
-          </div>
-          <div className="timeliness1">
-            <div className="s2">s</div>
-            <div className="s3">s</div>
-            <div className="e9">e</div>
-            <div className="n5">n</div>
-            <div className="i6">i</div>
-            <div className="l1">l</div>
-            <div className="e10">e</div>
-            <div className="m2">m</div>
-            <div className="i7">i</div>
-            <div className="t2">T</div>
-          </div>
-          <div className="engagement1">
-            <div className="t3">t</div>
-            <div className="n6">n</div>
-            <div className="e11">e</div>
-            <div className="m3">m</div>
-            <div className="e12">e</div>
-            <div className="g2">g</div>
-            <div className="a1">a</div>
-            <div className="g3">g</div>
-            <div className="n7">n</div>
-            <div className="e13">E</div>
-          </div>
+          <img className="performance-child" alt="" src="/performance.png" />
+          
+          
+          
           <div className="div15">80%</div>
         </div>
         <div className="div16">1</div>
