@@ -2,6 +2,8 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { Icon } from '@iconify/react';
 import "./SIGNIN.css";
+
+
 const SIGNIN = () => {
   const navigate = useNavigate();
 
@@ -23,18 +25,24 @@ const SIGNIN = () => {
 
   return (
     <div className="sign-in3">
-      <Icon className="notocloud-icon7" icon="noto:cloud" />
-      <Icon className="notocloud-icon8" icon="noto:cloud" />
+      <div className="notocloud-icon7"/>
+      <div className="notocloud-icon8"/>
       <div className="container2" />
       <img className="sign-in-child" alt="" src="/socialmedia.png" />
+     
       <div className="sign-in-item" />
-      <Icon className="notocloud-icon9" alt="" icon="noto:cloud" />
+      <div className="notocloud-icon9"/>
       <img className="wikang-wali-logo1" alt="" src="/undefined14.png" />
+      <div className="notocloud-icon10"/>
+      <div className="notocloud-icon11"/>
+      
+      
       <div className="welcome2">Welcome!</div>
       <div className="sign-in-to">Sign in to your Account</div>
       <input className="rectangle-password" type="text" />
-      <Icon className="notocloud-icon10" alt="" icon="noto:cloud" />
-      <Icon className="notocloud-icon11" alt="" icon="noto:cloud" />
+
+      
+      
       <div className="email2">Email</div>
       <button className="signinbutton" onClick={onSigninButtonClick}>
         <div className="sign-in4">SIGN IN</div>
@@ -47,20 +55,18 @@ const SIGNIN = () => {
       <Icon className="vector-icon10" alt="" icon="octicon:eye-24" />
       <div className="email-border-parent">
         <input className="email-border" type="text" />
-        <Icon className="group-icon6" alt="" icon="solar:user-outline" />
+        <Icon icon="ic:outline-email" className="group-icon6"/>
       </div>
       <Icon className="octiconlock-242" alt="" icon="solar:lock-outline" />
+      <Icon icon="solar:lock-linear" className="octiconlock-242"/>
       <div className="dont-have-an">Don’t have an account?</div>
       <a className="sign-up4" onClick={onSignUpClick}>
         Sign Up
       </a>
       <button className="return-button1" onClick={onReturnButtonClick}>
         <div className="return-button-item" />
-        <Icon
-          className="mingcuteback-line-icon1"
-          alt=""
-          icon="ri:arrow-go-back-fill" color="white"
-        />
+        
+        <Icon icon="mingcute:back-fill" className="mingcuteback-line-icon1"/>
       </button>
     </div>
   );

@@ -6,6 +6,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .notocloud-icon6 {
   position: absolute;
@@ -15,6 +17,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .container1 {
   position: absolute;
