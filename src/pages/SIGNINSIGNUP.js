@@ -1,6 +1,8 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./SIGNINSIGNUP.css";
+import { Icon } from '@iconify/react';
+
 const SIGNINSIGNUP = () => {
   const navigate = useNavigate();
 
@@ -18,17 +20,15 @@ const SIGNINSIGNUP = () => {
 
   return (
     <div className="sign-in-sign-up">
-      <img className="notocloud-icon5" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon6" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon5" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon6" alt="" src="/undefined12.png" />
       <div className="container1" />
       <div className="ambiance-blue" />
       <button className="return-button" onClick={onReturnButtonClick}>
         <div className="return-button-child" />
-        <img className="mingcuteback-line-icon" alt="" src="/undefined20.png" />
+        <Icon icon="mingcute:back-fill" className="mingcuteback-line-icon1"/>
       </button>
-      <div className="birdclouds">
-        <img className="birdclouds-child" alt="" src="/undefined21.png" />
-      </div>
+      <img className="wikang-wali-logo1" alt="" src="/undefined14.png" />
       <div className="sign-in-sign-up-child" />
       <div className="welcome-parent">
         <div className="welcome1">Welcome!</div>

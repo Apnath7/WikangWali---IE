@@ -6,6 +6,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .notocloud-icon1 {
   position: absolute;
@@ -15,6 +17,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .sign-up-child {
   position: absolute;
@@ -56,6 +60,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .wikang-wali-logo {
   position: absolute;
@@ -113,6 +119,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .notocloud-icon4 {
   position: absolute;
@@ -122,6 +130,8 @@
   height: 69px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .email1 {
   position: absolute;
