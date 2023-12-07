@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./SIGNINSIGNUP.css";
 const SIGNINSIGNUP = () => {
   const navigate = useNavigate();
@@ -18,22 +19,22 @@ const SIGNINSIGNUP = () => {
 
   return (
     <div className="sign-in-sign-up">
-      <img className="notocloud-icon5" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon6" alt="" src="/undefined12.png" />
+      <Icon className="notocloud-icon5" icon="noto:cloud" />
+      <Icon className="notocloud-icon6" icon="noto:cloud"/>
       <div className="container1" />
       <div className="ambiance-blue" />
       <button className="return-button" onClick={onReturnButtonClick}>
         <div className="return-button-child" />
-        <img className="mingcuteback-line-icon" alt="" src="/undefined20.png" />
+        <Icon className="mingcuteback-line-icon" icon="ri:arrow-go-back-fill" color="white"/>
       </button>
       <div className="birdclouds">
-        <img className="birdclouds-child" alt="" src="/undefined21.png" />
+        <img className="birdclouds-child" alt="" src="/undefined14.png" />
       </div>
       <div className="sign-in-sign-up-child" />
       <div className="welcome-parent">
         <div className="welcome1">Welcome!</div>
         <div className="group-parent">
-          <img className="frame-child" alt="" src="/undefined13.png" />
+          <img className="frame-child" alt="" src="/socialmedia.png" />
           <div className="sign-in-parent">
             <button className="sign-in1" onClick={onSignInClick}>
               <div className="sign-in2">SIGN IN</div>

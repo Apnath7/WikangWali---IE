@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./SIGNUP.css";
 const SIGNUP = () => {
   const navigate = useNavigate();
@@ -18,24 +19,26 @@ const SIGNUP = () => {
 
   return (
     <div className="sign-up">
-      <img className="notocloud-icon" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon1" alt="" src="/undefined12.png" />
+      <Icon className="notocloud-icon" alt="" icon="noto:cloud" />
+      <Icon className="notocloud-icon1" alt="" icon="noto:cloud" />
       <div className="sign-up-child" />
-      <img className="sign-up-item" alt="" src="/undefined13.png" />
+      
+      <img className="sign-up-item" alt="" src="/socialmedia.png" />
       <div className="sign-up-inner" />
-      <img className="notocloud-icon2" alt="" src="/undefined12.png" />
+      <Icon className="notocloud-icon2" alt="" icon="noto:cloud" />
       <img className="wikang-wali-logo" alt="" src="/undefined14.png" />
       <div className="welcome">Welcome!</div>
       <div className="create-your-account">Create your Account</div>
       <input className="email" type="text" />
       <input className="password" type="text" />
-      <img className="notocloud-icon3" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon4" alt="" src="/undefined15.png" />
+      <Icon className="notocloud-icon3" alt="" icon="noto:cloud" />
+      <Icon className="notocloud-icon4" alt="" icon="noto:cloud" />
       <div className="email1">Email</div>
-      <img
+      <div className="return-button-item" />
+      <Icon
         className="sign-up-child1"
         alt=""
-        src="/undefined16.png"
+        icon="ri:arrow-go-back-fill" color="white"
         onClick={onGroup1Click}
       />
       <button className="sign-up-button" onClick={onSignUpButtonClick}>
@@ -47,18 +50,18 @@ const SIGNUP = () => {
       <a className="sign-in" onClick={onSignInClick}>
         Sign In
       </a>
-      <img className="vector-icon8" alt="" src="/undefined17.png" />
-      <img className="group-icon4" alt="" src="/undefined18.png" />
+      <Icon className="vector-icon8" alt="" icon="octicon:eye-24" />
+      <Icon className="group-icon4" alt="" icon="solar:user-outline" />
       <input className="username" type="text" />
       <div className="username1">Username</div>
-      <img className="group-icon5" alt="" src="/undefined18.png" />
-      <img className="octiconlock-24" alt="" src="/undefined19.png" />
+      <Icon className="group-icon5" alt="" icon="solar:user-outline" />
+      <Icon className="octiconlock-24" alt="" icon="solar:lock-outline" />
       <input className="confirm-password" type="text" />
       <div className="confirm-password-wrapper">
         <div className="confirm-password1">Confirm Password</div>
       </div>
       <img className="vector-icon9" alt="" src="/undefined17.png" />
-      <img className="octiconlock-241" alt="" src="/undefined19.png" />
+      <Icon className="octiconlock-241" alt="" icon="solar:lock-outline" />
       <div className="frame-div" />
     </div>
   );

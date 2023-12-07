@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./SIGNIN.css";
 const SIGNIN = () => {
   const navigate = useNavigate();
@@ -22,18 +23,18 @@ const SIGNIN = () => {
 
   return (
     <div className="sign-in3">
-      <img className="notocloud-icon7" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon8" alt="" src="/undefined12.png" />
+      <Icon className="notocloud-icon7" icon="noto:cloud" />
+      <Icon className="notocloud-icon8" icon="noto:cloud" />
       <div className="container2" />
-      <img className="sign-in-child" alt="" src="/undefined13.png" />
+      <img className="sign-in-child" alt="" src="/socialmedia.png" />
       <div className="sign-in-item" />
-      <img className="notocloud-icon9" alt="" src="/undefined12.png" />
+      <Icon className="notocloud-icon9" alt="" icon="noto:cloud" />
       <img className="wikang-wali-logo1" alt="" src="/undefined14.png" />
       <div className="welcome2">Welcome!</div>
       <div className="sign-in-to">Sign in to your Account</div>
       <input className="rectangle-password" type="text" />
-      <img className="notocloud-icon10" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon11" alt="" src="/undefined15.png" />
+      <Icon className="notocloud-icon10" alt="" icon="noto:cloud" />
+      <Icon className="notocloud-icon11" alt="" icon="noto:cloud" />
       <div className="email2">Email</div>
       <button className="signinbutton" onClick={onSigninButtonClick}>
         <div className="sign-in4">SIGN IN</div>
@@ -43,22 +44,22 @@ const SIGNIN = () => {
       <a className="forgot-password" onClick={onForgotPasswordClick}>
         Forgot Password?
       </a>
-      <img className="vector-icon10" alt="" src="/undefined17.png" />
+      <Icon className="vector-icon10" alt="" icon="octicon:eye-24" />
       <div className="email-border-parent">
         <input className="email-border" type="text" />
-        <img className="group-icon6" alt="" src="/undefined18.png" />
+        <Icon className="group-icon6" alt="" icon="solar:user-outline" />
       </div>
-      <img className="octiconlock-242" alt="" src="/undefined19.png" />
+      <Icon className="octiconlock-242" alt="" icon="solar:lock-outline" />
       <div className="dont-have-an">Don’t have an account?</div>
       <a className="sign-up4" onClick={onSignUpClick}>
         Sign Up
       </a>
       <button className="return-button1" onClick={onReturnButtonClick}>
         <div className="return-button-item" />
-        <img
+        <Icon
           className="mingcuteback-line-icon1"
           alt=""
-          src="/undefined20.png"
+          icon="ri:arrow-go-back-fill" color="white"
         />
       </button>
     </div>
