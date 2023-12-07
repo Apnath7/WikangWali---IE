@@ -3,6 +3,10 @@ import LogoutPopup from "../components/LogoutPopup";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDSETTINGS.css";
+import { Icon } from "@iconify/react";
+
+//test
+
 const DASHBOARDSETTINGS = () => {
   const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -63,26 +67,26 @@ const DASHBOARDSETTINGS = () => {
           <div className="courses-container">
             <button className="courses11" onClick={onCoursesClick}>
               <div className="vector-parent37" onClick={onGroupContainerClick}>
-                <img className="vector-icon75" alt="" src="/undefined38.png" />
+                <Icon className="vector-icon75" alt="" icon="carbon:course" color="white"/>
                 <div className="courses12">Courses</div>
               </div>
             </button>
             <button className="progress18" onClick={onProgressClick}>
               <div className="vector-parent38" onClick={onGroupContainer1Click}>
-                <img className="vector-icon76" alt="" src="/undefined39.png" />
+                <Icon className="vector-icon76" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress19">Progress</div>
               </div>
             </button>
             <button className="settings19">
               <div className="group-parent34" onClick={onGroupContainer2Click}>
-                <img className="group-icon29" alt="" src="/undefined40.png" />
+                <Icon className="group-icon29" alt="" icon="solar:settings-outline" color="white"/>
                 <div className="settings20">Settings</div>
               </div>
             </button>
             <button className="home17" onClick={onHomeClick}>
               <div className="home-parent7" onClick={onGroupContainer3Click}>
                 <div className="home18">Home</div>
-                <img className="vector-icon77" alt="" src="/undefined43.png" />
+                <Icon className="vector-icon77" alt="" icon="material-symbols-light:home-outline" color="white" />
               </div>
             </button>
           </div>
@@ -121,10 +125,10 @@ const DASHBOARDSETTINGS = () => {
         <div className="role5">Role</div>
         <div className="nationality">Nationality</div>
         <div className="email5">Email</div>
-        <img
+        <Icon
           className="emojioneflag-for-philippines-icon"
           alt=""
-          src="/undefined103.png"
+          icon="emojione:flag-for-philippines"
         />
         <img className="n-2-icon1" alt="" src="/undefined93.png" />
         <img
@@ -150,12 +154,12 @@ const DASHBOARDSETTINGS = () => {
         </button>
         <div className="parent-mode18">
           <div className="vector-parent39">
-            <img className="vector-icon78" alt="" src="/undefined41.png" />
+            <Icon className="vector-icon78" alt="" icon="ri:parent-line" />
             <div className="parent-mode19">Parent Mode</div>
           </div>
           <button className="rectangle-parent39" onClick={onGroupButtonClick}>
             <div className="group-child105" />
-            <img className="group-child106" alt="" src="/undefined42.png" />
+            <Icon className="group-child106" alt="" icon="twemoji:white-circle" />
           </button>
         </div>
         <button className="logout9" onClick={openLogoutPopup}>
@@ -166,7 +170,7 @@ const DASHBOARDSETTINGS = () => {
               </div>
               <div className="log-out10">Log Out</div>
             </div>
-            <img className="group-icon30" alt="" src="/undefined56.png" />
+            <Icon className="group-icon30" alt="" icon="carbon:logout" color="white"/>
           </div>
         </button>
       </div>
