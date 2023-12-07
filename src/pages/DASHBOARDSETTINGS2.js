@@ -4,6 +4,7 @@ import PortalPopup from "../components/PortalPopup";
 import LogoutPopup from "../components/LogoutPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDSETTINGS2.css";
+import { Icon } from "@iconify/react";
 const DASHBOARDSETTINGS2 = () => {
   const [isUpdatedSuccessfullyOpen, setUpdatedSuccessfullyOpen] =
     useState(false);
@@ -74,26 +75,26 @@ const DASHBOARDSETTINGS2 = () => {
           <div className="courses-group">
             <button className="courses8" onClick={onCoursesClick}>
               <div className="vector-parent31" onClick={onGroupContainerClick}>
-                <img className="vector-icon67" alt="" src="/undefined38.png" />
+                <Icon className="vector-icon67" alt="" icon="carbon:course" color="white" />
                 <div className="courses9">Courses</div>
               </div>
             </button>
             <button className="progress14" onClick={onProgressClick}>
               <div className="vector-parent32" onClick={onGroupContainer1Click}>
-                <img className="vector-icon68" alt="" src="/undefined39.png" />
+                <Icon className="vector-icon68" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress15">Progress</div>
               </div>
             </button>
             <button className="settings14">
               <div className="group-parent28" onClick={onGroupContainer2Click}>
-                <img className="group-icon25" alt="" src="/undefined40.png" />
+                <Icon className="group-icon25" alt="" icon="solar:settings-outline" color="white"/>
                 <div className="settings15">Settings</div>
               </div>
             </button>
             <button className="home13" onClick={onHomeClick}>
               <div className="home-parent5" onClick={onGroupContainer3Click}>
                 <div className="home14">Home</div>
-                <img className="vector-icon69" alt="" src="/undefined43.png" />
+                <Icon className="vector-icon69" alt="" icon="material-symbols-light:home-outline" color="white"/>
               </div>
             </button>
           </div>
@@ -102,6 +103,11 @@ const DASHBOARDSETTINGS2 = () => {
         <div className="div11">
           ______________________________________________________________________________________________________________________________________________
         </div>
+        <img
+          className="microsoftteams-image-1-4"
+          alt=""
+          src="/undefined44.png"
+        />
         <div className="settings16">Settings</div>
         <div className="profile-wrapper" onClick={onGroupContainer6Click}>
           <button className="profile" onClick={onProfileClick}>
@@ -139,84 +145,17 @@ const DASHBOARDSETTINGS2 = () => {
             <div className="update1">Update</div>
           </button>
         </div>
-        <img
-          className="fluent-mdl2radio-bullet-icon"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon1"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon2"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon3"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon4"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon5"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon6"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon7"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon8"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon9"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon10"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon11"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="fluent-mdl2radio-bullet-icon12"
-          alt=""
-          src="/undefined94.png"
-        />
-        <img
-          className="microsoftteams-image-1-5"
-          alt=""
-          src="/undefined44.png"
-        />
+        <div className="fluent-mdl2radio-bullet-icon">*****************</div>
+
+        
         <div className="parent-mode14">
           <div className="vector-parent33">
-            <img className="vector-icon70" alt="" src="/undefined41.png" />
+            <Icon className="vector-icon70" icon="ri:parent-line" />
             <div className="parent-mode15">Parent Mode</div>
           </div>
           <button className="rectangle-parent33" onClick={onGroupButtonClick}>
             <div className="group-child90" />
-            <img className="group-child91" alt="" src="/undefined42.png" />
+            <Icon className="group-child91" alt="" icon="twemoji:white-circle" />
           </button>
         </div>
         <button className="logout7" onClick={openLogoutPopup}>
@@ -227,7 +166,7 @@ const DASHBOARDSETTINGS2 = () => {
               </div>
               <div className="log-out8">Log Out</div>
             </div>
-            <img className="group-icon26" alt="" src="/undefined56.png" />
+            <Icon className="group-icon26" alt="" icon="carbon:logout" color="white" />
           </div>
         </button>
       </div>
