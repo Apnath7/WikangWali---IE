@@ -2,6 +2,7 @@ import { useState, useCallback } from "react";
 import FrameComponent from "../components/FrameComponent";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./CONTACTUSPAGE.css";
 const CONTACTUSPAGE = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
@@ -51,8 +52,8 @@ const CONTACTUSPAGE = () => {
         <img className="contact-us-page-child2" alt="" src="/undefined31.png" />
         <img className="contact-us-page-child3" alt="" src="/undefined31.png" />
         <img className="vector-icon11" alt="" src="/undefined32.png" />
-        <img className="vector-icon12" alt="" src="/undefined33.png" />
-        <img className="contact-us-page-child4" alt="" src="/undefined34.png" />
+        <Icon className="vector-icon12"  icon="teenyicons:phone-solid" />
+        <img className="contact-us-page-child4"  Icon="" />
         <div className="phone">PHONE</div>
         <div className="email4">EMAIL</div>
         <div className="location">LOCATION</div>
