@@ -3,6 +3,7 @@ import LogoutPopup from "../components/LogoutPopup";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDPROGRESS.css";
+import { Icon } from "@iconify/react";
 const DASHBOARDPROGRESS = () => {
   const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -51,26 +52,26 @@ const DASHBOARDPROGRESS = () => {
           <div className="course-parent">
             <button className="course1" onClick={onCourseClick}>
               <div className="vector-parent34" onClick={onGroupContainerClick}>
-                <img className="vector-icon71" alt="" src="/undefined38.png" />
+                <Icon className="vector-icon71" alt="" icon="carbon:course" color="white" />
                 <div className="courses10">Courses</div>
               </div>
             </button>
             <button className="progress16">
               <div className="vector-parent35">
-                <img className="vector-icon72" alt="" src="/undefined39.png" />
+                <Icon className="vector-icon72" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress17">Progress</div>
               </div>
             </button>
             <button className="settings17" onClick={onSettingsClick}>
               <div className="group-parent31" onClick={onGroupContainer2Click}>
-                <img className="group-icon27" alt="" src="/undefined40.png" />
+                <Icon className="group-icon27" alt="" icon="solar:settings-outline" color="white" />
                 <div className="settings18">Settings</div>
               </div>
             </button>
             <button className="home15" onClick={onHomeClick}>
               <div className="home-parent6" onClick={onGroupContainer3Click}>
                 <div className="home16">Home</div>
-                <img className="vector-icon73" alt="" src="/undefined43.png" />
+                <Icon className="vector-icon73" alt="" icon="material-symbols-light:home-outline" color="white"/>
               </div>
             </button>
           </div>
@@ -80,13 +81,13 @@ const DASHBOARDPROGRESS = () => {
         <div className="rectangle-statistics" />
         <div className="dashboard-progress-inner" />
         <div className="progress-tracker">Progress Tracker</div>
-        <img className="charmgraduate-cap-icon" alt="" src="/undefined95.png" />
+        <Icon className="charmgraduate-cap-icon" alt="" icon="charm:graduate-cap" color="gray" />
         <div className="gelu-marie-ursal1">Gelu Marie Ursal</div>
         <div className="student1">Student</div>
         <div className="eggs">
-          <img className="noto-v1egg-icon" alt="" src="/undefined96.png" />
-          <img className="noto-v1egg-icon" alt="" src="/undefined97.png" />
-          <img className="noto-v1egg-icon" alt="" src="/undefined98.png" />
+          <Icon className="noto-v1egg-icon" icon="noto-v1:egg"  />
+          <img className="noto-v1egg-icon" src="/grayegg.png"  />
+          <img className="noto-v1egg-icon" src="/goldenegg.png"  />
         </div>
         <div className="line-div" />
         <div className="circular-progress-parent">
@@ -129,7 +130,7 @@ const DASHBOARDPROGRESS = () => {
           alt=""
           src="/undefined44.png"
         />
-        <img className="tablerdots-icon" alt="" src="/undefined100.png" />
+        <Icon className="tablerdots-icon" alt="" icon="tabler:dots" color="gray" />
         <div className="dashboard-progress-child1" />
         <div className="rectangle-parent35">
           <div className="group-child93" />
@@ -166,7 +167,7 @@ const DASHBOARDPROGRESS = () => {
           />
         </div>
         <div className="performance1">
-          <img className="performance-child" alt="" src="/performance.png" />
+          <img className="performance-child" alt="" src="/perform.png" />
           
           
           
@@ -177,12 +178,12 @@ const DASHBOARDPROGRESS = () => {
         <div className="div18">0</div>
         <div className="parent-mode16">
           <div className="vector-parent36">
-            <img className="vector-icon74" alt="" src="/undefined41.png" />
+            <Icon className="vector-icon74" alt="" icon="ri:parent-line" />
             <div className="parent-mode17">Parent Mode</div>
           </div>
           <button className="rectangle-parent37" onClick={onGroupButtonClick}>
             <div className="group-child100" />
-            <img className="group-child101" alt="" src="/undefined42.png" />
+            <Icon className="group-child101" alt="" icon="twemoji:white-circle" />
           </button>
         </div>
         <button className="logout8" onClick={openLogoutPopup}>
@@ -193,7 +194,7 @@ const DASHBOARDPROGRESS = () => {
               </div>
               <div className="log-out9">Log Out</div>
             </div>
-            <img className="group-icon28" alt="" src="/undefined56.png" />
+            <Icon className="group-icon28" alt="" icon="carbon:logout" color="white" />
           </div>
         </button>
       </div>
