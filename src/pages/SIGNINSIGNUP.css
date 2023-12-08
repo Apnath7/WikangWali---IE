@@ -53,9 +53,7 @@
   height: 80.90%;
   width: 80.95%;
   top: 9.52%;
-  right: 9.52%;
-  bottom: 9.52%;
-  left: 9.52%;
+  left: 9.30%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -68,8 +66,8 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - 448.5px);
-  left: calc(50% - 540px);
+  top: 120px;
+  left: 220px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

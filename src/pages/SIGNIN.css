@@ -277,8 +277,8 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - 448.5px);
-  left: calc(50% - 540px);
+  top: 120px;
+  left: 220px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

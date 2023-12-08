@@ -96,6 +96,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 66px;
+  padding-left: 20px;
 }
 .password {
   border: 1px solid var(--color-black);
@@ -107,6 +108,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 66px;
+  padding-left: 60px;
 }
 .notocloud-icon3 {
   position: absolute;
@@ -237,6 +239,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 66px;
+  padding-left: 60px;
 }
 .username1 {
   position: absolute;
@@ -247,15 +250,14 @@
   position: absolute;
   height: 2.71%;
   width: 1.41%;
-  top: 27.88%;
-  right: 40.24%;
-  bottom: 69.41%;
-  left: 58.36%;
+  top: 310px; /* Use pixels or another fixed unit */
+  left: 1010px; /* Use pixels or another fixed unit */
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
   object-fit: cover;
 }
+
+
 .octiconlock-24 {
   position: absolute;
   top: 526px;
@@ -275,6 +277,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 66px;
+  padding-left: 60px;
 }
 .confirm-password1 {
   position: absolute;

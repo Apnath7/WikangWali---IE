@@ -51,50 +51,53 @@ const SIGNUP = () => {
       <div className="notocloud-icon3" alt="" src="/undefined12.png" />
       <div className="notocloud-icon4" alt="" src="/undefined15.png" />
       <div className="create-your-account">Create your Account</div>
+      <div className="notocloud-icon3" alt="" icon="cloud.png" />
       
-      <input
-        className="email"
-        type="text"
-        value={emailValue}
-        onChange={handleEmailChange}
-        placeholder="Email"
-      />
-      {emailValue.length === 0 && (
-        <Icon className="notocloud-icon3" alt="" icon="cloud.png" />
-      )}
-      
-      <input
-        className="password"
-        type="password"
-        value={passwordValue}
-        onChange={handlePasswordChange}
-        placeholder="Password"
-      />
-      {passwordValue.length === 0 && (
+      <div>
+        <input
+          className="email"
+          type="text"
+          value={emailValue}
+          onChange={handleEmailChange}
+          placeholder="Email"
+        />
+      <Icon icon="mdi:email-outline" color="white" className="notocloud-icon3" alt="" />
+      </div>
+    
+      <div>
+        <input
+          className="password"
+          type="password"
+          value={passwordValue}
+          onChange={handlePasswordChange}
+          placeholder="Password"
+        />
         <Icon className="octiconlock-24" alt="" icon="solar:lock-outline" />
-      )}
+      </div>
       
-      <input
-        className="username"
-        type="text"
-        value={usernameValue}
-        onChange={handleUsernameChange}
-        placeholder="Username"
-      />
-      {usernameValue.length === 0 && (
+      <div>
+        
+        <input
+          className="username"
+          type="text"
+          value={usernameValue}
+          onChange={handleUsernameChange}
+          placeholder="Username"
+        />
         <Icon className="group-icon5" alt="" icon="solar:user-outline" />
-      )}
-      
-      <input
-        className="confirm-password"
-        type="password"
-        value={confirmPasswordValue}
-        onChange={handleConfirmPasswordChange}
-        placeholder="Confirm Password"
-      />
-      {confirmPasswordValue.length === 0 && (
+      </div>
+
+      <div>
+        
+        <input
+          className="confirm-password"
+          type="password"
+          value={confirmPasswordValue}
+          onChange={handleConfirmPasswordChange}
+          placeholder="Confirm Password"
+        />
         <Icon className="octiconlock-241" alt="" icon="solar:lock-outline" />
-      )}
+      </div>
       
       <button className="sign-up-button" onClick={onSignUpButtonClick}>
         <div className="sign-up1">SIGN UP</div>
