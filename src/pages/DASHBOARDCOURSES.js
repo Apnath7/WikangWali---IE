@@ -89,7 +89,7 @@ const DASHBOARDCOURSES = () => {
         </div>
         <div className="fluenttriangle-16-filled5" />
         <div className="dashboard-courses-child" />
-        <div className="dashboard-courses-item" />
+        <div className="dashboard-courses-item" style={{ overflowX: 'scroll' }} />
         <img
           className="microsoftteams-image-1-25"
           alt=""
@@ -115,7 +115,7 @@ const DASHBOARDCOURSES = () => {
           <img
             className="ikalawang-antas-2-child"
             alt=""
-            src="/undefined72.png"
+            src="/bgyellow.png"
           />
           <div className="kurso-2-pang-unawa-at-masusin-parent">
             <b className="kurso-2-pang-unawa-container">
@@ -130,6 +130,11 @@ const DASHBOARDCOURSES = () => {
           </div>
         </button>
         <button className="unang-antas-2">
+        <img
+            className="ikalawang-antas-2-child"
+            alt=""
+            src="/bgyellow.png"
+          />
           <div className="kurso-2-pagsasalita-at-pagsul-parent">
             <b className="kurso-2-pagsasalita">
               Kurso 2: Pagsasalita at Pagsulat
@@ -169,7 +174,7 @@ const DASHBOARDCOURSES = () => {
           <img
             className="ikalawang-antas-2-child"
             alt=""
-            src="/undefined72.png"
+            src="/bgyellow.png"
           />
           <div className="kurso-2-pang-unawa-at-masusin-parent">
             <b className="kurso-2-pang-unawa-container">
@@ -210,15 +215,15 @@ const DASHBOARDCOURSES = () => {
           src="/undefined70.png"
         />
         <div className="vector-parent25">
-          <img className="group-child82" alt="" src="/undefined45.png" />
+          <div className="group-child82" />
           <b className="gelu-ursal5">Gelu Ursal</b>
           <img
             className="microsoftteams-image-1-73"
             alt=""
             src="/undefined47.png"
           />
-          <img className="vector-icon52" alt="" src="/undefined59.png" />
-          <img className="vector-icon53" alt="" src="/undefined49.png" />
+          <Icon className="vector-icon52" alt="" icon="ph:bell-fill" />
+          <Icon className="vector-icon53" alt="" icon="bxs:down-arrow" />
         </div>
         <div className="dashboard-courses-child3" />
         <div className="unang-antas">Unang Antas</div>
@@ -238,7 +243,7 @@ const DASHBOARDCOURSES = () => {
         <div className="dashboard-courses-inner1">
           <div className="kurso-group">
             <div className="kurso1">kurso</div>
-            <img className="vector-icon54" alt="" src="/undefined46.png" />
+            <Icon className="vector-icon54" alt="" icon="carbon:course" />
           </div>
         </div>
         <div className="vector-parent25">
@@ -249,8 +254,8 @@ const DASHBOARDCOURSES = () => {
             alt=""
             src="/undefined47.png"
           />
-          <img className="vector-icon52" alt="" src="/undefined59.png" />
-          <img className="vector-icon53" alt="" src="/undefined49.png" />
+          <Icon className="vector-icon52" alt="" icon="ph:bell-fill" />
+          <Icon className="vector-icon53" alt="" icon="bxs:down-arrow" />
         </div>
         <div className="dashboard-courses-inner1">
           <div className="kurso-group">

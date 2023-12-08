@@ -44,10 +44,10 @@ const CONTACTUSPAGE = () => {
             <div className="submit">SUBMIT</div>
           </div>
         </button>
-        <input className="frame-input" type="text" />
-        <input className="email3" type="text" />
-        <input className="password3" type="text" />
-        <textarea className="message" />
+        <input className="frame-input" type="text" placeholder="Your name"/>
+        <input className="email3" type="text" placeholder="Email" />
+        <input className="password3" type="text" placeholder="Phone number" />
+        <textarea className="message" placeholder="Message" />
         <Icon className="vector-icon11"  icon="ic:twotone-email" color="#3bb8fe" />
         <Icon className="vector-icon12"  icon="el:phone-alt" color="#3bb8fe" /> 
         <Icon className="contact-us-page-child4"  icon="fluent:location-12-filled" color="#3bb8fe"  />

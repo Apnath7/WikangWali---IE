@@ -106,7 +106,7 @@ const DASHBOARDHOME = () => {
         </div>
         <div className="dashboard-home-child" />
         <div className="dashboard-home-item" />
-        <img className="dashboard-home-inner" alt="" src="/undefined84.png" />
+        <div className="dashboard-home-inner" />
         <div className="dashboard-home-child1" />
         <button className="lesson-arrow" onClick={onLessonArrowClick}>
           <Icon className="vector-icon62" alt="" icon="mingcute:arrow-right-fill" color="#0745A3" />
@@ -146,7 +146,7 @@ const DASHBOARDHOME = () => {
         <div className="dashboard-home-child2" />
         <div className="dashboard-home-child3" />
         <img className="line-icon" alt="" src="/undefined87.png" />
-        <img className="mdimedal-outline-icon" alt="" src="/undefined30.png" />
+        <img className="mdimedal-outline-icon" alt="" src="/blueline.png" />
         <div className="dashboard-home-child4" />
         <div className="dashboard-home-child5" />
         <button className="continue-wrapper" onClick={onFrameButtonClick}>
@@ -176,15 +176,15 @@ const DASHBOARDHOME = () => {
           src="/undefined91.png"
         />
         <div className="vector-parent30">
-          <img className="group-child87" alt="" src="/undefined45.png" />
+          <div className="group-child87" />
           <b className="gelu-ursal7">Gelu Ursal</b>
           <img
             className="microsoftteams-image-1-75"
             alt=""
             src="/undefined47.png"
           />
-          <img className="vector-icon65" alt="" src="/undefined59.png" />
-          <img className="vector-icon66" alt="" src="/undefined49.png" />
+          <Icon className="vector-icon65" alt="" icon="ph:bell-fill" color="black" />
+          <Icon className="vector-icon66" alt="" icon="bxs:down-arrow" />
         </div>
       </div>
       {isLogoutPopupOpen && (

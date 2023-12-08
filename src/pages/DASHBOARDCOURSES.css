@@ -564,13 +564,14 @@
   object-fit: cover;
 }
 .group-child82 {
-  position: absolute;
+  position: absolute;background-color: white;
   top: -2px;
   left: -6px;
   border-radius: var(--br-31xl);
   width: 449px;
   height: 110px;
   object-fit: cover;
+  z-index: 0;
 }
 .gelu-ursal5 {
   position: absolute;
