@@ -27,7 +27,7 @@ const SIGNIN = () => {
       <div className="notocloud-icon7"/>
       <div className="notocloud-icon8"/>
       <div className="container2" />
-      <img className="sign-in-child"/>
+      <img className="sign-in-child" alt="" src="/socialmedia.png"/>
       <div className="sign-in-item" />
       <div className="notocloud-icon9"/>
       <img className="wikang-wali-logo1" alt="" src="/undefined14.png" />
