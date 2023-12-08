@@ -330,6 +330,7 @@
   width: 449px;
   height: 110px;
   object-fit: cover;
+  background-color: white;
 }
 .gelu-ursal2 {
   position: absolute;
@@ -424,6 +425,7 @@
   width: 1128px;
   height: 141px;
   object-fit: cover;
+  background-color: #FDFD96;
 }
 .group-child44 {
   position: absolute;
@@ -433,6 +435,7 @@
   width: 180px;
   height: 141px;
   object-fit: cover;
+  background-color: var(--color-goldenrod);
 }
 .div8 {
   position: absolute;
@@ -446,12 +449,12 @@
 }
 .return-arrow-inner {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -2px;
+  left: -10px;
   border-radius: var(--br-31xl) 0px 0px var(--br-31xl);
   background-color: var(--color-goldenrod);
   width: 99px;
-  height: 129px;
+  height: 140px;
 }
 .group-icon14 {
   position: absolute;
@@ -504,6 +507,7 @@
   width: 217px;
   height: 82.7px;
   object-fit: cover;
+  background-color: var(--color-goldenrod);
 }
 .submit2 {
   position: absolute;
@@ -529,6 +533,7 @@
   left: 962px;
   width: 208px;
   height: 74.4px;
+  
 }
 .ca88b0e1-977b-4453-99ba-b1a77c-icon {
   position: absolute;
