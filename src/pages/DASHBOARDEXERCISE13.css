@@ -430,6 +430,7 @@
   width: 217px;
   height: 85.1px;
   object-fit: cover;
+  background-color: var(--color-goldenrod);
 }
 .continue1 {
   position: absolute;
@@ -473,6 +474,7 @@
   width: 338px;
   height: 330.7px;
   object-fit: cover;
+  background-image: url(./images/birb-gj.png);
 }
 .good-job-parent {
   position: absolute;

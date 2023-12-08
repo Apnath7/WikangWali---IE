@@ -101,7 +101,7 @@ const DASHBOARDEXERCISE13 = () => {
           <div className="group-child19" />
           <div className="rectangle-icon" alt="" src="/undefined45.png" />
           <b className="gelu-ursal">Gelu Ursal</b>
-          <img className="vector-icon19" alt="" src="/undefined46.png" />
+          <Icon icon="carbon:course" color="white" className="vector-icon19" alt="" src="/undefined46.png" />
           <img
             className="microsoftteams-image-1-6"
             alt=""
@@ -116,12 +116,12 @@ const DASHBOARDEXERCISE13 = () => {
             <Icon icon="mingcute:back-fill" color="white" className="group-icon8" alt="" src="/undefined52.png" />
           </button>
           <button className="continue" onClick={onContinueClick}>
-            <img className="continue-child" alt="" src="/undefined53.png" />
+            <div className="continue-child" alt="" src="/undefined53.png" />
             <div className="continue1">continue</div>
           </button>
           <div className="good-job-parent">
             <div className="good-job">good job!</div>
-            <img className="group-child22" alt="" src="/undefined54.png" />
+            <div className="group-child22" alt="" src="/undefined54.png" />
           </div>
           <div className="aralin-1-pagbati-container">
             <p className="aralin-1">Aralin 1</p>
