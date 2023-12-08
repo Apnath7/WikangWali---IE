@@ -37,23 +37,31 @@ const SIGNIN = () => {
       
       <div className="welcome2">Welcome!</div>
       <div className="sign-in-to">Sign in to your Account</div>
+      
+      
+      
+      <label className="email2">Username</label>
+      <div className="email-border-parent">
+        <input className="email-border" type="text" />
+        <Icon icon="ic:outline-email" className="group-icon6"/>
+      </div>
+
+
+      <div className="password2">Password</div>
       <input className="rectangle-password" type="text" />
+
       
-      
-      <div className="email2">Email</div>
       <button className="signinbutton" onClick={onSigninButtonClick}>
         <div className="sign-in4">SIGN IN</div>
       </button>
-      <div className="password2">Password</div>
+      
+
       <div className="or-login-with">{`or login with `}</div>
       <a className="forgot-password" onClick={onForgotPasswordClick}>
         Forgot Password?
       </a>
       <img className="vector-icon10" alt="" src="/undefined17.png" />
-      <div className="email-border-parent">
-        <input className="email-border" type="text" />
-        <Icon icon="ic:outline-email" className="group-icon6"/>
-      </div>
+      
       <Icon icon="solar:lock-linear" className="octiconlock-242"/>
       <div className="dont-have-an">Don’t have an account?</div>
       <a className="sign-up4" onClick={onSignUpClick}>

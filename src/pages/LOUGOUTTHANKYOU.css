@@ -6,6 +6,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .notocloud-icon13 {
   position: absolute;
@@ -15,6 +17,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .lougoutthankyou-child {
   position: absolute;
@@ -77,6 +81,8 @@
   height: 298px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .notocloud-icon15 {
   position: absolute;
@@ -86,6 +92,8 @@
   height: 69px;
   overflow: hidden;
   object-fit: cover;
+  background-image: url(./images/cloud.png);
+  border: none;
 }
 .lougoutthankyou-inner {
   position: absolute;

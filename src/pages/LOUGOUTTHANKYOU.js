@@ -1,6 +1,8 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LOUGOUTTHANKYOU.css";
+import { Icon } from '@iconify/react';
+
 const LOUGOUTTHANKYOU = () => {
   const navigate = useNavigate();
 
@@ -8,17 +10,21 @@ const LOUGOUTTHANKYOU = () => {
     navigate("/3-sign-in");
   }, [navigate]);
 
+  const onReturnButtonClick = useCallback(() => {
+    navigate("/2-sign-in-sign-up");
+  }, [navigate]);
+
   return (
     <div className="lougoutthankyou">
-      <img className="notocloud-icon12" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon13" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon12" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon13" alt="" src="/undefined12.png" />
       <div className="lougoutthankyou-child" />
       <div className="lougoutthankyou-item" />
       <img className="vector-icon13" alt="" src="/undefined35.png" />
       <img className="vector-icon14" alt="" src="/undefined36.png" />
       <img className="wikang-wali-logo2" alt="" src="/undefined14.png" />
-      <img className="notocloud-icon14" alt="" src="/undefined12.png" />
-      <img className="notocloud-icon15" alt="" src="/undefined15.png" />
+      <div className="notocloud-icon14" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon15" alt="" src="/undefined15.png" />
       <div className="lougoutthankyou-inner" />
       <div className="lougoutthankyou-inner1">
         <div className="group-wrapper3" onClick={onGroupContainer1Click}>
@@ -32,6 +38,10 @@ const LOUGOUTTHANKYOU = () => {
         Salamat sa pag-aaral kasama namin
       </div>
       <img className="image-54-icon" alt="" src="/undefined37.png" />
+      <button className="return-button1" onClick={onReturnButtonClick}>
+        <div className="return-button-item" />
+        <Icon icon="mingcute:back-fill" className="mingcuteback-line-icon1"/>
+      </button>
     </div>
   );
 };
