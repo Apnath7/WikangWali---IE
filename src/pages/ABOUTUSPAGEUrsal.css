@@ -188,15 +188,11 @@
 }
 .vector-icon6 {
   position: absolute;
-  height: 51.49%;
-  width: 42.3%;
-  top: -75.81%;
-  right: 133.33%;
-  bottom: 124.32%;
-  left: -75.63%;
-  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  width: 87px;
+  height: 74px;
   overflow: hidden;
-  max-height: 100%;
   object-fit: cover;
 }
 .icround-play-arrow3 {

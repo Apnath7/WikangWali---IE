@@ -125,7 +125,7 @@
   top: 62.04%;
   right: 87.85%;
   bottom: 34.2%;
-  left: 9.78%;
+  left: 11.2%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -141,12 +141,12 @@
 }
 .vector-icon1 {
   position: absolute;
-  height: 2.6%;
-  width: 1.56%;
-  top: 44.23%;
-  right: 88.19%;
-  bottom: 53.18%;
-  left: 10.24%;
+  height: 90%;
+  width: 2%;
+  top: 0.5%;
+  right: 88.20%;
+  bottom: 20%;
+  left: 11.5%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -154,12 +154,12 @@
 }
 .about-us-page-paez-child2 {
   position: absolute;
-  height: 2.78%;
-  width: 1.39%;
-  top: 44.14%;
-  right: 58.8%;
-  bottom: 53.09%;
-  left: 39.81%;
+  height: 2.80%;
+  width: 2.9%;
+  top: 44.19%;
+  right: 58.9%;
+  bottom: 55%;
+  left: 44.7%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -167,15 +167,11 @@
 }
 .vector-icon2 {
   position: absolute;
-  height: 51.49%;
-  width: 42.3%;
-  top: 24.19%;
-  right: 24.37%;
-  bottom: 24.32%;
-  left: 33.33%;
-  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  width: 87px;
+  height: 74px;
   overflow: hidden;
-  max-height: 100%;
   object-fit: cover;
 }
 .icround-play-arrow {
@@ -192,15 +188,11 @@
 }
 .vector-icon3 {
   position: absolute;
-  height: 51.49%;
-  width: 42.3%;
-  top: -75.81%;
-  right: 133.33%;
-  bottom: 124.32%;
-  left: -75.63%;
-  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  width: 87px;
+  height: 74px;
   overflow: hidden;
-  max-height: 100%;
   object-fit: cover;
 }
 .icround-play-arrow1 {
