@@ -388,6 +388,8 @@
 .aralin-1-pagbati {
   margin: 0;
   padding-left: var(--padding-24xl);
+  font-size: 30px;
+  font-family: 'Love Ya Like A Sister';
 }
 .aralin-1-pagbati-container4 {
   position: absolute;
@@ -427,10 +429,6 @@
   background-color: #FDFD96;
 }
 
-ul{
-  font-size: 30px;
-  font-family: 'Love Ya Like A Sister';
-}
 
 .aralin-3-payak-container {
   position: absolute;
