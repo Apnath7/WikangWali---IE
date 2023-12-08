@@ -523,6 +523,7 @@
   width: 449px;
   height: 110px;
   object-fit: cover;
+  background-color: white;
 }
 .gelu-ursal4 {
   position: absolute;
@@ -708,4 +709,25 @@
   font-size: var(--font-inherit);
   color: var(--color-black);
   font-family: var(--font-inherit);
+}
+
+.vector-parent30 {
+  position: absolute;
+  top: 113px;
+  left: 1153px;
+  width: 437px;
+  height: 98px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.group-child87 {
+  position: absolute;
+  background-color: white;
+  top: -2px;
+  left: -6px;
+  border-radius: var(--br-31xl);
+  width: 449px;
+  height: 110px;
+  object-fit: cover;
 }

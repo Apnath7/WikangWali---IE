@@ -247,7 +247,7 @@ const DASHBOARDCOURSES = () => {
           </div>
         </div>
         <div className="vector-parent25">
-          <img className="group-child82" alt="" src="/undefined45.png" />
+          <div className="group-child82" alt="" src="/undefined45.png" />
           <b className="gelu-ursal5">Gelu Ursal</b>
           <img
             className="microsoftteams-image-1-73"
