@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ABOUTUSPAGESalvoro.css";
+import { Icon } from "@iconify/react";
 const ABOUTUSPAGESalvoro = () => {
   const navigate = useNavigate();
 
@@ -51,13 +52,12 @@ const ABOUTUSPAGESalvoro = () => {
       <div className="about-us-page-salvoro-item" />
       <div className="about-us-page-salvoro-inner" />
       <div className="ellipse-div" />
-      <img className="group-icon" alt="" src="/undefined1.png" />
+      <Icon className="group-icon" icon="mingcute:message-3-line" color="white"/>
       <img className="wikang-wali-logo-1" alt="" src="/undefined2.png" />
-      <img className="vector-icon" alt="" src="/undefined3.png" />
-      <img
+      <Icon className="vector-icon" icon="bi:person-gear" color="white" />
+      <Icon
         className="about-us-page-salvoro-child1"
-        alt=""
-        src="/undefined4.png"
+        icon="heroicons:fire-solid" color="white"
       />
       <img
         className="about-us-page-salvoro-child2"
@@ -68,7 +68,7 @@ const ABOUTUSPAGESalvoro = () => {
         className="icround-play-arrow-wrapper"
         onClick={onGroupButtonClick}
       >
-        <img className="icround-play-arrow-icon" alt="" src="/undefined6.png" />
+        <Icon className="icround-play-arrow-icon" icon="bxs:left-arrow" color="#2c5f7c"   />
       </button>
       <div className="parent">
         <div className="div">|</div>

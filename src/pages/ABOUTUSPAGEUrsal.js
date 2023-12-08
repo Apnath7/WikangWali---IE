@@ -63,8 +63,9 @@ const ABOUTUSPAGEUrsal = () => {
           className="icround-play-arrow3"
           onClick={onIcroundPlayArrow1Click}
         >
-          <Icon className="vector-icon6"  icon="bxs:left-arrow" /> 
+          <Icon className="vector-icon6"  icon="bxs:left-arrow" color="#2c5f7c" rotate={2}  /> 
         </button>
+
       </div>
       <div className="container">
         <div className="div2">|</div>
