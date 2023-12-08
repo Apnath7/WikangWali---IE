@@ -51,7 +51,7 @@ const ABOUTUSPAGEUrsal = () => {
       <Icon className="group-icon2" icon="mingcute:message-3-line" color="white" />
       <img className="wikang-wali-logo-12" alt="" src="/undefined2.png" />
       <Icon className="vector-icon4" icon="bi:person-gear" color="white" />
-      <Icon className="about-us-page-ursal-child2"icon="heroicons:fire-solid" color="white" />
+      <Icon className="about-us-page-ursal-child2" icon="heroicons:fire-solid" color="white" />
       <div className="icround-play-arrow-group">
         <button
           className="icround-play-arrow2"

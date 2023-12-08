@@ -16,15 +16,15 @@ const LOUGOUTTHANKYOU = () => {
 
   return (
     <div className="lougoutthankyou">
-      <div className="notocloud-icon12" alt="" src="/undefined12.png" />
-      <div className="notocloud-icon13" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon12" alt="" src="cloud.png" />
+      <div className="notocloud-icon13" alt="" src="cloud.png" />
       <div className="lougoutthankyou-child" />
       <div className="lougoutthankyou-item" />
-      <img className="vector-icon13" alt="" src="/undefined35.png" />
+      <img className="vector-icon13" alt="" src="cloud.png" />
       <img className="vector-icon14" alt="" src="/undefined36.png" />
       <img className="wikang-wali-logo2" alt="" src="/undefined14.png" />
-      <div className="notocloud-icon14" alt="" src="/undefined12.png" />
-      <div className="notocloud-icon15" alt="" src="/undefined15.png" />
+      <div className="notocloud-icon14" alt="" src="cloud.png" />
+      <div className="notocloud-icon15" alt="" src="cloud.png" />
       <div className="lougoutthankyou-inner" />
       <div className="lougoutthankyou-inner1">
         <div className="group-wrapper3" onClick={onGroupContainer1Click}>
