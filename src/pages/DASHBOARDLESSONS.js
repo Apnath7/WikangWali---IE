@@ -106,7 +106,7 @@ const DASHBOARDLESSONS = () => {
           alt=""
           src="/undefined30.png"
         />
-        <img
+        <div
           className="dashboard-lessons-child1"
           alt=""
           src="/undefined64.png"
@@ -129,7 +129,7 @@ const DASHBOARDLESSONS = () => {
           src="/undefined66.png"
         />
         <button className="start-course" onClick={onStartCourseClick}>
-          <img
+          <div
             className="start-course-child"
             alt=""
             src="/undefined67.png"
@@ -156,19 +156,19 @@ const DASHBOARDLESSONS = () => {
           </ul>
         </div>
         <div className="vector-parent15">
-          <img className="group-child73" alt="" src="/undefined68.png" />
+          <div className="group-child73" alt="" src="/undefined68.png" />
           <div className="aralin-3-payak-container">
             <ul className="aralin-1-pagbati">{`Aralin 3: Payak na Balangkas ng Pangungusap `}</ul>
           </div>
         </div>
         <div className="vector-parent16">
-          <img className="group-child73" alt="" src="/undefined68.png" />
+          <div className="group-child73" alt="" src="/undefined68.png" />
           <div className="aralin-4-pamilya-container">
             <ul className="aralin-1-pagbati">{`Aralin 4: Pamilya at mga Ugnayan `}</ul>
           </div>
         </div>
         <div className="vector-parent17">
-          <img className="group-child73" alt="" src="/undefined68.png" />
+          <div className="group-child73" alt="" src="/undefined68.png" />
           <div className="aralin-2-batayang-container">
             <ul className="aralin-1-pagbati">
               Aralin 2: Batayang Bokabularyo at mga Bilang
@@ -176,7 +176,7 @@ const DASHBOARDLESSONS = () => {
           </div>
         </div>
         <div className="vector-parent18">
-          <img className="group-child73" alt="" src="/undefined68.png" />
+          <div className="group-child73" alt="" src="/undefined68.png" />
           <div className="aralin-1-pagbati-container6">
             <ul className="aralin-1-pagbati">
               Aralin 1: Pagbati at Karaniwang Pananalita Aralin
@@ -184,7 +184,7 @@ const DASHBOARDLESSONS = () => {
           </div>
         </div>
         <button className="return-arrow4" onClick={onReturnArrowClick}>
-          <img className="return-arrow-icon" alt="" src="/undefined69.png" />
+          <Icon icon="mingcute:back-fill" color="white" className="return-arrow-icon" alt="" src="/undefined69.png" />
         </button>
         <div className="rectangle-parent25">
           <div className="group-child77" />
@@ -202,7 +202,7 @@ const DASHBOARDLESSONS = () => {
           <div className="group-wrapper4">
             <div className="kurso-parent">
               <div className="kurso">kurso</div>
-              <img className="vector-icon47" alt="" src="/undefined46.png" />
+              <Icon icon="carbon:course" className="vector-icon47" alt="" />
             </div>
           </div>
         </div>

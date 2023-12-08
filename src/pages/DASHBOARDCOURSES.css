@@ -473,6 +473,9 @@
   position: relative;
   width: 514px;
   height: 214px;
+  background-color: #FF6961;
+  border-radius: 30px;
+  border:none;
 }
 .ikalawang-antas {
   cursor: pointer;
@@ -784,6 +787,7 @@
   left: 0px;
   width: 203px;
   height: 66px;
+  
 }
 .group-icon22 {
   position: absolute;

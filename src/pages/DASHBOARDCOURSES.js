@@ -153,7 +153,7 @@ const DASHBOARDCOURSES = () => {
         />
         <button className="ikalawang-antas">
           <div className="ikalawang-antas1">Ikalawang Antas</div>
-          <div className="vector-parent23">
+          <button className="vector-parent23">
             
             <div className="kurso-1-gitnang-antas-ng-wika-parent">
               <b className="kurso-1-gitnang-container">
@@ -168,7 +168,7 @@ const DASHBOARDCOURSES = () => {
                 src="/undefined76.png"
               />
             </div>
-          </div>
+          </button>
         </button>
         <button className="ikatlong-antas-3">
           <img
