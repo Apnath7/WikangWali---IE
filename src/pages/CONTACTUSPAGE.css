@@ -132,21 +132,25 @@
   height: 65px;
 }
 .frame-input {
-  border: none;
+  border: 2px solid black;
+  border-radius: 20px;
   font-family: var(--font-open-sans);
   font-size: var(--font-size-xl);
-  background-color: transparent;
+  background-color:white;
+  border-color: black;
   position: absolute;
   top: 375px;
   left: 1003px;
   width: 526px;
   height: 71px;
 }
+
 .email3 {
-  border: none;
+  border: 2px solid black;
+  border-radius: 20px;
   font-family: var(--font-open-sans);
   font-size: var(--font-size-xl);
-  background-color: transparent;
+  background-color: white;
   position: absolute;
   top: 470px;
   left: 1003px;
@@ -154,10 +158,11 @@
   height: 71px;
 }
 .password3 {
-  border: none;
+  border: 2px solid black;
+  border-radius: 20px;
   font-family: var(--font-open-sans);
   font-size: var(--font-size-xl);
-  background-color: transparent;
+  background-color: white;
   position: absolute;
   top: 565px;
   left: 1003px;
@@ -165,8 +170,9 @@
   height: 71px;
 }
 .message {
-  border: none;
-  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
   font-family: var(--font-open-sans);
   font-size: var(--font-size-xl);
   position: absolute;
@@ -201,12 +207,12 @@
 }
 .vector-icon11 {
   position: absolute;
-  height: 4.03%;
-  width: 3.41%;
-  top: 52.91%;
+  height: 90%;
+  width: 5.5%;
+  top: 10%;
   right: 84.26%;
   bottom: 43.06%;
-  left: 12.33%;
+  left: 15%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -214,12 +220,12 @@
 }
 .vector-icon12 {
   position: absolute;
-  height: 4.74%;
-  width: 3.13%;
-  top: 37.6%;
+  height: 90%;
+  width: 5%;
+  top: -5%;
   right: 84.43%;
   bottom: 57.65%;
-  left: 12.44%;
+  left: 15%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -227,12 +233,12 @@
 }
 .contact-us-page-child4 {
   position: absolute;
-  height: 4.03%;
-  width: 2.49%;
-  top: 67.86%;
-  right: 84.72%;
+  height: 150%;
+  width: 5.5%;
+  top: 20%;
+  right: 85%;
   bottom: 28.11%;
-  left: 12.79%;
+  left: 15%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;

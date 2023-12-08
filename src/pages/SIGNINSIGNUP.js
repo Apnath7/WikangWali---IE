@@ -33,7 +33,7 @@ const SIGNINSIGNUP = () => {
       <div className="welcome-parent">
         <div className="welcome1">Welcome!</div>
         <div className="group-parent">
-          <img className="frame-child" alt="" src="/undefined13.png" />
+          <img className="frame-child" alt="" src="/socialmedia.png" />
           <div className="sign-in-parent">
             <button className="sign-in1" onClick={onSignInClick}>
               <div className="sign-in2">SIGN IN</div>

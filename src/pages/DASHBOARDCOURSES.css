@@ -408,13 +408,13 @@
   left: 44px;
   width: 380px;
   height: 173px;
-  z-index: 1;
+ 
 }
 .unang-antas-2 {
   cursor: pointer;
   border: none;
   padding: 0;
-  background-color: transparent;
+  background-color: yellow;
   position: absolute;
   top: 352.8px;
   left: 985px;
@@ -423,6 +423,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-3xs);
+  z-index: 1;
+  
 }
 .dashboard-courses-child1 {
   position: absolute;
@@ -476,7 +478,8 @@
   cursor: pointer;
   border: none;
   padding: 0;
-  background-color: transparent;
+  background-color: none;
+  border-radius: 30px;
   position: absolute;
   top: 575px;
   left: 422px;
@@ -561,13 +564,14 @@
   object-fit: cover;
 }
 .group-child82 {
-  position: absolute;
+  position: absolute;background-color: white;
   top: -2px;
   left: -6px;
   border-radius: var(--br-31xl);
   width: 449px;
   height: 110px;
   object-fit: cover;
+  z-index: 0;
 }
 .gelu-ursal5 {
   position: absolute;
@@ -698,12 +702,13 @@
   cursor: pointer;
   border: none;
   padding: 0;
-  background-color: transparent;
+  background-color: #FF6961;
   position: absolute;
   top: 347.8px;
   left: 420px;
   width: 514px;
   height: 200px;
+  border-radius: 30px;
 }
 .kurso1 {
   position: absolute;

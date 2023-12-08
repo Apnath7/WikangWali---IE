@@ -195,7 +195,7 @@
   border: 1px solid var(--color-darkslateblue-100);
   box-sizing: border-box;
   width: 203px;
-  height: 63px;
+  height: 63px; 
 }
 .rectangle-sign-in-button-wrapper4 {
   position: absolute;
@@ -350,6 +350,7 @@
   width: 481px;
   height: 576px;
   object-fit: cover;
+  background-color: #E3EEFF;
 }
 .dashboard-home-child1 {
   position: absolute;
@@ -532,9 +533,10 @@
 }
 .mdimedal-outline-icon {
   position: absolute;
-  height: 11.28%;
-  width: 7.23%;
-  top: 45.21%;
+  border-radius: 30px;
+  height: 0.98%;
+  width: 24.23%;
+  top: 48.21%;
   right: 23.21%;
   bottom: 43.51%;
   left: 69.56%;
@@ -649,6 +651,7 @@
 }
 .group-child87 {
   position: absolute;
+  background-color: white;
   top: -2px;
   left: -6px;
   border-radius: var(--br-31xl);
