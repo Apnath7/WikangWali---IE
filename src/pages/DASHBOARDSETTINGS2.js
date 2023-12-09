@@ -75,20 +75,20 @@ const DASHBOARDSETTINGS2 = () => {
           <div className="courses-group">
             <button className="courses8" onClick={onCoursesClick}>
               <div className="vector-parent31" onClick={onGroupContainerClick}>
-                <Icon className="vector-icon67" alt="" icon="carbon:course" color="white" />
+                <Icon className="vector-icon677" alt="" icon="carbon:course" color="white" />
                 <div className="courses9">Courses</div>
               </div>
             </button>
             <button className="progress14" onClick={onProgressClick}>
               <div className="vector-parent32" onClick={onGroupContainer1Click}>
-                <Icon className="vector-icon68" alt="" icon="material-symbols:progress-activity" color="white" />
+                <Icon className="vector-icon688" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress15">Progress</div>
               </div>
             </button>
             <button className="settings14">
               <div className="group-parent28" onClick={onGroupContainer2Click}>
-                <Icon className="group-icon25" alt="" icon="solar:settings-outline" color="white"/>
-                <div className="settings15">Settings</div>
+                <Icon className="group-icon255" alt="" icon="solar:settings-outline" color="white"/>
+                <div className="settings155">Settings</div>
               </div>
             </button>
             <button className="home13" onClick={onHomeClick}>

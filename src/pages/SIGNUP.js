@@ -61,7 +61,7 @@ const SIGNUP = () => {
           onChange={handleEmailChange}
           placeholder="Email"
         />
-      <Icon icon="mdi:email-outline" color="white" className="notocloud-icon3" alt="" />
+      <Icon icon="ic:outline-email" className='emailicon'/>
       </div>
     
       <div>
@@ -98,11 +98,11 @@ const SIGNUP = () => {
         />
         <Icon className="octiconlock-241" alt="" icon="solar:lock-outline" />
       </div>
-      
+      <div class="or-login-with2">or login with </div>
       <button className="sign-up-button" onClick={onSignUpButtonClick}>
         <div className="sign-up1">SIGN UP</div>
       </button>
-      
+      <div class="dont-have-an">Already have an account?</div>
       <a className="sign-in" onClick={onSignInClick}>
         Sign In
       </a>
