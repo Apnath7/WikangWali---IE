@@ -32,12 +32,10 @@
 }
 .sign-in-child {
   position: absolute;
-  height: 4.73%;
-  width: 14.7%;
-  top: 74.84%;
-  right: 22.63%;
-  bottom: 19.79%;
-  left: 72.50%;
+  height: 70px;
+  width: 300px;
+  top: 830px;
+  left: 1060px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;

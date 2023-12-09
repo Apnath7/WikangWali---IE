@@ -136,7 +136,6 @@ const DASHBOARDSETTINGS = () => {
           alt=""
           src="/undefined44.png"
         />
-        <div className="settings22">Settings</div>
         <button className="profile-button">
           <div className="profile-button-inner">
             <div className="group-child103" />

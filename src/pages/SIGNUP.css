@@ -30,12 +30,10 @@
 }
 .sign-up-item {
   position: absolute;
-  height: 5.37%;
-  width: 14.7%;
-  top: 76.99%;
-  right: 22.28%;
-  bottom: 17.64%;
-  left: 63.02%;
+  height: 70px;
+  width: 300px;
+  top: 800px;
+  left: 1050px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;

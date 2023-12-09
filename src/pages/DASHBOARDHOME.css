@@ -535,11 +535,9 @@
   position: absolute;
   border-radius: 30px;
   height: 0.98%;
-  width: 24.23%;
-  top: 48.21%;
-  right: 23.21%;
-  bottom: 43.51%;
-  left: 69.56%;
+  width: 300px;
+  top: 540px;
+  left: 1240px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -680,8 +678,6 @@
   height: 44.9%;
   width: 11.21%;
   top: 23.47%;
-  right: 77.8%;
-  bottom: 31.63%;
   left: 10.98%;
   max-width: 100%;
   overflow: hidden;

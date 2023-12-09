@@ -93,8 +93,8 @@
     padding: 0;
     background-color: transparent;
     position: absolute;
-    top: 239px;
-    left: 0;
+    top: 5px;
+    left: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -104,18 +104,16 @@
     position: absolute;
     height: 58.4%;
     width: 45.83%;
-    top: 0;
-    right: 27.98%;
-    bottom: 41.6%;
-    left: 26.19%;
+    top: 23px;
+    left: -20px;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
   }
   .parent-mode10 {
     position: absolute;
-    top: 64px;
-    left: 0;
+    top: 400px;
+    left: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,10 +141,8 @@
     position: absolute;
     height: 35.71%;
     width: 12.51%;
-    top: 8.33%;
-    right: 87.49%;
-    bottom: 55.95%;
-    left: 0;
+    top: 33px;
+    left: 370px;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -231,7 +227,7 @@
   }
   .settings22 {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 44px;
     font-size: var(--font-size-21xl);
     font-family: var(--font-love-ya-like-a-sister);
@@ -253,8 +249,8 @@
     padding: 0;
     background-color: transparent;
     position: absolute;
-    top: 344px;
-    left: 30px;
+    top: 120px;
+    left: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

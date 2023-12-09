@@ -70,7 +70,7 @@ const DASHBOARDCOURSES = () => {
               <div className="vector-parent22">
                 <Icon className="vector-icon50" alt="" icon="ri:parent-line" />
                 <div className="parent-mode11">Parent Mode</div>
-              </div>
+            </div>
               <button
                 className="rectangle-parent27"
                 onClick={onGroupButtonClick}
@@ -146,11 +146,6 @@ const DASHBOARDCOURSES = () => {
             />
           </div>
         </button>
-        <img
-          className="dashboard-courses-child1"
-          alt=""
-          src="/undefined30.png"
-        />
         <button className="ikalawang-antas">
           <div className="ikalawang-antas1">Ikalawang Antas</div>
           <button className="vector-parent23">
@@ -193,7 +188,7 @@ const DASHBOARDCOURSES = () => {
         <button className="ikatlong-antas">
           <div className="ikalawang-antas1">Ikatlong Antas</div>
           <div className="vector-parent24">
-            <img className="frame-child1" alt="" src="/undefined75.png" />
+            <div className="frame-child1" alt="" src="/undefined75.png" />
             <div className="kurso-1-mas-malalim-na-filipi-parent">
               <b className="kurso-1-mas-container1">
                 <p className="mas-malalim-na">{`Kurso 1: `}</p>
