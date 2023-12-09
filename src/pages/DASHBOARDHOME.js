@@ -34,6 +34,7 @@ const DASHBOARDHOME = () => {
 
   const onGroupButtonClick = useCallback(() => {
     // Please sync "16- DASHBOARD -ParentMode Login" to the project
+    navigate("/dashboard-parent-mode");
   }, []);
 
   const onLessonArrowClick = useCallback(() => {
@@ -51,6 +52,8 @@ const DASHBOARDHOME = () => {
   const onFrameButtonClick = useCallback(() => {
     navigate("/9-dashboard-exercise-1");
   }, [navigate]);
+
+  
 
   return (
     <>

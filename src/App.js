@@ -27,6 +27,7 @@ import DASHBOARDSETTINGS2 from "./pages/DASHBOARDSETTINGS2";
 import DASHBOARDPROGRESS from "./pages/DASHBOARDPROGRESS";
 import DASHBOARDSETTINGS from "./pages/DASHBOARDSETTINGS";
 import { useEffect } from "react";
+import DASHBOARDParentModeLogin from "./pages/DASHBOARDParentModeLogin";
 
 function App() {
   const action = useNavigationType();
@@ -184,6 +185,7 @@ function App() {
       <Route path="/15-dashboard-settings-2" element={<DASHBOARDSETTINGS2 />} />
       <Route path="/13-dashboard-progress" element={<DASHBOARDPROGRESS />} />
       <Route path="/14-dashboard-settings" element={<DASHBOARDSETTINGS />} />
+      <Route path="/dashboard-parent-mode" element={<DASHBOARDParentModeLogin />} />
     </Routes>
   );
 }
