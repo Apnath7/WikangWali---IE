@@ -310,6 +310,7 @@
   width: 449px;
   height: 110px;
   object-fit: cover;
+  background-color: white;
 }
 .gelu-ursal1 {
   position: absolute;
@@ -376,6 +377,7 @@
   width: 1128px;
   height: 141px;
   object-fit: cover;
+  background-color: var(--color-khaki);
 }
 .group-child31 {
   position: absolute;
@@ -385,15 +387,16 @@
   width: 180px;
   height: 141px;
   object-fit: cover;
+  background-color: var(--color-goldenrod);
 }
 .return-arrow-item {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -2px;
+  left: -10px;
   border-radius: var(--br-31xl) 0px 0px var(--br-31xl);
   background-color: var(--color-goldenrod);
   width: 99px;
-  height: 129px;
+  height: 140px;
 }
 .group-icon11 {
   position: absolute;
@@ -427,6 +430,7 @@
   width: 217px;
   height: 85.1px;
   object-fit: cover;
+  background-color: var(--color-goldenrod);
 }
 .back1 {
   position: absolute;

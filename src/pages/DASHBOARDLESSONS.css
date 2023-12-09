@@ -305,6 +305,7 @@
   width: 1128px;
   height: 202px;
   object-fit: cover;
+  background-color: #FF7F7F;
 }
 .dashboard-lessons-child2 {
   position: absolute;
@@ -359,6 +360,7 @@
   height: 202px;
   object-fit: cover;
   cursor: pointer;
+  background-color: #971515;
 }
 .start {
   margin: 0;
@@ -386,6 +388,8 @@
 .aralin-1-pagbati {
   margin: 0;
   padding-left: var(--padding-24xl);
+  font-size: 30px;
+  font-family: 'Love Ya Like A Sister';
 }
 .aralin-1-pagbati-container4 {
   position: absolute;
@@ -422,7 +426,10 @@
   width: 1128px;
   height: 115px;
   object-fit: cover;
+  background-color: #FDFD96;
 }
+
+
 .aralin-3-payak-container {
   position: absolute;
   top: 34px;
@@ -499,12 +506,13 @@
   cursor: pointer;
   border: none;
   padding: 0;
-  background-color: transparent;
   position: absolute;
-  top: 291px;
-  left: 396px;
+  top: 290px;
+  left: 390px;
   width: 99px;
-  height: 190px;
+  height: 199px;
+  background-color: #971515;
+  border-radius: 50px 00px 0px 50px;
 }
 .group-child77 {
   position: absolute;
@@ -523,6 +531,7 @@
   width: 449px;
   height: 110px;
   object-fit: cover;
+  background-color: white;
 }
 .gelu-ursal4 {
   position: absolute;
@@ -708,4 +717,25 @@
   font-size: var(--font-inherit);
   color: var(--color-black);
   font-family: var(--font-inherit);
+}
+
+.vector-parent30 {
+  position: absolute;
+  top: 113px;
+  left: 1153px;
+  width: 437px;
+  height: 98px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-open-sans);
+}
+.group-child87 {
+  position: absolute;
+  background-color: white;
+  top: -2px;
+  left: -6px;
+  border-radius: var(--br-31xl);
+  width: 449px;
+  height: 110px;
+  object-fit: cover;
 }

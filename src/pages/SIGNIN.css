@@ -32,12 +32,12 @@
 }
 .sign-in-child {
   position: absolute;
-  height: 5.37%;
+  height: 4.73%;
   width: 14.7%;
   top: 74.84%;
   right: 22.63%;
   bottom: 19.79%;
-  left: 62.67%;
+  left: 72.50%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -98,6 +98,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 73px;
+  padding-left: 60px;
 }
 .notocloud-icon10 {
   position: absolute;
@@ -196,6 +197,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 73px;
+  padding-left: 60px;
 }
 .group-icon6 {
   position: absolute;
@@ -261,7 +263,7 @@
   top: 9.52%;
   right: 9.52%;
   bottom: 9.52%;
-  left: 9.52%;
+  left: 20%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -275,8 +277,8 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - 448.5px);
-  left: calc(50% - 643px);
+  top: 120px;
+  left: 220px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;

@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import "./ABOUTUSPAGEPaez.css";
 const ABOUTUSPAGEPaez = () => {
   const navigate = useNavigate();
@@ -45,22 +46,22 @@ const ABOUTUSPAGEPaez = () => {
       <div className="about-us-page-paez-item" />
       <div className="about-us-page-paez-inner" />
       <div className="about-us-page-paez-child1" />
-      <img className="group-icon1" alt="" src="/undefined1.png" />
+      <Icon className="group-icon1" icon="mingcute:message-3-line" color="white" />
       <img className="wikang-wali-logo-11" alt="" src="/undefined2.png" />
-      <img className="vector-icon1" alt="" src="/undefined3.png" />
-      <img className="about-us-page-paez-child2" alt="" src="/undefined4.png" />
+      <Icon className="vector-icon1" icon="bi:person-gear" color="white"/>
+      <Icon className="about-us-page-paez-child2" icon="heroicons:fire-solid" color="white"/>
       <div className="icround-play-arrow-parent">
         <button
           className="icround-play-arrow"
           onClick={onIcroundPlayArrowClick}
         >
-          <img className="vector-icon2" alt="" src="/undefined8.png" />
+          <Icon className="vector-icon2" icon="bxs:right-arrow" color="#2C5F7C"  />
         </button>
         <button
           className="icround-play-arrow1"
           onClick={onIcroundPlayArrow1Click}
         >
-          <img className="vector-icon3" alt="" src="/undefined8.png" />
+          <Icon className="vector-icon3" icon="bxs:left-arrow" color="#2c5f7c" rotate={2}  />
         </button>
       </div>
       <div className="group">

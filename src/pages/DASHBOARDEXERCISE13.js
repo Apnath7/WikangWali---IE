@@ -3,6 +3,8 @@ import LogoutPopup from "../components/LogoutPopup";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDEXERCISE13.css";
+import { Icon } from '@iconify/react';
+
 const DASHBOARDEXERCISE13 = () => {
   const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -50,24 +52,24 @@ const DASHBOARDEXERCISE13 = () => {
           <div className="group-child15" />
           <div className="group-parent1">
             <div className="vector-parent" onClick={onGroupContainerClick}>
-              <img className="vector-icon15" alt="" src="/undefined38.png" />
+            <Icon className="vector-icon58" alt="" icon="carbon:course" color="white" />
               <div className="courses">Courses</div>
             </div>
             <button className="progress" onClick={onProgressClick}>
               <div className="vector-group">
-                <img className="vector-icon16" alt="" src="/undefined39.png" />
+              <Icon className="vector-icon59" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress1">Progress</div>
               </div>
             </button>
             <button className="settings" onClick={onSettingsClick}>
               <div className="group-group">
-                <img className="group-icon7" alt="" src="/undefined40.png" />
+              <Icon className="group-icon23" alt="" icon="solar:settings-outline" color="white" />
                 <div className="settings1">Settings</div>
               </div>
             </button>
             <div className="parent-mode">
               <div className="vector-container">
-                <img className="vector-icon17" alt="" src="/undefined41.png" />
+              <Icon className="vector-icon61" alt="" icon="ri:parent-line" />
                 <div className="parent-mode1">Parent Mode</div>
               </div>
               <button
@@ -75,13 +77,13 @@ const DASHBOARDEXERCISE13 = () => {
                 onClick={onGroupButtonClick}
               >
                 <div className="group-child16" />
-                <img className="ellipse-icon" alt="" src="/undefined42.png" />
+                <Icon className="group-child86" alt="" icon="twemoji:white-circle" />
               </button>
             </div>
             <button className="home" onClick={onHomeClick}>
               <div className="home-parent">
                 <div className="home1">Home</div>
-                <img className="vector-icon18" alt="" src="/undefined43.png" />
+                <Icon className="vector-icon60" alt="" icon="material-symbols-light:home-outline" color="white" />
               </div>
             </button>
           </div>
@@ -97,29 +99,29 @@ const DASHBOARDEXERCISE13 = () => {
           <div className="group-child17" />
           <div className="group-child18" />
           <div className="group-child19" />
-          <img className="rectangle-icon" alt="" src="/undefined45.png" />
+          <div className="rectangle-icon" alt="" src="/undefined45.png" />
           <b className="gelu-ursal">Gelu Ursal</b>
-          <img className="vector-icon19" alt="" src="/undefined46.png" />
+          <Icon icon="carbon:course" color="white" className="vector-icon19" alt="" src="/undefined46.png" />
           <img
             className="microsoftteams-image-1-6"
             alt=""
             src="/undefined47.png"
           />
-          <img className="vector-icon20" alt="" src="/undefined48.png" />
-          <img className="vector-icon21" alt="" src="/undefined49.png" />
-          <img className="group-child20" alt="" src="/undefined50.png" />
-          <img className="group-child21" alt="" src="/undefined51.png" />
+          <Icon icon="ph:bell-fill" className="vector-icon20" alt="" src="/undefined48.png" />
+          <Icon icon="bxs:down-arrow" className="vector-icon21" alt="" src="/undefined49.png" />
+          <div className="group-child20" alt="" src="/undefined50.png" />
+          <div className="group-child21" alt="" src="/undefined51.png" />
           <button className="return-arrow" onClick={onReturnArrowClick}>
             <div className="return-arrow-child" />
-            <img className="group-icon8" alt="" src="/undefined52.png" />
+            <Icon icon="mingcute:back-fill" color="white" className="group-icon8" alt="" src="/undefined52.png" />
           </button>
           <button className="continue" onClick={onContinueClick}>
-            <img className="continue-child" alt="" src="/undefined53.png" />
+            <div className="continue-child" alt="" src="/undefined53.png" />
             <div className="continue1">continue</div>
           </button>
           <div className="good-job-parent">
             <div className="good-job">good job!</div>
-            <img className="group-child22" alt="" src="/undefined54.png" />
+            <div className="group-child22" alt="" src="/undefined54.png" />
           </div>
           <div className="aralin-1-pagbati-container">
             <p className="aralin-1">Aralin 1</p>

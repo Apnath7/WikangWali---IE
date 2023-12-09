@@ -332,6 +332,7 @@
   width: 449px;
   height: 110px;
   object-fit: cover;
+  background-color: white;
 }
 .gelu-ursal3 {
   position: absolute;
@@ -429,6 +430,7 @@
   width: 1128px;
   height: 141px;
   object-fit: cover;
+  background-color: #FDFD96;
 }
 .group-child68 {
   position: absolute;
@@ -438,6 +440,7 @@
   width: 180px;
   height: 141px;
   object-fit: cover;
+  background-color: #FBB52E;
 }
 .div9 {
   position: absolute;
@@ -451,12 +454,12 @@
 }
 .return-arrow-child1 {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -2px;
+  left: -10px;
   border-radius: var(--br-31xl) 0px 0px var(--br-31xl);
   background-color: var(--color-goldenrod);
   width: 99px;
-  height: 129px;
+  height: 140px;
 }
 .group-icon17 {
   position: absolute;
@@ -509,6 +512,7 @@
   width: 217px;
   height: 71.9px;
   object-fit: cover;
+  background-color: #FBB52E;
 }
 .continue5 {
   position: absolute;
@@ -574,6 +578,7 @@
 .hello-kamusta-good-morni {
   margin: 0;
   padding-left: var(--padding-8xl);
+  
 }
 .hello-kamusta-container {
   position: absolute;

@@ -13,8 +13,8 @@ const FORGOTPASSWORDNEWPASSWORD = () => {
       <div className="forgot-passwordnew-password-child" />
       <img className="n-1-icon" alt="" src="/undefined80.png" />
       <div className="reset-password">RESET PASSWORD</div>
-      <img className="notocloud-icon16" alt="" src="/undefined81.png" />
-      <img className="notocloud-icon17" alt="" src="/undefined82.png" />
+      <img className="notocloud-icon16" alt="" src="cloud.png" />
+      <img className="notocloud-icon17" alt="" src="cloud.png" />
       <div className="password-field-parent">
         <input className="password-field" type="text" />
         <div className="password4">Password</div>
@@ -23,7 +23,7 @@ const FORGOTPASSWORDNEWPASSWORD = () => {
         <input className="confirm-password-field" type="text" />
         <div className="confirm-password2">Confirm Password</div>
       </div>
-      <img className="notocloud-icon18" alt="" src="/undefined83.png" />
+      <img className="notocloud-icon18" alt="" src="cloud.png" />
       <button className="reset-wrapper" onClick={onFrameButtonClick}>
         <div className="reset">RESET</div>
       </button>
