@@ -113,29 +113,27 @@ const DASHBOARDParentModeLogin = () => {
         <img
           className="microsoftteams-image-1-17"
           alt=""
-          src="/microsoftteamsimage-1-1@2x.png"
+          src="wikangwali.png"
         />
         <div className="dashboard-parentmode-login-inner" />
         <img
           className="dashboard-parentmode-login-child1"
           alt=""
-          src="/ellipse-13@2x.png"
+          src="mother.png.png"
         />
         <div className="marie6">
           <p className="marie7">Marie</p>
         </div>
         <div className="mother3">Mother</div>
         <img className="vector-icon68" alt="" src="/vector5.svg" />
-        <img
-          className="dashboard-parentmode-login-child2"
-          alt=""
-          src="/rectangle-923.svg"
-        />
-        <img
-          className="dashboard-parentmode-login-child3"
-          alt=""
-          src="/rectangle-912.svg"
-        />
+        <div className="dashboard-parentmode-login-child2" style={{ backgroundColor: "#FFFF008F" }}>
+    <img className="dashboard-parentmode-login-child2" alt="" src="/rectangle-923.svg" />
+</div>
+
+<div className="dashboard-parentmode-login-child3" style={{ backgroundColor: "#FF0000" }}>
+    <img className="dashboard-parentmode-login-child3" alt="" src="Parentbird.png" />
+</div>
+
         <input className="rectangle-email3" type="password" />
         <b className="enter-password1">Enter Password</b>
         <Link
