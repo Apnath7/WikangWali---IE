@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 //import StudentMode from "../components/StudentMode";
 import PortalPopup from "../components/PortalPopup";
 import "./DASHBOARDParentModeLogin.css";
+import { Icon } from "@iconify/react";
 
 const DASHBOARDParentModeLogin = () => {
   const [isStudentModeOpen, setStudentModeOpen] = useState(false);
@@ -71,7 +72,7 @@ const DASHBOARDParentModeLogin = () => {
                   >
                     <div className="contact-us-parent17">
                       <div className="contact-us21">Contact Us</div>
-                      <img className="vector-icon63" alt="" src="/vector.svg" />
+                      <Icon className="vector-icon63"   icon="mingcute:information-line" color="white" /> 
                     </div>
                   </div>
                 </button>
@@ -96,7 +97,7 @@ const DASHBOARDParentModeLogin = () => {
             </div>
             <button className="courses21" onClick={onCoursesClick}>
               <div className="vector-parent32" onClick={onGroupContainer7Click}>
-                <img className="vector-icon67" alt="" src="/vector4.svg" />
+                <Icon className="vector-icon67" icon="carbon:course" color="white"/>
                 <div className="courses22">Courses</div>
               </div>
             </button>
