@@ -442,6 +442,16 @@
   object-fit: cover;
   background-color: #FBB52E;
 }
+.group-child44 {
+  position: absolute;
+  top: 241px;
+  left: 1077px;
+  border-radius: var(--br-31xl);
+  width: 180px;
+  height: 141px;
+  object-fit: cover;
+  background-color: var(--color-goldenrod);
+}
 .div9 {
   position: absolute;
   top: 258px;

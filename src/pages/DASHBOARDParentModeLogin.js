@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 //import StudentMode from "../components/StudentMode";
 import PortalPopup from "../components/PortalPopup";
 import "./DASHBOARDParentModeLogin.css";
+import { Icon } from "@iconify/react";
 
 const DASHBOARDParentModeLogin = () => {
   const [isStudentModeOpen, setStudentModeOpen] = useState(false);
@@ -71,7 +72,7 @@ const DASHBOARDParentModeLogin = () => {
                   >
                     <div className="contact-us-parent17">
                       <div className="contact-us21">Contact Us</div>
-                      <img className="vector-icon63" alt="" src="/vector.svg" />
+                      <Icon className="vector-icon63"   icon="mingcute:information-line" color="white" /> 
                     </div>
                   </div>
                 </button>
@@ -96,7 +97,7 @@ const DASHBOARDParentModeLogin = () => {
             </div>
             <button className="courses21" onClick={onCoursesClick}>
               <div className="vector-parent32" onClick={onGroupContainer7Click}>
-                <img className="vector-icon67" alt="" src="/vector4.svg" />
+                <Icon className="vector-icon67" icon="carbon:course" color="white"/>
                 <div className="courses22">Courses</div>
               </div>
             </button>
@@ -113,29 +114,27 @@ const DASHBOARDParentModeLogin = () => {
         <img
           className="microsoftteams-image-1-17"
           alt=""
-          src="/microsoftteamsimage-1-1@2x.png"
+          src="wikangwali.png"
         />
         <div className="dashboard-parentmode-login-inner" />
         <img
           className="dashboard-parentmode-login-child1"
           alt=""
-          src="/ellipse-13@2x.png"
+          src="mother.png.png"
         />
         <div className="marie6">
           <p className="marie7">Marie</p>
         </div>
         <div className="mother3">Mother</div>
         <img className="vector-icon68" alt="" src="/vector5.svg" />
-        <img
-          className="dashboard-parentmode-login-child2"
-          alt=""
-          src="/rectangle-923.svg"
-        />
-        <img
-          className="dashboard-parentmode-login-child3"
-          alt=""
-          src="/rectangle-912.svg"
-        />
+        <div className="dashboard-parentmode-login-child2" style={{ backgroundColor: "#FFFF008F" }}>
+    <img className="dashboard-parentmode-login-child2" alt="" src="/rectangle-923.svg" />
+</div>
+
+<div className="dashboard-parentmode-login-child3" style={{ backgroundColor: "#FF0000" }}>
+    <img className="dashboard-parentmode-login-child3" alt="" src="Parentbird.png" />
+</div>
+
         <input className="rectangle-email3" type="password" />
         <b className="enter-password1">Enter Password</b>
         <Link

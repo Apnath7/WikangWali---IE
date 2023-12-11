@@ -445,6 +445,18 @@
   width: 1119px;
   height: 76px;
 }
+
+.group-child933 {
+  position: absolute;
+  top: 0px;
+  left: 340px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 13px 4px rgba(0, 0, 0, 0.25);
+  width: 1119px;
+  height: 76px;
+}
+
 .kurso-2-pagsasalita1 {
   font-weight: 600;
   font-family: var(--font-roboto);
@@ -456,6 +468,13 @@
   position: absolute;
   top: 26px;
   left: 91px;
+  width:500px;
+}
+.kurso-2-pagsasalita-container2 {
+  position: absolute;
+  top: 26px;
+  left: 440px;
+  width:500px;
 }
 .microsoftteams-image-5-11 {
   position: absolute;
@@ -502,10 +521,18 @@
   font-weight: 600;
   color: var(--color-gray-100);
 }
+.completed12 {
+  position: absolute;
+  top: 29px;
+  left: 1045px;
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  color: var(--color-gray-100);
+}
 .group-child96 {
   position: absolute;
   top: 24px;
-  left: 1057px;
+  left: 1400px;
   border-radius: 50%;
   background-color: var(--color-gold);
   width: 28px;
@@ -514,7 +541,7 @@
 .ca88b0e1-977b-4453-99ba-b1a77c-icon4 {
   position: absolute;
   top: 1px;
-  left: 17px;
+  left: 360px;
   width: 56px;
   height: 73px;
   object-fit: cover;

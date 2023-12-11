@@ -120,8 +120,9 @@ const DASHBOARDEXERCISE1 = () => {
             </p>
           </div>
           <div className="group-child67" alt="" src="/undefined50.png" />
-          <div className="group-child68" alt="" src="/undefined51.png" />
-          <div className="div9">1/2</div>
+          <div class="group-child44" alt="" src="/undefined51.png"></div>
+          <div class="div8">1/2</div>
+
           <button className="return-arrow3" onClick={onReturnArrowClick}>
             <div className="return-arrow-child1" />
             <Icon icon="mingcute:back-fill" color="white" className="group-icon17" alt="" src="/undefined52.png" />
@@ -131,7 +132,6 @@ const DASHBOARDEXERCISE1 = () => {
             alt=""
             src="/undefined62.png"
           />
-          <div className="group-child69" />
           <button className="continue4" onClick={onContinueClick}>
             <div className="continue-inner" alt="" src="/undefined63.png" />
             <div className="continue5">continue</div>

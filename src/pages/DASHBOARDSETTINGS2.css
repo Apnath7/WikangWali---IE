@@ -7,6 +7,52 @@
   width: 336px;
   height: 94px;
 }
+
+.group-icon255 {
+  position: absolute;
+  height: 35.71%;
+  width: 10.47%;
+  top: -410px;
+  left: -20px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.vector-icon677 {
+  width: 35px;
+  height: 35px;
+  left: -5px;
+  top: 10px;
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.vector-icon688 {
+  position: absolute;
+  height: 35.71px;
+  width: 35px;
+  top: 10px;
+  left: -5px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.settings155 {
+  position: absolute;
+  top: -335px;
+  left: 30px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-love-ya-like-a-sister);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 231px;
+  height: 84px;
+}
 .vector-icon67 {
   position: absolute;
   height: 35.71%;
@@ -142,7 +188,7 @@
 .home14 {
   position: absolute;
   top: 0px;
-  left: 44px;
+  left: 0px;
   font-size: var(--font-size-21xl);
   font-family: var(--font-love-ya-like-a-sister);
   color: var(--color-white);
@@ -153,12 +199,10 @@
 }
 .vector-icon69 {
   position: absolute;
-  height: 35.71%;
-  width: 12.51%;
+  height: 40px;
+  width: 40px;
   top: 8.33%;
-  right: 87.49%;
-  bottom: 55.95%;
-  left: 0%;
+  left: -50px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -709,6 +753,7 @@
   position: relative;
   width: 203px;
   height: 66px;
+  top: 100px;
 }
 .logout7 {
   cursor: pointer;

@@ -150,15 +150,15 @@ const DASHBOARDPROGRESS = () => {
           <div className="group-child94" />
         </div>
         <div className="rectangle-parent36">
-          <div className="group-child93" />
-          <div className="kurso-2-pagsasalita-container">
+          <div className="group-child933" />
+          <div className="kurso-2-pagsasalita-container2">
             <span className="pagsusulat">{`Kurso 1: `}</span>
             <span className="pambungad">Pambungad</span>
             <span className="pagsusulat">{` sa `}</span>
             <span className="pambungad">Wikang</span>
             <span className="pagsusulat"> Filipino</span>
           </div>
-          <div className="completed1">completed</div>
+          <div className="completed12">completed</div>
           <div className="group-child96" />
           <img
             className="ca88b0e1-977b-4453-99ba-b1a77c-icon4"

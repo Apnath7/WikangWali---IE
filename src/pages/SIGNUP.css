@@ -30,12 +30,10 @@
 }
 .sign-up-item {
   position: absolute;
-  height: 5.37%;
-  width: 14.7%;
-  top: 76.99%;
-  right: 22.28%;
-  bottom: 17.64%;
-  left: 63.02%;
+  height: 70px;
+  width: 300px;
+  top: 840px;
+  left: 1050px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -70,7 +68,7 @@
 }
 .welcome {
   position: absolute;
-  top: 112px;
+  top: 160px;
   left: 1109px;
   font-size: var(--font-size-51xl);
   font-family: var(--font-bangers);
@@ -79,7 +77,7 @@
 }
 .create-your-account {
   position: absolute;
-  top: 186px;
+  top: 230px;
   left: 1068px;
   font-size: var(--font-size-16xl);
   font-family: var(--font-love-ya-like-a-sister);
@@ -96,7 +94,7 @@
   box-sizing: border-box;
   width: 453px;
   height: 66px;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 .password {
   border: 1px solid var(--color-black);
@@ -119,6 +117,15 @@
   overflow: hidden;
   object-fit: cover;
   border: none;
+}
+.emailicon {
+  position: absolute;
+  top: 420px;
+  left: 1007px;
+  width: 34px;
+  height: 31px;
+  overflow: hidden;
+  object-fit: cover;
 }
 .notocloud-icon4 {
   position: absolute;
@@ -193,8 +200,8 @@
 .sign-in {
   text-decoration: underline;
   position: absolute;
-  top: 942px;
-  left: 1327px;
+  top: 931px;
+  left: 1340px;
   font-weight: 600;
   color: inherit;
   text-align: right;
@@ -202,6 +209,11 @@
 }
 .sign-in:hover {
   color: rgba(0, 117, 201, 0.5);
+}
+.or-login-with2{
+  position: absolute;
+  top: 790px;
+  left: 1137px;
 }
 .vector-icon8 {
   position: absolute;

@@ -143,6 +143,7 @@
   left: 1003px;
   width: 526px;
   height: 71px;
+  padding-left: 30px;
 }
 
 .email3 {
@@ -156,6 +157,7 @@
   left: 1003px;
   width: 526px;
   height: 71px;
+  padding-left: 30px;
 }
 .password3 {
   border: 2px solid black;
@@ -168,6 +170,7 @@
   left: 1003px;
   width: 526px;
   height: 71px;
+  padding-left: 30px;
 }
 .message {
   border: 2px solid black;
@@ -180,6 +183,8 @@
   left: 1003px;
   width: 526px;
   height: 195px;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 .contact-us-page-child1 {
   position: absolute;
@@ -207,12 +212,10 @@
 }
 .vector-icon11 {
   position: absolute;
-  height: 90%;
-  width: 5.5%;
-  top: 10%;
-  right: 84.26%;
-  bottom: 43.06%;
-  left: 15%;
+  height: 90px;
+  width: 90px;
+  top: 570px;
+  left: 180px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -220,12 +223,10 @@
 }
 .vector-icon12 {
   position: absolute;
-  height: 90%;
-  width: 5%;
-  top: -5%;
-  right: 84.43%;
-  bottom: 57.65%;
-  left: 15%;
+  height: 90px;
+  width: 90px;
+  top: 400px;
+  left: 180px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -233,12 +234,10 @@
 }
 .contact-us-page-child4 {
   position: absolute;
-  height: 150%;
-  width: 5.5%;
-  top: 20%;
-  right: 85%;
-  bottom: 28.11%;
-  left: 15%;
+  height: 90px;
+  width: 90px;
+  top: 730px;
+  left: 180px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
