@@ -1,0 +1,514 @@
+.group-child24 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-darkslateblue-100);
+    width: 336px;
+    height: 94px;
+  }
+  .contact-us8 {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 198px;
+    height: 58px;
+  }
+  .vector-icon26 {
+    position: absolute;
+    height: 51.72%;
+    width: 12.3%;
+    top: 17.24%;
+    right: 87.7%;
+    bottom: 31.03%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .contact-us-parent5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 244px;
+    height: 58px;
+  }
+  .contact-us-inner1 {
+    position: relative;
+    width: 244px;
+    height: 58px;
+    cursor: pointer;
+  }
+  .contact-us7 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-icon27 {
+    position: absolute;
+    height: 35.71%;
+    width: 10.49%;
+    top: 8.33%;
+    right: 89.51%;
+    bottom: 55.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .progress9 {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 240px;
+    height: 84px;
+  }
+  .vector-parent13 {
+    position: relative;
+    width: 286px;
+    height: 84px;
+    cursor: pointer;
+  }
+  .progress8 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 239px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-icon28 {
+    position: absolute;
+    height: 58.4%;
+    width: 45.83%;
+    top: 0;
+    right: 27.98%;
+    bottom: 41.6%;
+    left: 26.19%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .parent-mode6 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 61px;
+  }
+  .vector-parent14 {
+    position: absolute;
+    height: 23.5%;
+    width: 58.74%;
+    top: 76.5%;
+    right: 31.82%;
+    bottom: 0;
+    left: 9.44%;
+  }
+  .home6 {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    display: inline-block;
+    width: 171px;
+    height: 84px;
+  }
+  .vector-icon29 {
+    position: absolute;
+    height: 35.71%;
+    width: 12.51%;
+    top: 8.33%;
+    right: 87.49%;
+    bottom: 55.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .home-parent3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 215px;
+    height: 84px;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+  }
+  .contact-us-parent4,
+  .vector-icon30 {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    width: 286px;
+    height: 532px;
+  }
+  .vector-icon30 {
+    height: 35.71%;
+    width: 7.84%;
+    top: 10.71%;
+    right: 92.16%;
+    bottom: 53.57%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .courses11 {
+    position: absolute;
+    top: 0;
+    left: 42px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 231px;
+    height: 84px;
+  }
+  .vector-parent15 {
+    position: relative;
+    width: 273px;
+    height: 84px;
+    cursor: pointer;
+  }
+  .courses10 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 176px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-icon6,
+  .group-parent17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 553px;
+  }
+  .group-icon6 {
+    height: 35.71%;
+    width: 10.47%;
+    top: 8.33%;
+    right: 89.53%;
+    bottom: 55.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .settings13 {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 231px;
+    height: 84px;
+  }
+  .group-parent18 {
+    position: relative;
+    width: 275px;
+    height: 84px;
+    cursor: pointer;
+  }
+  .settings12 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 344px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-parent16 {
+    position: absolute;
+    top: 335px;
+    left: 16px;
+    width: 336px;
+    height: 553px;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-orangered);
+  }
+  .dashboard-parentmode-forgot-p-child4 {
+    position: absolute;
+    top: 56px;
+    left: 315px;
+    border-radius: var(--br-87xl) 0 0 var(--br-xl);
+    background-color: var(--color-white);
+    width: 1361px;
+    height: 1013px;
+  }
+  .group-child25 {
+    border-radius: var(--br-42xl-5) 0 0 0;
+    background-color: var(--color-goldenrod);
+  }
+  .dashboard-parentmode-forgot-p-inner2,
+  .group-child25,
+  .rectangle-wrapper2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1279px;
+    height: 155px;
+  }
+  .dashboard-parentmode-forgot-p-inner2 {
+    top: 84px;
+    left: 352px;
+  }
+  .microsoftteams-image-1-12 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 372px;
+    height: 336px;
+    object-fit: cover;
+  }
+  .dashboard-parentmode-forgot-p-child5 {
+    position: absolute;
+    top: 103px;
+    left: 373px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 125px;
+    height: 118px;
+  }
+  .dashboard-parentmode-forgot-p-child6 {
+    position: absolute;
+    top: 113px;
+    left: 389px;
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    object-fit: cover;
+  }
+  .marie5 {
+    margin: 0;
+  }
+  .marie4,
+  .mother2 {
+    position: absolute;
+    display: inline-block;
+    height: 63px;
+  }
+  .marie4 {
+    top: 113px;
+    left: 539px;
+    font-size: var(--font-size-51xl);
+    font-family: var(--font-bangers);
+    width: 278px;
+  }
+  .mother2 {
+    top: 188px;
+    left: 554px;
+    font-size: var(--font-size-17xl);
+    color: var(--color-black);
+    width: 197px;
+  }
+  .vector-icon31 {
+    position: absolute;
+    height: 25.78%;
+    width: 29.63%;
+    top: 108.42%;
+    right: 73.26%;
+    bottom: -34.2%;
+    left: -2.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .dashboard-parentmode-forgot-p-child7,
+  .dashboard-parentmode-forgot-p-child8 {
+    position: absolute;
+    top: 278px;
+    left: 333px;
+    border-radius: var(--br-xl);
+    width: 1287px;
+    height: 725px;
+  }
+  .dashboard-parentmode-forgot-p-child8 {
+    top: 371px;
+    left: 697px;
+    width: 598px;
+    height: 623px;
+  }
+  .rectangle-email1 {
+    border: 1px solid var(--color-black);
+    background-color: var(--color-white);
+    position: absolute;
+    top: 533px;
+    left: 815px;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    width: 370px;
+    height: 66px;
+  }
+  .enter-email-address {
+    position: absolute;
+    top: 474px;
+    left: 774px;
+    font-family: var(--font-open-sans);
+  }
+  .rectangle-email2 {
+    border: 1px solid var(--color-black);
+    background-color: var(--color-white);
+    position: absolute;
+    top: 721px;
+    left: 815px;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    width: 370px;
+    height: 66px;
+  }
+  .change1,
+  .enter-new-password {
+    font-family: var(--font-open-sans);
+  }
+  .enter-new-password {
+    position: absolute;
+    top: 662px;
+    left: 774px;
+  }
+  .change1 {
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-weight: 600;
+    color: var(--color-white);
+    text-align: center;
+  }
+  .change,
+  .change-wrapper {
+    position: absolute;
+    cursor: pointer;
+  }
+  .change {
+    border: 1px solid var(--color-darkslateblue-100);
+    padding: var(--padding-xs) var(--padding-27xl);
+    background-color: var(--color-steelblue-100);
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .change-wrapper {
+    top: 843px;
+    left: 899px;
+    width: 195px;
+    height: 58px;
+  }
+  .image-45-icon {
+    position: absolute;
+    top: 723px;
+    left: 1332px;
+    width: 303px;
+    height: 303px;
+    object-fit: cover;
+  }
+  .return-arrow,
+  .vector-icon32 {
+    cursor: pointer;
+    position: absolute;
+  }
+  .vector-icon32 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .return-arrow {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 402px;
+    left: 748px;
+    width: 38px;
+    height: 35px;
+  }
+  .group-child26 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-orangered);
+    width: 84px;
+    height: 46px;
+  }
+  .group-child27 {
+    position: absolute;
+    top: 4px;
+    left: 39px;
+    width: 38px;
+    height: 38px;
+  }
+  .rectangle-parent19 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 880px;
+    left: 114px;
+    width: 84px;
+    height: 46px;
+  }
+  .dashboard-parentmode-forgot-p1 {
+    position: relative;
+    background-color: var(--color-deepskyblue-200);
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    font-family: var(--font-love-ya-like-a-sister);
+  }
+  

@@ -41,7 +41,7 @@ const DASHBOARDParentModeLogin = () => {
   }, [navigate]);
 
   const onForgotPasswordClick = useCallback(() => {
-    navigate("/18-dashboard-parentmode-forgot-password");
+    navigate("/dashboard-parentmode-forgot-password");
   }, [navigate]);
 
   const openStudentMode = useCallback(() => {
@@ -140,7 +140,7 @@ const DASHBOARDParentModeLogin = () => {
         <b className="enter-password1">Enter Password</b>
         <Link
           className="forgot-password1"
-          to="/18-dashboard-parentmode-forgot-password"
+          to="/dashboard-parentmode-forgot-password"
           onClick={onForgotPasswordClick}
         >
           Forgot Password?

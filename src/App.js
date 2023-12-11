@@ -28,6 +28,8 @@ import DASHBOARDPROGRESS from "./pages/DASHBOARDPROGRESS";
 import DASHBOARDSETTINGS from "./pages/DASHBOARDSETTINGS";
 import { useEffect } from "react";
 import DASHBOARDParentModeLogin from "./pages/DASHBOARDParentModeLogin";
+import DASHBOARDParentModeForgotP1 from "./pages/DASHBOARDParentModeForgotP1";
+import DASHBOARDHOMEPARETNT from "./pages/DASHBOARDHOMEPARETNT";
 
 function App() {
   const action = useNavigationType();
@@ -186,6 +188,8 @@ function App() {
       <Route path="/13-dashboard-progress" element={<DASHBOARDPROGRESS />} />
       <Route path="/14-dashboard-settings" element={<DASHBOARDSETTINGS />} />
       <Route path="/dashboard-parent-mode" element={<DASHBOARDParentModeLogin />} />
+      <Route path="/dashboard-parentmode-forgot-password" element={<DASHBOARDParentModeForgotP1 />} />
+      <Route path="/20-dashboard-home-paretnt" element={<DASHBOARDHOMEPARETNT/>} />
     </Routes>
   );
 }
