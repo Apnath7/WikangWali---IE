@@ -94,7 +94,7 @@ const DASHBOARDSETTINGS2 = () => {
             <button className="home13" onClick={onHomeClick}>
               <div className="home-parent5" onClick={onGroupContainer3Click}>
                 <div className="home14">Home</div>
-                <Icon className="vector-icon69" alt="" icon="material-symbols-light:home-outline" color="white"/>
+                <Icon className="homeIcon" alt="" icon="material-symbols-light:home-outline" color="white"/>
               </div>
             </button>
           </div>
@@ -148,9 +148,9 @@ const DASHBOARDSETTINGS2 = () => {
         <div className="fluent-mdl2radio-bullet-icon">*****************</div>
 
         
-        <div className="parent-mode14">
-          <div className="vector-parent33">
-            <Icon className="vector-icon70" icon="ri:parent-line" />
+        <div className="parentmodeSwitch">
+          <div className="parentContainer">
+            <Icon className="parentIcon" icon="ri:parent-line" />
             <div className="parent-mode15">Parent Mode</div>
           </div>
           <button className="rectangle-parent33" onClick={onGroupButtonClick}>

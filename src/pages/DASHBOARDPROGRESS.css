@@ -7,7 +7,7 @@
   width: 336px;
   height: 94px;
 }
-.vector-icon71 {
+.vectorIcon {
   position: absolute;
   height: 35.71%;
   width: 7.84%;
@@ -20,7 +20,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.courses10 {
+.coursesText {
   position: absolute;
   top: 0px;
   left: 42px;
@@ -32,13 +32,13 @@
   width: 231px;
   height: 84px;
 }
-.vector-parent34 {
+.vectorImage {
   position: relative;
   width: 273px;
   height: 84px;
   cursor: pointer;
 }
-.course1 {
+.courseButton {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -51,7 +51,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.vector-icon72 {
+.vectorIcon1 {
   position: absolute;
   height: 35.71%;
   width: 10.49%;
@@ -76,7 +76,7 @@
   width: 240px;
   height: 84px;
 }
-.vector-parent35 {
+.vectorImage {
   position: relative;
   width: 286px;
   height: 84px;
@@ -169,7 +169,7 @@
   height: 84px;
   cursor: pointer;
 }
-.home15 {
+.homeButton {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -476,7 +476,7 @@
   left: 440px;
   width:500px;
 }
-.microsoftteams-image-5-11 {
+.microsoftteams {
   position: absolute;
   top: 9px;
   left: 13px;
@@ -957,7 +957,7 @@
   height: 38px;
   object-fit: cover;
 }
-.rectangle-parent37 {
+.parentSwitch {
   cursor: pointer;
   border: none;
   padding: 0;

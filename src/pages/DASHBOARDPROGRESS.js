@@ -50,15 +50,15 @@ const DASHBOARDPROGRESS = () => {
         <div className="rectangle-parent34">
           <div className="group-child92" />
           <div className="course-parent">
-            <button className="course1" onClick={onCourseClick}>
-              <div className="vector-parent34" onClick={onGroupContainerClick}>
-                <Icon className="vector-icon71" alt="" icon="carbon:course" color="white" />
-                <div className="courses10">Courses</div>
+            <button className="courseButton" onClick={onCourseClick}>
+              <div className="vectorImage" onClick={onGroupContainerClick}>
+                <Icon className="vectorIcon" alt="" icon="carbon:course" color="white" />
+                <div className="coursesText">Courses</div>
               </div>
             </button>
             <button className="progress16">
-              <div className="vector-parent35">
-                <Icon className="vector-icon72" alt="" icon="material-symbols:progress-activity" color="white" />
+              <div className="vectorImage">
+                <Icon className="vectorIcon1" alt="" icon="material-symbols:progress-activity" color="white" />
                 <div className="progress17">Progress</div>
               </div>
             </button>
@@ -68,7 +68,7 @@ const DASHBOARDPROGRESS = () => {
                 <div className="settings18">Settings</div>
               </div>
             </button>
-            <button className="home15" onClick={onHomeClick}>
+            <button className="homeButton" onClick={onHomeClick}>
               <div className="home-parent6" onClick={onGroupContainer3Click}>
                 <div className="home16">Home</div>
                 <Icon className="vector-icon73" alt="" icon="material-symbols-light:home-outline" color="white"/>
@@ -142,7 +142,7 @@ const DASHBOARDPROGRESS = () => {
             <span className="pagsusulat">Pagsusulat</span>
           </div>
           <img
-            className="microsoftteams-image-5-11"
+            className="microsoftteams"
             alt=""
             src="/undefined101.png"
           />
@@ -181,7 +181,7 @@ const DASHBOARDPROGRESS = () => {
             <Icon className="vector-icon74" alt="" icon="ri:parent-line" />
             <div className="parent-mode17">Parent Mode</div>
           </div>
-          <button className="rectangle-parent37" onClick={onGroupButtonClick}>
+          <button className="parentSwitch" onClick={onGroupButtonClick}>
             <div className="group-child100" />
             <Icon className="group-child101" alt="" icon="twemoji:white-circle" />
           </button>

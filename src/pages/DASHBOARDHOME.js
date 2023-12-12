@@ -73,7 +73,7 @@ const DASHBOARDHOME = () => {
                 <div className="progress13">Progress</div>
               </div>
             </button>
-            <button className="settings12" onClick={onSettingsClick}>
+            <button className="settingsButton" onClick={onSettingsClick}>
               <div className="group-parent24">
                 <Icon className="group-icon23" alt="" icon="solar:settings-outline" color="white" />
                 <div className="settings13">Settings</div>
@@ -178,7 +178,7 @@ const DASHBOARDHOME = () => {
           alt=""
           src="/undefined91.png"
         />
-        <div className="vector-parent30">
+        <div className="statsContainer">
           <div className="group-child87" />
           <b className="gelu-ursal7">Gelu Ursal</b>
           <img
@@ -186,8 +186,8 @@ const DASHBOARDHOME = () => {
             alt=""
             src="/undefined47.png"
           />
-          <Icon className="vector-icon65" alt="" icon="ph:bell-fill" color="black" />
-          <Icon className="vector-icon66" alt="" icon="bxs:down-arrow" />
+          <Icon className="bellIcon" alt="" icon="ph:bell-fill" color="black" />
+          <Icon className="arrowdown" alt="" icon="bxs:down-arrow" />
         </div>
       </div>
       {isLogoutPopupOpen && (

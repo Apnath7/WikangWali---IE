@@ -62,10 +62,10 @@ const DASHBOARDSETTINGS = () => {
   return (
     <>
       <div className="dashboard-settings">
-        <div className="rectangle-parent38">
+        <div className="buttonContainer">
           <div className="group-child102" />
           <div className="courses-container">
-            <button className="courses11" onClick={onCoursesClick}>
+            <button className="coursesButton" onClick={onCoursesClick}>
               <div className="vector-parent37" onClick={onGroupContainerClick}>
                 <Icon className="vector-icon75" alt="" icon="carbon:course" color="white"/>
                 <div className="courses12">Courses</div>
@@ -77,10 +77,10 @@ const DASHBOARDSETTINGS = () => {
                 <div className="progress19">Progress</div>
               </div>
             </button>
-            <button className="settings19">
-              <div className="group-parent34" onClick={onGroupContainer2Click}>
-                <Icon className="group-icon29" alt="" icon="solar:settings-outline" color="white"/>
-                <div className="settings20">Settings</div>
+            <button className="settingsButton">
+              <div className="groupSettings" onClick={onGroupContainer2Click}>
+                <Icon className="settingsIcon" alt="" icon="solar:settings-outline" color="white"/>
+                <div className="settingsText">Settings</div>
               </div>
             </button>
             <button className="home17" onClick={onHomeClick}>
@@ -92,7 +92,7 @@ const DASHBOARDSETTINGS = () => {
           </div>
         </div>
         <div className="dashboard-settings-child" />
-        <div className="div19">
+        <div className="line">
           ______________________________________________________________________________________________________________________________________________
         </div>
         <div className="settings21">Settings</div>
@@ -156,7 +156,7 @@ const DASHBOARDSETTINGS = () => {
             <Icon className="vector-icon78" alt="" icon="ri:parent-line" />
             <div className="parent-mode19">Parent Mode</div>
           </div>
-          <button className="rectangle-parent39" onClick={onGroupButtonClick}>
+          <button className="switchParent" onClick={onGroupButtonClick}>
             <div className="group-child105" />
             <Icon className="group-child106" alt="" icon="twemoji:white-circle" />
           </button>
