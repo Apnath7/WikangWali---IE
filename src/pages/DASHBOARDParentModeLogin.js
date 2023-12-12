@@ -61,8 +61,8 @@ const DASHBOARDParentModeLogin = () => {
     <>
       <div className="dashboard-parentmode-login">
         <div className="group-parent28">
-          <div className="group-parent29">
-            <div className="group-parent29">
+          <div className="dashbaord">
+            <div className="dashboard">
               <div className="group-child68" />
               <div className="contact-us-parent16">
                 <button className="contact-us20" onClick={onContactUsClick}>
