@@ -38,7 +38,7 @@
   height: 84px;
   cursor: pointer;
 }
-.courses11 {
+.coursesButton {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -95,7 +95,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.group-icon29 {
+.settingsIcon {
   position: absolute;
   height: 35.71%;
   width: 10.47%;
@@ -108,7 +108,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.settings20 {
+.settingsText {
   position: absolute;
   top: 0px;
   left: 44px;
@@ -120,13 +120,13 @@
   width: 231px;
   height: 84px;
 }
-.group-parent34 {
+.groupSettings {
   position: relative;
   width: 275px;
   height: 84px;
   cursor: pointer;
 }
-.settings19 {
+.settingsButton {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -190,7 +190,7 @@
   width: 286px;
   height: 393px;
 }
-.rectangle-parent38 {
+.buttonContainer {
   position: absolute;
   top: 335px;
   left: 23px;
@@ -206,7 +206,7 @@
   width: 1361px;
   height: 1013px;
 }
-.div19 {
+.line {
   position: absolute;
   top: 547px;
   left: 397px;
@@ -605,7 +605,7 @@
   height: 38px;
   object-fit: cover;
 }
-.rectangle-parent39 {
+.switchParent {
   cursor: pointer;
   border: none;
   padding: 0;

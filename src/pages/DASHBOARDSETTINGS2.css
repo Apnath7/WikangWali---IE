@@ -197,7 +197,7 @@
   width: 171px;
   height: 84px;
 }
-.vector-icon69 {
+.homeIcon {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -633,7 +633,7 @@
   height: 116px;
   object-fit: cover;
 }
-.vector-icon70 {
+.parentIcon {
   position: absolute;
   height: 58.4%;
   width: 45.83%;
@@ -656,7 +656,7 @@
   width: 168px;
   height: 61px;
 }
-.vector-parent33 {
+.parentContainer {
   position: relative;
   width: 168px;
   height: 125px;
@@ -687,7 +687,7 @@
   width: 84px;
   height: 46px;
 }
-.parent-mode14 {
+.parentmodeSwitch {
   position: absolute;
   top: 760px;
   left: 70px;

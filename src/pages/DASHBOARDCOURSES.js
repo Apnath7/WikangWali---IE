@@ -66,7 +66,7 @@ const DASHBOARDCOURSES = () => {
                 <div className="settings11">Settings</div>
               </div>
             </button>
-            <div className="parent-mode10">
+            <div className="parentButton">
               <div className="vector-parent22">
                 <Icon className="vector-icon50" alt="" icon="ri:parent-line" />
                 <div className="parent-mode11">Parent Mode</div>
