@@ -1,4 +1,4 @@
-.group-child70 {
+.blueHover_LNS {
   position: absolute;
   top: 80px;
   left: 0px;
@@ -7,7 +7,7 @@
   width: 336px;
   height: 94px;
 }
-.vector-icon41 {
+.vector-icon41_LNS {
   position: absolute;
   height: 35.71%;
   width: 7.84%;
@@ -20,7 +20,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.courses4 {
+.courses4_LNS {
   position: absolute;
   top: 0px;
   left: 42px;
@@ -28,7 +28,7 @@
   width: 231px;
   height: 84px;
 }
-.vector-parent12 {
+.vector-parent12_LNS {
   position: absolute;
   height: 14.46%;
   width: 95.45%;
@@ -38,7 +38,7 @@
   left: 0%;
   cursor: pointer;
 }
-.vector-icon42 {
+.vector-icon42_LNS {
   position: absolute;
   height: 35.71%;
   width: 10.49%;
@@ -51,7 +51,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.progress9 {
+.progress9_LNS {
   position: absolute;
   top: 0px;
   left: 46px;
@@ -63,12 +63,12 @@
   width: 240px;
   height: 84px;
 }
-.vector-parent13 {
+.vector-parent13_LNS {
   position: relative;
   width: 286px;
   height: 84px;
 }
-.progress8 {
+.progress8_LNS {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -81,7 +81,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.group-icon19 {
+.group-icon19_LNS {
   position: absolute;
   height: 35.71%;
   width: 10.47%;
@@ -94,7 +94,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.settings9 {
+.settings9_LNS {
   position: absolute;
   top: 0px;
   left: 44px;
@@ -106,12 +106,12 @@
   width: 231px;
   height: 84px;
 }
-.group-parent17 {
+.group-parent17_LNS {
   position: relative;
   width: 275px;
   height: 84px;
 }
-.settings8 {
+.settings8_LNS {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -124,7 +124,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.vector-icon43 {
+.vector-icon43_LNS {
   position: absolute;
   height: 58.4%;
   width: 45.83%;
@@ -137,7 +137,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.parent-mode9 {
+.parent-mode9_LNS {
   position: absolute;
   top: 64px;
   left: 0px;
@@ -147,12 +147,12 @@
   width: 168px;
   height: 61px;
 }
-.vector-parent14 {
+.vector-parent14_LNS {
   position: relative;
   width: 168px;
   height: 125px;
 }
-.group-child71 {
+.group-child71_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -161,7 +161,7 @@
   width: 84px;
   height: 46px;
 }
-.group-child72 {
+.group-child72_LNS {
   position: absolute;
   top: 4px;
   left: 7px;
@@ -169,7 +169,7 @@
   height: 38px;
   object-fit: cover;
 }
-.rectangle-parent24 {
+.rectangle-parent24_LNS {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -178,7 +178,7 @@
   width: 84px;
   height: 46px;
 }
-.parent-mode8 {
+.parent-mode8_LNS {
   position: absolute;
   top: 410px;
   left: 24px;
@@ -190,7 +190,7 @@
   font-size: var(--font-size-11xl);
   color: var(--color-darkslateblue-100);
 }
-.home9 {
+.home9_LNS {
   position: absolute;
   top: 0px;
   left: 44px;
@@ -202,7 +202,7 @@
   width: 171px;
   height: 84px;
 }
-.vector-icon44 {
+.vector-icon44_LNS {
   position: absolute;
   height: 35.71%;
   width: 12.51%;
@@ -215,12 +215,12 @@
   max-height: 100%;
   object-fit: cover;
 }
-.home-parent2 {
+.home-parent2_LNS {
   position: relative;
   width: 215px;
   height: 84px;
 }
-.home8 {
+.home8_LNS {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -233,7 +233,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.group-parent16 {
+.buttonGroup_LNS {
   position: absolute;
   height: 100%;
   width: 85.12%;
@@ -242,7 +242,7 @@
   bottom: 0%;
   left: 6.85%;
 }
-.rectangle-parent23 {
+.containerButton_LNS {
   position: absolute;
   top: 335px;
   left: 23px;
@@ -252,7 +252,7 @@
   color: var(--color-white);
   font-family: var(--font-love-ya-like-a-sister);
 }
-.fluenttriangle-16-filled4 {
+.fluenttriangle-16-filled4_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -260,7 +260,7 @@
   height: 16px;
   overflow: hidden;
 }
-.dashboard-lessons-child {
+.dashboard-lessons-child_LNS {
   position: absolute;
   top: 59px;
   left: 315px;
@@ -269,7 +269,7 @@
   width: 1361px;
   height: 1009px;
 }
-.dashboard-lessons-item {
+.dashboard-lessons-item_LNS {
   position: absolute;
   top: 1035.1px;
   left: 362.9px;
@@ -280,7 +280,7 @@
   transform: rotate(-90.07deg);
   transform-origin: 0 0;
 }
-.microsoftteams-image-1-24 {
+.microsoftteams-image-1-24_LNS {
   position: absolute;
   top: 130px;
   left: 0px;
@@ -288,7 +288,7 @@
   height: 116px;
   object-fit: cover;
 }
-.dashboard-lessons-inner {
+.dashboard-lessons-inner_LNS {
   position: absolute;
   top: 703px;
   left: 531px;
@@ -297,7 +297,7 @@
   height: 257px;
   object-fit: cover;
 }
-.dashboard-lessons-child1 {
+.dashboard-lessons-child1_LNS {
   position: absolute;
   top: 289px;
   left: 390px;
@@ -307,7 +307,7 @@
   object-fit: cover;
   background-color: #FF7F7F;
 }
-.dashboard-lessons-child2 {
+.dashboard-lessons-child2_LNS {
   position: absolute;
   top: 520px;
   left: 390px;
@@ -316,12 +316,12 @@
   height: 115px;
   object-fit: cover;
 }
-.pambungad-sa-wikang {
+.pambungad-sa-wikang_LNS {
   margin: 0;
   font-size: var(--font-size-21xl);
   color: var(--color-black);
 }
-.kurso-1-pambungad-container {
+.kurso-1-pambungad-container5_LNS {
   position: absolute;
   top: 312px;
   left: 713px;
@@ -332,7 +332,7 @@
   font-size: var(--font-size-45xl);
   color: var(--color-white);
 }
-.introduction-to-filipino {
+.introduction-to-filipino_LNS {
   position: absolute;
   top: 421px;
   left: 713px;
@@ -343,7 +343,7 @@
   width: 488px;
   height: 39px;
 }
-.ca88b0e1-977b-4453-99ba-b1a77c-icon2 {
+.ca88b0e1-977b-4453-99ba-b1a77c-icon2_LNS {
   position: absolute;
   top: 285px;
   left: 529px;
@@ -351,7 +351,7 @@
   height: 198px;
   object-fit: cover;
 }
-.start-course-child {
+.start-course-child_LNS {
   position: absolute;
   top: -2px;
   left: -6px;
@@ -362,10 +362,10 @@
   cursor: pointer;
   background-color: #971515;
 }
-.start {
+.startCourse_LNS {
   margin: 0;
 }
-.start-course1 {
+.start-course1_LNS {
   position: absolute;
   top: 32px;
   left: 54px;
@@ -374,7 +374,7 @@
   color: var(--color-white);
   text-align: center;
 }
-.start-course {
+.start-course_LNS {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -385,13 +385,13 @@
   width: 270px;
   height: 190px;
 }
-.aralin-1-pagbati {
+.aralin-1-pagbati_LNS {
   margin: 0;
   padding-left: var(--padding-24xl);
   font-size: 30px;
   font-family: 'Love Ya Like A Sister';
 }
-.aralin-1-pagbati-container4 {
+.aralin-1-pagbati-container4_LNS {
   position: absolute;
   top: 554px;
   left: 420px;
@@ -400,7 +400,7 @@
   width: 1038px;
   height: 45px;
 }
-.dashboard-lessons-child3 {
+.dashboard-lessons-child3_LNS {
   position: absolute;
   top: 647px;
   left: 390px;
@@ -409,7 +409,7 @@
   height: 115px;
   object-fit: cover;
 }
-.aralin-1-pagbati-container5 {
+.aralin-1-pagbati-container5_LNS {
   position: absolute;
   top: 681px;
   left: 420px;
@@ -418,7 +418,7 @@
   width: 1038px;
   height: 45px;
 }
-.group-child73 {
+.group-child73_LNS {
   position: absolute;
   top: -2px;
   left: -6px;
@@ -430,7 +430,7 @@
 }
 
 
-.aralin-3-payak-container {
+.aralin-3-payak-container_LNS {
   position: absolute;
   top: 34px;
   left: 18px;
@@ -439,14 +439,14 @@
   width: 1038px;
   height: 45px;
 }
-.vector-parent15 {
+.vector-parent15_LNS {
   position: absolute;
   top: 772px;
   left: 394px;
   width: 1116px;
   height: 103px;
 }
-.aralin-4-pamilya-container {
+.aralin-4-pamilya-container_LNS {
   position: absolute;
   top: 29px;
   left: 13px;
@@ -455,14 +455,14 @@
   width: 1038px;
   height: 45px;
 }
-.vector-parent16 {
+.vector-parent16_LNS {
   position: absolute;
   top: 901px;
   left: 399px;
   width: 1116px;
   height: 103px;
 }
-.aralin-2-batayang-container {
+.aralin-2-batayang-container_LNS {
   position: absolute;
   top: 36px;
   left: 16px;
@@ -471,14 +471,14 @@
   width: 1038px;
   height: 45px;
 }
-.vector-parent17 {
+.vector-parent17_LNS {
   position: absolute;
   top: 649px;
   left: 396px;
   width: 1116px;
   height: 103px;
 }
-.aralin-1-pagbati-container6 {
+.aralin-1-pagbati-container6_LNS {
   position: absolute;
   top: 34px;
   left: 16px;
@@ -487,14 +487,14 @@
   width: 1038px;
   height: 45px;
 }
-.vector-parent18 {
+.vector-parent18_LNS {
   position: absolute;
   top: 522px;
   left: 396px;
   width: 1116px;
   height: 103px;
 }
-.return-arrow-icon {
+.return-arrow-icon_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -502,7 +502,7 @@
   height: 190px;
   object-fit: cover;
 }
-.return-arrow4 {
+.return-arrow4_LNS {
   cursor: pointer;
   border: none;
   padding: 0;
@@ -514,7 +514,7 @@
   background-color: #971515;
   border-radius: 50px 00px 0px 50px;
 }
-.group-child77 {
+.group-child77_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -523,7 +523,7 @@
   width: 1279px;
   height: 155px;
 }
-.group-child78 {
+.group-child78_LNS {
   position: absolute;
   top: -2px;
   left: -6px;
@@ -533,7 +533,7 @@
   object-fit: cover;
   background-color: white;
 }
-.gelu-ursal4 {
+.gelu-ursal4_LNS {
   position: absolute;
   top: 40px;
   left: 214px;
@@ -541,7 +541,7 @@
   width: 181px;
   height: 32px;
 }
-.microsoftteams-image-1-72 {
+.microsoftteams-image-1-72_LNS {
   position: absolute;
   top: 21px;
   left: 127px;
@@ -549,7 +549,7 @@
   height: 54px;
   object-fit: cover;
 }
-.vector-icon45 {
+.vector-icon45_LNS {
   position: absolute;
   height: 44.9%;
   width: 11.21%;
@@ -562,7 +562,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.vector-icon46 {
+.vector-icon46_LNS {
   position: absolute;
   height: 13.37%;
   width: 3.2%;
@@ -575,14 +575,14 @@
   max-height: 100%;
   object-fit: cover;
 }
-.vector-parent19 {
+.vector-parent19_LNS {
   position: absolute;
   top: 29px;
   left: 801px;
   width: 437px;
   height: 98px;
 }
-.kurso {
+.kurso_LNS {
   position: absolute;
   top: 5px;
   left: 73px;
@@ -590,7 +590,7 @@
   width: 237px;
   height: 63px;
 }
-.vector-icon47 {
+.vector-icon47_LNS {
   position: absolute;
   height: 100%;
   width: 17.1%;
@@ -603,14 +603,14 @@
   max-height: 100%;
   object-fit: cover;
 }
-.kurso-parent {
+.kurso-parent_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 310px;
   height: 74px;
 }
-.group-wrapper4 {
+.group-wrapper4_LNS {
   position: absolute;
   top: 40px;
   left: 100px;
@@ -621,7 +621,7 @@
   color: var(--color-white);
   font-family: var(--font-bangers);
 }
-.rectangle-parent25 {
+.rectangle-parent25_LNS {
   position: absolute;
   top: 84px;
   left: 352px;
@@ -631,7 +631,7 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-open-sans);
 }
-.dashboard-lessons-child4 {
+.dashboard-lessons-child4_LNS {
   position: absolute;
   top: 344px;
   left: 1550px;
@@ -639,7 +639,7 @@
   height: 684px;
   object-fit: cover;
 }
-.rectangle-sign-in-button4 {
+.rectangle-sign-in-button4_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -650,14 +650,14 @@
   width: 203px;
   height: 63px;
 }
-.rectangle-sign-in-button-wrapper2 {
+.rectangle-sign-in-button-wrapper2_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 203px;
   height: 63px;
 }
-.log-out5 {
+.log-out5_LNS {
   position: absolute;
   top: 14px;
   left: 46px;
@@ -669,14 +669,14 @@
   width: 142px;
   height: 52px;
 }
-.group-parent19 {
+.group-parent19_LNS {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 203px;
   height: 66px;
 }
-.group-icon20 {
+.group-icon20_LNS {
   position: absolute;
   height: 45.45%;
   width: 13.45%;
@@ -689,12 +689,12 @@
   max-height: 100%;
   object-fit: cover;
 }
-.group-parent18 {
+.group-parent18_LNS {
   position: relative;
   width: 203px;
   height: 66px;
 }
-.logout4 {
+.logout4_LNS {
   cursor: pointer;
   border: none;
   padding: var(--padding-xl) 0px 0px;
@@ -707,7 +707,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.dashboard-lessons {
+.dashboard-lessons_LNS {
   position: relative;
   background-color: var(--color-deepskyblue-200);
   width: 100%;
@@ -719,7 +719,7 @@
   font-family: var(--font-inherit);
 }
 
-.vector-parent30 {
+.vector-parent30_LNS {
   position: absolute;
   top: 113px;
   left: 1153px;
@@ -729,7 +729,7 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-open-sans);
 }
-.group-child87 {
+.group-child87_LNS {
   position: absolute;
   background-color: white;
   top: -2px;

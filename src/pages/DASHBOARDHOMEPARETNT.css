@@ -1,4 +1,4 @@
-.group-child59 {
+.group-child59_HP {
     position: absolute;
     top: 0;
     left: 0;
@@ -7,7 +7,7 @@
     width: 336px;
     height: 94px;
   }
-  .contact-us21 {
+  .contact-us21_HP {
     position: absolute;
     top: 0;
     left: 46px;
@@ -19,7 +19,7 @@
     width: 198px;
     height: 58px;
   }
-  .vector-icon67 {
+  .vector-icon67_HP {
     position: absolute;
     height: 51.72%;
     width: 12.3%;
@@ -31,20 +31,20 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .contact-us-parent17 {
+  .contact-us-parent17_HP {
     position: absolute;
     top: 0;
     left: 0;
     width: 244px;
     height: 58px;
   }
-  .contact-us-inner7 {
+  .contact-us-inner7_HP {
     position: relative;
     width: 244px;
     height: 58px;
     cursor: pointer;
   }
-  .contact-us20 {
+  .contact-us20_HP {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -57,7 +57,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon68 {
+  .vector-icon68_HP {
     position: absolute;
     height: 35.71%;
     width: 10.49%;
@@ -69,7 +69,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .progress22 {
+  .progress22_HP {
     position: absolute;
     top: 0;
     left: 46px;
@@ -81,13 +81,13 @@
     width: 240px;
     height: 84px;
   }
-  .vector-parent33 {
+  .vector-parent33_HP {
     position: relative;
     width: 286px;
     height: 84px;
     cursor: pointer;
   }
-  .progress21 {
+  .progress21_HP {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -100,7 +100,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon69 {
+  .vector-icon69_HP {
     position: absolute;
     height: 58.4%;
     width: 45.83%;
@@ -112,7 +112,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .parent-mode12 {
+  .parent-mode12_HP {
     position: absolute;
     top: 64px;
     left: 0;
@@ -122,7 +122,7 @@
     width: 168px;
     height: 61px;
   }
-  .vector-parent34 {
+  .vector-parent34_HP {
     position: absolute;
     height: 23.5%;
     width: 58.74%;
@@ -131,7 +131,7 @@
     bottom: 0;
     left: 9.44%;
   }
-  .home15 {
+  .home15_HP {
     position: absolute;
     top: 0;
     left: 44px;
@@ -139,7 +139,7 @@
     width: 171px;
     height: 84px;
   }
-  .vector-icon70 {
+  .vector-icon70_HP {
     position: absolute;
     height: 35.71%;
     width: 12.51%;
@@ -151,7 +151,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .home-parent9 {
+  .home-parent9_HP {
     position: absolute;
     top: 0;
     left: 0;
@@ -161,15 +161,15 @@
     font-size: var(--font-size-21xl);
     color: var(--color-white);
   }
-  .contact-us-parent16,
-  .vector-icon71 {
+  .contact-us-parent16_HP,
+  .vector-icon71_HP {
     position: absolute;
     top: 21px;
     left: 30px;
     width: 286px;
     height: 532px;
   }
-  .vector-icon71 {
+  .vector-icon71_HP {
     height: 35.71%;
     width: 7.84%;
     top: 10.71%;
@@ -180,7 +180,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .courses24 {
+  .courses24_HP {
     position: absolute;
     top: 0;
     left: 42px;
@@ -192,13 +192,13 @@
     width: 231px;
     height: 84px;
   }
-  .vector-parent35 {
+  .vector-parent35_HP {
     position: relative;
     width: 273px;
     height: 84px;
     cursor: pointer;
   }
-  .courses23 {
+  .courses23_HP {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -211,15 +211,15 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .group-icon12,
-  .group-parent30 {
+  .group-icon12_HP,
+  .group-parentmode30_HP {
     position: absolute;
     top: 0;
     left: 0;
     width: 336px;
     height: 553px;
   }
-  .group-icon12 {
+  .group-icon12_HP {
     height: 35.71%;
     width: 10.47%;
     top: 8.33%;
@@ -229,7 +229,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .settings25 {
+  .settings25_HP {
     position: absolute;
     top: 0;
     left: 44px;
@@ -241,13 +241,13 @@
     width: 231px;
     height: 84px;
   }
-  .group-parent31 {
+  .group-parent31_HP {
     position: relative;
     width: 275px;
     height: 84px;
     cursor: pointer;
   }
-  .settings24 {
+  .settings24_HP {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -260,7 +260,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .group-parent29 {
+  .group-parentmode29_HP {
     position: absolute;
     top: 335px;
     left: 16px;
@@ -271,7 +271,7 @@
     color: var(--color-orangered);
     font-family: var(--font-love-ya-like-a-sister);
   }
-  .dashboard-home-paretnt-child {
+  .dashboard-home-paretnt-child_HP {
     position: absolute;
     top: 56px;
     left: 315px;
@@ -280,7 +280,7 @@
     width: 1361px;
     height: 1013px;
   }
-  .dashboard-home-paretnt-item {
+  .dashboard-home-paretnt-item_HP {
     position: absolute;
     top: 84px;
     left: 352px;
@@ -289,7 +289,7 @@
     width: 1279px;
     height: 960px;
   }
-  .microsoftteams-image-1-17 {
+  .microsoftteams-image-1-17_HP {
     position: absolute;
     top: 20px;
     left: 0;
@@ -297,8 +297,8 @@
     height: 336px;
     object-fit: cover;
   }
-  .dashboard-home-paretnt-inner,
-  .group-child60 {
+  .dashboard-home-paretnt-inner_HP,
+  .group-child60_HP {
     position: absolute;
     top: 328px;
     left: 1021px;
@@ -306,7 +306,7 @@
     width: 566px;
     height: 655px;
   }
-  .group-child60 {
+  .group-child60_HP {
     top: 0;
     left: 0;
     border-radius: var(--br-xl);
@@ -315,29 +315,29 @@
     width: 1156px;
     height: 152px;
   }
-  .group-child61,
-  .group-child62 {
+  .group-child61_HP,
+  .group-child62_HP {
     position: absolute;
     border-radius: 50%;
   }
-  .group-child61 {
+  .group-child61_HP {
     top: 18px;
     left: 39px;
     background-color: var(--color-darkslateblue-100);
     width: 117px;
     height: 103px;
   }
-  .group-child62 {
+  .group-child62_HP {
     top: 27.3px;
     left: 49px;
     width: 98px;
     height: 85.6px;
     object-fit: cover;
   }
-  .marie-antoinette-cruz3 {
+  .marie-antoinette-cruz3_HP {
     margin: 0;
   }
-  .marie-antoinette-cruz-container3 {
+  .marie-antoinette-cruz-container3_HP {
     position: absolute;
     top: 38px;
     left: 187px;
@@ -346,7 +346,7 @@
     width: 829px;
     height: 55px;
   }
-  .rectangle-parent37 {
+  .rectangle-parent37_HP {
     position: absolute;
     top: 140px;
     left: 402px;
@@ -355,7 +355,7 @@
     font-size: var(--font-size-51xl);
     font-family: var(--font-bangers);
   }
-  .vector-icon72 {
+  .vector-icon72_HP {
     position: absolute;
     height: 25.78%;
     width: 29.63%;
@@ -367,13 +367,13 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .group-child63,
-  .sat1 {
+  .group-child63_HP,
+  .sat1_HP {
     position: absolute;
     top: 338px;
     left: 137px;
   }
-  .group-child63 {
+  .group-child63_HP {
     top: 0;
     left: 0;
     border-radius: var(--br-xl);
@@ -382,88 +382,88 @@
     width: 438px;
     height: 406px;
   }
-  .gelus-average-study1 {
+  .gelus-average-study1_HP {
     position: absolute;
     top: 35px;
     left: 118px;
     font-weight: 600;
   }
-  .sun1 {
+  .sun1_HP {
     position: absolute;
     top: 343px;
     left: 82px;
     font-size: var(--font-size-xs);
   }
-  .min10,
-  .min11,
-  .min6,
-  .min7,
-  .min8,
-  .min9 {
+  .min10_HP,
+  .min11_HP,
+  .min6_HP,
+  .min7_HP,
+  .min8_HP,
+  .min9_HP {
     position: absolute;
     top: 332px;
     left: 31px;
     font-size: var(--font-size-3xs);
   }
-  .min10,
-  .min11,
-  .min7,
-  .min8,
-  .min9 {
+  .min10_HP,
+  .min11_HP,
+  .min7_HP,
+  .min8_HP,
+  .min9_HP {
     top: 289px;
   }
-  .min10,
-  .min11,
-  .min8,
-  .min9 {
+  .min10_HP,
+  .min11_HP,
+  .min8_HP,
+  .min9_HP {
     top: 246px;
   }
-  .min10,
-  .min11,
-  .min9 {
+  .min10_HP,
+  .min11_HP,
+  .min9_HP {
     top: 203px;
   }
-  .min10,
-  .min11 {
+  .min10_HP,
+  .min11_HP {
     top: 160px;
   }
-  .min11 {
+  .min11_HP {
     top: 117px;
   }
-  .fri1,
-  .mon1,
-  .thu1,
-  .tue1,
-  .wed1 {
+  .fri1_HP,
+  .mon1_HP,
+  .thu1_HP,
+  .tue1_HP,
+  .wed1_HP {
     position: absolute;
     top: 343px;
     left: 130px;
     font-size: var(--font-size-xs);
   }
-  .fri1,
-  .thu1,
-  .tue1,
-  .wed1 {
+  .fri1_HP,
+  .thu1_HP,
+  .tue1_HP,
+  .wed1_HP {
     left: 178px;
   }
-  .fri1,
-  .thu1,
-  .wed1 {
+  .fri1_HP,
+  .thu1_HP,
+  .wed1_HP {
     left: 226px;
   }
-  .fri1,
-  .thu1 {
+  .fri1_HP,
+  .thu1_HP {
     left: 274px;
   }
-  .fri1 {
+  .fri1_HP {
     left: 322px;
   }
-  .div19,
-  .div20,
-  .div21,
-  .div22,
-  .div23,
-  .div24 {
+  .div19_HP,
+  .div20_HP,
+  .div21_HP,
+  .div22_HP,
+  .div23_HP,
+  .div24_HP {
     position: absolute;
     top: 104px;
     left: 63px;
@@ -473,37 +473,37 @@
     display: inline-block;
     width: 359px;
   }
-  .div20,
-  .div21,
-  .div22,
-  .div23,
-  .div24 {
+  .div20_HP,
+  .div21_HP,
+  .div22_HP,
+  .div23_HP,
+  .div24_HP {
     top: 147px;
   }
-  .div21,
-  .div22,
-  .div23,
-  .div24 {
+  .div21_HP,
+  .div22_HP,
+  .div23_HP,
+  .div24_HP {
     top: 190px;
   }
-  .div22,
-  .div23,
-  .div24 {
+  .div22_HP,
+  .div23_HP,
+  .div24_HP {
     top: 233px;
   }
-  .div23,
-  .div24 {
+  .div23_HP,
+  .div24_HP {
     top: 276px;
   }
-  .div24 {
+  .div24_HP {
     top: 319px;
   }
-  .group-child64,
-  .group-child65,
-  .group-child66,
-  .group-child67,
-  .group-child68,
-  .group-child69 {
+  .group-child64_HP,
+  .group-child65_HP,
+  .group-child66_HP,
+  .group-child67_HP,
+  .group-child68_HP,
+  .group-child69_HP {
     position: absolute;
     top: 286px;
     left: 88px;
@@ -512,42 +512,42 @@
     width: 10px;
     height: 52px;
   }
-  .group-child65,
-  .group-child66,
-  .group-child67,
-  .group-child68,
-  .group-child69 {
+  .group-child65_HP,
+  .group-child66_HP,
+  .group-child67_HP,
+  .group-child68_HP,
+  .group-child69_HP {
     top: 161px;
     left: 137px;
     height: 177px;
   }
-  .group-child66,
-  .group-child67,
-  .group-child68,
-  .group-child69 {
+  .group-child66_HP,
+  .group-child67_HP,
+  .group-child68_HP,
+  .group-child69_HP {
     top: 221px;
     left: 183px;
     height: 117px;
   }
-  .group-child67,
-  .group-child68,
-  .group-child69 {
+  .group-child67_HP,
+  .group-child68_HP,
+  .group-child69_HP {
     top: 201px;
     left: 233px;
     height: 137px;
   }
-  .group-child68,
-  .group-child69 {
+  .group-child68_HP,
+  .group-child69_HP {
     top: 307px;
     left: 280px;
     height: 31px;
   }
-  .group-child69 {
+  .group-child69_HP {
     top: 221px;
     left: 324px;
     height: 117px;
   }
-  .rectangle-parent38 {
+  .rectangle-parent38_HP {
     position: absolute;
     top: 0;
     left: 0;
@@ -555,7 +555,7 @@
     height: 406px;
     font-size: var(--font-size-xl);
   }
-  .group-child70 {
+  .group-child70_HP {
     position: absolute;
     top: 259px;
     left: 155px;
@@ -564,7 +564,7 @@
     width: 10px;
     height: 73px;
   }
-  .sat-parent {
+  .sat-parent_HP {
     position: absolute;
     top: 438px;
     left: 1085px;
@@ -572,35 +572,35 @@
     height: 406px;
     font-size: var(--font-size-xs);
   }
-  .dots-child,
-  .dots-item {
+  .dots-child_HP,
+  .dots-item_HP {
     left: 0;
     border-radius: 50%;
     background-color: var(--color-black);
     height: 9.1px;
   }
-  .dots-child {
+  .dots-child_HP {
     position: absolute;
     top: 0;
     width: 10.6px;
   }
-  .dots-item {
+  .dots-item_HP {
     top: 14.1px;
   }
-  .dots,
-  .dots-inner,
-  .dots-item {
+  .dots_HP,
+  .dots-inner_HP,
+  .dots-item_HP {
     position: absolute;
     width: 10.6px;
   }
-  .dots-inner {
+  .dots-inner_HP {
     top: 28.9px;
     left: 0;
     border-radius: 50%;
     background-color: var(--color-black);
     height: 9.1px;
   }
-  .dots {
+  .dots_HP {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -609,8 +609,8 @@
     left: 1505px;
     height: 38px;
   }
-  .dashboard-home-paretnt-child1,
-  .group-child71 {
+  .dashboard-home-paretnt-child1_HP,
+  .group-child71_HP {
     position: absolute;
     top: 335px;
     left: 393px;
@@ -620,7 +620,7 @@
     width: 584px;
     height: 653px;
   }
-  .group-child71 {
+  .group-child71_HP {
     top: 0;
     left: 0;
     border-radius: var(--br-21xl);
@@ -629,22 +629,22 @@
     width: 532px;
     height: 76px;
   }
-  .pambungad {
+  .pambungad_HP {
     font-family: var(--font-open-sans);
   }
-  .pambungad,
-  .sa {
+  .pambungad_HP,
+  .sa_HP {
     font-weight: 600;
   }
-  .completed8,
-  .kurso-1-pambungad-container {
+  .completed8_HP,
+  .kurso-1-pambungad-container_HP {
     position: absolute;
     top: 11px;
     left: 79px;
     display: inline-block;
     width: 276px;
   }
-  .completed8 {
+  .completed8_HP {
     top: 26px;
     left: 372px;
     font-size: var(--font-size-mini);
@@ -652,7 +652,7 @@
     color: var(--color-gray-400);
     width: 92px;
   }
-  .group-child72 {
+  .group-child72_HP {
     position: absolute;
     top: 21px;
     left: 479px;
@@ -661,7 +661,7 @@
     width: 29px;
     height: 28px;
   }
-  .ca88b0e1-977b-4453-99ba-b1a77c-icon1 {
+  .ca88b0e1-977b-4453-99ba-b1a77c-icon1_HP {
     position: absolute;
     top: 5px;
     left: 16px;
@@ -670,27 +670,27 @@
     height: 69px;
     object-fit: cover;
   }
-  .group-child73,
-  .rectangle-parent39 {
+  .group-child73_HP,
+  .rectangle-parent39_HP {
     position: absolute;
     top: 400px;
     left: 419px;
     width: 532px;
     height: 76px;
   }
-  .group-child73 {
+  .group-child73_HP {
     top: 0;
     left: 0;
     border-radius: var(--br-31xl);
     background-color: var(--color-white);
     box-shadow: 0 4px 13px 4px rgba(0, 0, 0, 0.25);
   }
-  .in-progress3,
-  .kurso-2-pagsasalita2 {
+  .in-progress3_HP,
+  .kurso-2-pagsasalita2_HP {
     font-weight: 600;
     font-family: var(--font-roboto);
   }
-  .in-progress3 {
+  .in-progress3_HP {
     position: absolute;
     top: 26px;
     left: 372px;
@@ -699,7 +699,7 @@
     display: inline-block;
     width: 92px;
   }
-  .rectangle-parent40 {
+  .rectangle-parent40_HP {
     position: absolute;
     top: 506px;
     left: 423px;
@@ -707,7 +707,7 @@
     height: 76px;
     font-family: var(--font-open-sans);
   }
-  .group-child74 {
+  .group-child74_HP {
     position: absolute;
     top: 14px;
     left: 457px;
@@ -716,7 +716,7 @@
     width: 29px;
     height: 28px;
   }
-  .microsoftteams-image-5-11 {
+  .microsoftteams-image-5-11_HP {
     position: absolute;
     top: 0;
     left: 0;
@@ -724,15 +724,15 @@
     height: 53px;
     object-fit: cover;
   }
-  .ellipse-group,
-  .group-child75 {
+  .ellipse-group_HP,
+  .group-child75_HP {
     position: absolute;
     top: 517px;
     left: 441px;
     width: 486px;
     height: 53px;
   }
-  .group-child75 {
+  .group-child75_HP {
     top: 0;
     left: 0;
     border-radius: var(--br-81xl);
@@ -740,14 +740,14 @@
     width: 84px;
     height: 46px;
   }
-  .group-child76 {
+  .group-child76_HP {
     position: absolute;
     top: 4px;
     left: 39px;
     width: 38px;
     height: 38px;
   }
-  .rectangle-parent41 {
+  .rectangle-parent41_HP {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -758,7 +758,7 @@
     width: 84px;
     height: 46px;
   }
-  .dashboard-home-paretnt {
+  .dashboard-home-parent_HP {
     position: relative;
     background-color: var(--color-deepskyblue-200);
     width: 100%;
