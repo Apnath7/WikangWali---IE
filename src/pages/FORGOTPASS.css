@@ -3,7 +3,7 @@
   top: 835px;
   left: 0px;
   width: 338px;
-  height: 300px;
+  height: 290px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -67,7 +67,7 @@
   padding: var(--padding-xs) var(--padding-36xl);
   background-color: var(--color-deepskyblue-200);
   position: absolute;
-  top: 642px;
+  top: 600px;
   left: 794px;
   border-radius: var(--br-11xl);
   height: 66px;
@@ -85,7 +85,7 @@
   top: 0px;
   left: 1357px;
   width: 270px;
-  height: 262px;
+  height: 230px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -94,7 +94,7 @@
   top: 910px;
   left: 1122px;
   width: 208px;
-  height: 199px;
+  height: 150px;
   overflow: hidden;
   object-fit: cover;
 }

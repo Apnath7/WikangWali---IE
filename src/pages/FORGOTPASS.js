@@ -13,7 +13,7 @@ const FORGOTPASS = () => {
       <img className="notocloud-icon19" alt="" src="cloud.png" />
       <div className="forgot-pass-child" />
       <img className="n-1-icon1" alt="" src="/undefined80.png" />
-      <div className="forgot-password1">FORGOT PASSWORD</div>
+   
       <input className="rectangle-email" type="text" />
       <div className="username2">Username</div>
       <button className="sign-in-wrapper" onClick={onFrameButtonClick}>

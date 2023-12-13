@@ -249,6 +249,7 @@
   position: relative;
   border-radius: 50%;
   background-color: var(--color-steelblue-100);
+  left: 9%;
   width: 84px;
   height: 84px;
   z-index: 0;

@@ -120,12 +120,10 @@
 }
 .group-icon1 {
   position: absolute;
-  height: 3.76%;
-  width: 2.37%;
-  top: 62.04%;
-  right: 87.85%;
-  bottom: 34.2%;
-  left: 11.2%;
+  height: 50px; /* Adjust the height as needed */
+  width: 71px; /* Adjust the width as needed */
+  top: 686px; /* Adjust the top position as needed */
+  left: 155px; /* Adjust the left position as needed */
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -141,12 +139,10 @@
 }
 .vector-icon1 {
   position: absolute;
-  height: 90%;
-  width: 2%;
-  top: 0.5%;
-  right: 88.20%;
-  bottom: 20%;
-  left: 11.5%;
+  height: 50px; /* Adjust the height as needed */
+  width: 71px; /* Adjust the width as needed */
+  top: 480px; /* Adjust the top position as needed */
+  left: 155px; /* Adjust the left position as needed */
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -154,12 +150,10 @@
 }
 .about-us-page-paez-child2 {
   position: absolute;
-  height: 2.80%;
-  width: 2.9%;
-  top: 44.19%;
-  right: 58.9%;
-  bottom: 55%;
-  left: 44.7%;
+  height: 50px; /* Adjust the height as needed */
+  width: 71px; /* Adjust the width as needed */
+  top: 483px; /* Adjust the top position as needed */
+  left: 665px; /* Adjust the left position as needed */
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;

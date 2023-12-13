@@ -208,14 +208,14 @@
     justify-content: flex-start;
   }
   .group-icon10,
-  .group-parent29 {
+  .dashboard {
     position: absolute;
     top: 0;
     left: 0;
     width: 336px;
     height: 553px;
   }
-  .group-parent29 {
+  .dashboard {
     position: absolute;
     top: 10px;
     left: 0;
@@ -397,14 +397,14 @@
   .forgot-password1:hover {
     color: #00d0ff;
   }
-  .group-child69 {
+  .button {
     position: absolute;
     top: 0;
     left: 0;
     border-radius: var(--br-81xl);
     background-color: var(--color-orangered);
     width: 84px;
-    height: 46px;
+    height: 100px;
   }
   .group-child70 {
     position: absolute;
