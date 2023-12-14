@@ -361,7 +361,13 @@
     width: 1287px;
     height: 725px;
   }
-
+.birdicon{
+  position: absolute;
+  top: 380px;
+    left: 895px;
+    width: 380px;
+    height: 390px;
+}
   .dashboard-parentmode-login-child3 {
     top: 401px;
     left: 765px;

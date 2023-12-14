@@ -128,11 +128,11 @@ const DASHBOARDParentModeLogin = () => {
         <div className="mother3">Mother</div>
         <img className="vector-icon68" alt="" src="/vector5.svg" />
         <div className="dashboard-parentmode-login-child2" style={{ backgroundColor: "#FFFF008F" }}>
-    <img className="dashboard-parentmode-login-child2" alt="" src="/rectangle-923.svg" />
+    <img className="birdicon" alt="" src="Parentbird.png" />
 </div>
 
 <div className="dashboard-parentmode-login-child3" style={{ backgroundColor: "#FF0000" }}>
-    <img className="dashboard-parentmode-login-child3" alt="" src="Parentbird.png" />
+   
 </div>
 
         <input className="rectangle-email3" type="password" />

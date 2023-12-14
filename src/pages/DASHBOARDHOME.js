@@ -187,7 +187,7 @@ const DASHBOARDHOME = () => {
             src="/undefined47.png"
           />
           <Icon className="bellIcon" alt="" icon="ph:bell-fill" color="black" />
-          <Icon className="arrowdown" alt="" icon="bxs:down-arrow" />
+         
         </div>
       </div>
       {isLogoutPopupOpen && (
