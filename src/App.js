@@ -31,6 +31,7 @@ import DASHBOARDParentModeLogin from "./pages/DASHBOARDParentModeLogin";
 import DASHBOARDParentModeForgotP1 from "./pages/DASHBOARDParentModeForgotP1";
 import DASHBOARDHOMEPARETNT from "./pages/DASHBOARDHOMEPARETNT";
 import DASHBOARDPARENTCONTACTUS from "./pages/DASHBOARDPARENTCONTACTUS";
+import DASHBOARDCONTACTPARENT from "./pages/DASHBOARDCONTACTPARENT";
 
 function App() {
   const action = useNavigationType();
@@ -192,6 +193,7 @@ function App() {
       <Route path="/dashboard-parentmode-forgot-password" element={<DASHBOARDParentModeForgotP1 />} />
       <Route path="/20-dashboard-home-paretnt" element={<DASHBOARDHOMEPARETNT/>} />
       <Route path="/22-dashboard-parent-contact-us" element={<DASHBOARDPARENTCONTACTUS/>} />
+      <Route path="/21-dashboard-contact-parent" element={<DASHBOARDCONTACTPARENT/>} />
     </Routes>
   );
 }

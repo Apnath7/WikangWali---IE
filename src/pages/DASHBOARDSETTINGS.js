@@ -95,7 +95,7 @@ const DASHBOARDSETTINGS = () => {
         <div className="line">
           ______________________________________________________________________________________________________________________________________________
         </div>
-        <div className="settings21">Settings</div>
+        <div className="settings16">Settings</div>
         <div className="dashboard-settings-item" />
         <div className="dashboard-settings-inner" />
         <div className="dashboard-settings-child1" />
