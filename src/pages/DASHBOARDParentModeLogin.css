@@ -71,8 +71,8 @@
   }
   .progress20 {
     position: absolute;
-    top: 0;
-    left: 46px;
+    top: 200px; /* Update the top value according to your desired position */
+    left: 1px; /* Update the left value according to your desired position */
     font-size: var(--font-size-21xl);
     font-family: var(--font-love-ya-like-a-sister);
     color: var(--color-white);
@@ -81,6 +81,7 @@
     width: 240px;
     height: 84px;
   }
+  
   .vector-parent30 {
     position: relative;
     width: 286px;
