@@ -1,4 +1,4 @@
-.group-child51 {
+.group-child51_PG {
     position: absolute;
     top: 143px;
     left: 0;
@@ -7,7 +7,7 @@
     width: 336px;
     height: 94px;
   }
-  .contact-us19 {
+  .contact-us19_PG {
     position: absolute;
     top: 0;
     left: 46px;
@@ -19,7 +19,7 @@
     width: 198px;
     height: 58px;
   }
-  .vector-icon62 {
+  .vector-icon62_PG {
     position: absolute;
     height: 51.72%;
     width: 12.3%;
@@ -31,20 +31,20 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .contact-us-parent15 {
+  .contact-us-parent15_PG {
     position: absolute;
     top: 0;
     left: 0;
     width: 244px;
     height: 58px;
   }
-  .contact-us-inner6 {
+  .contact-us-inner6_PG {
     position: relative;
     width: 244px;
     height: 58px;
     cursor: pointer;
   }
-  .contact-us18 {
+  .contact-us18_PG {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -57,7 +57,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon63 {
+  .vector-icon63_PG {
     position: absolute;
     height: 35.71%;
     width: 10.49%;
@@ -69,7 +69,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .progress20 {
+  .progress20_PG {
     position: absolute;
     top: 0;
     left: 46px;
@@ -81,12 +81,12 @@
     width: 240px;
     height: 84px;
   }
-  .vector-parent30 {
+  .vector-parent30_PG {
     position: relative;
     width: 286px;
     height: 84px;
   }
-  .progress19 {
+  .progress19_PG {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -99,7 +99,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon64 {
+  .vector-icon64_PG {
     position: absolute;
     height: 58.4%;
     width: 45.83%;
@@ -111,7 +111,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .parent-mode11 {
+  .parent-mode11_PG {
     position: absolute;
     top: 64px;
     left: 0;
@@ -121,7 +121,7 @@
     width: 168px;
     height: 61px;
   }
-  .vector-parent31 {
+  .vector-parent31_PG {
     position: absolute;
     height: 27.29%;
     width: 58.74%;
@@ -130,15 +130,15 @@
     bottom: 0;
     left: 9.44%;
   }
-  .contact-us-parent14,
-  .rectangle-parent32 {
+  .contact-us-parent14_PG,
+  .rectangle-parent32_PG {
     position: absolute;
     top: 0;
     left: 30px;
     width: 286px;
     height: 458px;
   }
-  .rectangle-parent32 {
+  .rectangle-parent32_PG {
     top: 430px;
     left: 16px;
     width: 336px;
@@ -147,7 +147,7 @@
     color: var(--color-orangered);
     font-family: var(--font-love-ya-like-a-sister);
   }
-  .dashboard-parent-progress-child {
+  .dashboard-parent-progress-child_PG {
     position: absolute;
     top: 64px;
     left: 336px;
@@ -156,9 +156,9 @@
     width: 1361px;
     height: 1013px;
   }
-  .dashboard-parent-progress-item,
-  .group-child52,
-  .rectangle-statistics {
+  .dashboard-parent-progress-item_PG,
+  .group-child52_PG,
+  .rectangle-statistics_PG {
     position: absolute;
     top: 138px;
     left: 415px;
@@ -168,32 +168,32 @@
     width: 1203px;
     height: 218px;
   }
-  .group-child52,
-  .rectangle-statistics {
+  .group-child52_PG,
+  .rectangle-statistics_PG {
     top: 393px;
     width: 724px;
     height: 406px;
   }
-  .group-child52 {
+  .group-child52_PG {
     top: 0;
     left: 0;
     width: 438px;
   }
-  .dashboard-parent-progress-inner {
+  .dashboard-parent-progress-inner_PG {
     position: absolute;
     top: 393px;
     left: 1180px;
     width: 438px;
     height: 406px;
   }
-  .progress-tracker {
+  .progress-tracker_PG {
     position: absolute;
     top: 160px;
     left: 449px;
     font-size: var(--font-size-51xl);
     font-family: var(--font-bangers);
   }
-  .charmgraduate-cap-icon {
+  .charmgraduate-cap-icon_PG {
     position: absolute;
     top: 283px;
     left: 449px;
@@ -201,28 +201,28 @@
     height: 20px;
     overflow: hidden;
   }
-  .gelu-marie-ursal,
-  .student2 {
+  .gelu-marie-ursal_PG,
+  .student2_PG {
     position: absolute;
     top: 247px;
     left: 449px;
     font-size: var(--font-size-11xl);
     color: var(--color-gray-400);
   }
-  .student2 {
+  .student2_PG {
     top: 285px;
     left: 477px;
     font-size: var(--font-size-mini);
     color: gray;
   }
-  .noto-v1egg-icon {
+  .noto-v1egg-icon_PG {
     position: relative;
     width: 76px;
     height: 78px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .eggs2 {
+  .eggs2_PG {
     position: absolute;
     top: 213px;
     left: 1265px;
@@ -232,7 +232,7 @@
     justify-content: flex-start;
     gap: var(--gap-6xl);
   }
-  .line-div {
+  .line-div_PG {
     position: absolute;
     top: 170.6px;
     left: 1189.6px;
@@ -241,41 +241,41 @@
     width: 0.9px;
     height: 151.9px;
   }
-  .circular-progress-icon {
+  .circular-progress-icon_PG {
     position: absolute;
     top: 279px;
     left: 181px;
     width: 293px;
     height: 280px;
   }
-  .awards,
-  .gelus-average-study,
-  .summary {
+  .awards_PG,
+  .gelus-average-study_PG,
+  .summary_PG {
     position: absolute;
     top: 261px;
     left: 0;
     font-weight: 600;
   }
-  .awards,
-  .gelus-average-study {
+  .awards_PG,
+  .gelus-average-study_PG {
     left: 762px;
   }
-  .awards {
+  .awards_PG {
     top: 0;
     left: 921px;
   }
-  .div10 {
+  .div10_PG {
     position: relative;
     font-weight: 600;
   }
-  .to-begin {
+  .to-begin_PG {
     position: relative;
     font-size: var(--font-size-xs);
     margin-top: -4px;
   }
-  .container,
-  .group,
-  .parent1 {
+  .container_PG,
+  .group_PG,
+  .parent1_PG {
     position: absolute;
     top: 0;
     left: 0;
@@ -285,14 +285,14 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .container,
-  .parent1 {
+  .container_PG,
+  .parent1_PG {
     left: 249px;
   }
-  .parent1 {
+  .parent1_PG {
     left: 500px;
   }
-  .percentageprogress {
+  .percentageprogress_PG {
     position: absolute;
     top: 590px;
     left: 63px;
@@ -300,32 +300,32 @@
     height: 31px;
     font-size: var(--font-size-lg);
   }
-  .frame-inner {
+  .frame-inner_PG {
     position: relative;
     border-radius: 50%;
     background-color: var(--color-gainsboro-200);
     width: 39px;
     height: 39px;
   }
-  .circle-colors-inner {
+  .circle-colors-inner_PG {
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame-child1,
-  .frame-child2 {
+  .frame-child1_PG,
+  .frame-child2_PG {
     position: relative;
     border-radius: 50%;
     background-color: var(--color-navajowhite);
     width: 39px;
     height: 39px;
   }
-  .frame-child2 {
+  .frame-child2_PG {
     background-color: var(--color-gold);
   }
-  .circle-colors {
+  .circle-colors_PG {
     position: absolute;
     top: 586px;
     left: 19px;
@@ -335,92 +335,92 @@
     justify-content: flex-start;
     gap: var(--gap-192xl);
   }
-  .circular-progress-parent {
+  .circular-progress-parent_PG {
     position: absolute;
     top: 153px;
     left: 449px;
     width: 1001px;
     height: 625px;
   }
-  .sun {
+  .sun_PG {
     position: absolute;
     top: 718px;
     left: 1248px;
     font-size: var(--font-size-xs);
   }
-  .min,
-  .min1,
-  .min2,
-  .min3,
-  .min4,
-  .min5 {
+  .min_PG,
+  .min1_PG,
+  .min2_PG,
+  .min3_PG,
+  .min4_PG,
+  .min5_PG {
     position: absolute;
     top: 707px;
     left: 1190px;
     font-size: 12px;
   }
-  .min1,
-  .min2,
-  .min3,
-  .min4,
-  .min5 {
+  .min1_PG,
+  .min2_PG,
+  .min3_PG,
+  .min4_PG,
+  .min5_PG {
     top: 664px;
   }
-  .min2,
-  .min3,
-  .min4,
-  .min5 {
+  .min2_PG,
+  .min3_PG,
+  .min4_PG,
+  .min5_PG {
     top: 621px;
   }
-  .min3,
-  .min4,
-  .min5 {
+  .min3_PG,
+  .min4_PG,
+  .min5_PG {
     top: 578px;
   }
-  .min4,
-  .min5 {
+  .min4_PG,
+  .min5_PG {
     top: 535px;
   }
-  .min5 {
+  .min5_PG {
     top: 492px;
   }
-  .fri,
-  .mon,
-  .sat,
-  .thu,
-  .tue,
-  .wed {
+  .fri_PG,
+  .mon_PG,
+  .sat_PG,
+  .thu_PG,
+  .tue_PG,
+  .wed_PG {
     position: absolute;
     top: 718px;
     left: 1296px;
     font-size: var(--font-size-xs);
   }
-  .fri,
-  .sat,
-  .thu,
-  .tue,
-  .wed {
+  .fri_PG,
+  .sat_PG,
+  .thu_PG,
+  .tue_PG,
+  .wed_PG {
     left: 1344px;
   }
-  .fri,
-  .sat,
-  .thu,
-  .wed {
+  .fri_PG,
+  .sat_PG,
+  .thu_PG,
+  .wed_PG {
     left: 1392px;
   }
-  .fri,
-  .sat,
-  .thu {
+  .fri_PG,
+  .sat_PG,
+  .thu_PG {
     left: 1440px;
   }
-  .fri,
-  .sat {
+  .fri_PG,
+  .sat_PG {
     left: 1488px;
   }
-  .sat {
+  .sat_PG {
     left: 1536px;
   }
-  .microsoftteams-image-1-3 {
+  .microsoftteams-image-1-3_PG {
     position: absolute;
     top: 130px;
     left: 0;
@@ -428,7 +428,7 @@
     height: 116px;
     object-fit: cover;
   }
-  .tablerdots-icon {
+  .tablerdots-icon_PG {
     position: absolute;
     top: 409px;
     left: 1064px;
@@ -436,12 +436,12 @@
     height: 34px;
     overflow: hidden;
   }
-  .div13,
-  .div14,
-  .div15,
-  .div16,
-  .div17,
-  .div18 {
+  .div13_PG,
+  .div14_PG,
+  .div15_PG,
+  .div16_PG,
+  .div17_PG,
+  .div18_PG {
     position: absolute;
     top: 479px;
     left: 1229px;
@@ -451,32 +451,32 @@
     display: inline-block;
     width: 359px;
   }
-  .div14,
-  .div15,
-  .div16,
-  .div17,
-  .div18 {
+  .div14_PG,
+  .div15_PG,
+  .div16_PG,
+  .div17_PG,
+  .div18_PG {
     top: 522px;
   }
-  .div15,
-  .div16,
-  .div17,
-  .div18 {
+  .div15_PG,
+  .div16_PG,
+  .div17_PG,
+  .div18_PG {
     top: 565px;
   }
-  .div16,
-  .div17,
-  .div18 {
+  .div16_PG,
+  .div17_PG,
+  .div18_PG {
     top: 608px;
   }
-  .div17,
-  .div18 {
+  .div17_PG,
+  .div18_PG {
     top: 651px;
   }
-  .div18 {
+  .div18_PG {
     top: 694px;
   }
-  .dashboard-parent-progress-child1 {
+  .dashboard-parent-progress-child1_PG {
     position: absolute;
     top: 661px;
     left: 1254px;
@@ -485,10 +485,10 @@
     width: 10px;
     height: 52px;
   }
-  .dashboard-parent-progress-child2,
-  .dashboard-parent-progress-child3,
-  .dashboard-parent-progress-child4,
-  .dashboard-parent-progress-child5 {
+  .dashboard-parent-progress-child2_PG,
+  .dashboard-parent-progress-child3_PG,
+  .dashboard-parent-progress-child4_PG,
+  .dashboard-parent-progress-child5_PG {
     position: absolute;
     top: 536px;
     left: 1303px;
@@ -497,27 +497,27 @@
     width: 10px;
     height: 177px;
   }
-  .dashboard-parent-progress-child3,
-  .dashboard-parent-progress-child4,
-  .dashboard-parent-progress-child5 {
+  .dashboard-parent-progress-child3_PG,
+  .dashboard-parent-progress-child4_PG,
+  .dashboard-parent-progress-child5_PG {
     top: 596px;
     left: 1349px;
     height: 117px;
   }
-  .dashboard-parent-progress-child4,
-  .dashboard-parent-progress-child5 {
+  .dashboard-parent-progress-child4_PG,
+  .dashboard-parent-progress-child5_PG {
     top: 576px;
     left: 1399px;
     height: 137px;
   }
-  .dashboard-parent-progress-child5 {
+  .dashboard-parent-progress-child5_PG {
     top: 682px;
     left: 1446px;
     height: 31px;
   }
-  .dashboard-parent-progress-child6,
-  .dashboard-parent-progress-child7,
-  .dashboard-parent-progress-child8,
+  .dashboard-parent-progress-child6_PG,
+  .dashboard-parent-progress-child7_PG,
+  .dashboard-parent-progress-child8_PG,
   .group-child53 {
     position: absolute;
     top: 596px;
@@ -527,14 +527,14 @@
     width: 10px;
     height: 117px;
   }
-  .dashboard-parent-progress-child7,
-  .dashboard-parent-progress-child8,
+  .dashboard-parent-progress-child7_PG,
+  .dashboard-parent-progress-child8_PG,
   .group-child53 {
     top: 640px;
     left: 1540px;
     height: 73px;
   }
-  .dashboard-parent-progress-child8,
+  .dashboard-parent-progress-child8_PG,
   .group-child53 {
     top: 859px;
     left: 415px;
@@ -543,7 +543,7 @@
     width: 1203px;
     height: 218px;
   }
-  .group-child53 {
+  .group-child53_PG {
     top: 0;
     left: 0;
     border-radius: var(--br-xl);
@@ -551,13 +551,13 @@
     width: 1119px;
     height: 76px;
   }
-  .kurso-2-pagsasalita1 {
+  .kurso-2-pagsasalita1_PG {
     position: absolute;
     top: 26px;
     left: 91px;
     font-weight: 600;
   }
-  .microsoftteams-image-5-1 {
+  .microsoftteams-image-5-1_PG {
     position: absolute;
     top: 9px;
     left: 13px;
@@ -565,7 +565,7 @@
     height: 58px;
     object-fit: cover;
   }
-  .in-progress2 {
+  .in-progress2_PG {
     position: absolute;
     top: 29px;
     left: 704px;
@@ -573,7 +573,7 @@
     font-weight: 600;
     color: var(--color-gray-400);
   }
-  .group-child54 {
+  .group-child54_PG {
     position: absolute;
     top: 24px;
     left: 1057px;
@@ -582,15 +582,15 @@
     width: 28px;
     height: 28px;
   }
-  .group-child56,
-  .rectangle-parent33 {
+  .group-child56_PG,
+  .rectangle-parent33_PG {
     position: absolute;
     top: 983px;
     left: 455px;
     width: 1119px;
     height: 76px;
   }
-  .group-child56 {
+  .group-child56_PG {
     top: 24px;
     left: 1057px;
     border-radius: 50%;
@@ -598,7 +598,7 @@
     width: 28px;
     height: 28px;
   }
-  .ca88b0e1-977b-4453-99ba-b1a77c-icon {
+  .ca88b0e1-977b-4453-99ba-b1a77c-icon_PG {
     position: absolute;
     top: 1px;
     left: 17px;
@@ -606,15 +606,15 @@
     height: 73px;
     object-fit: cover;
   }
-  .home14,
-  .rectangle-parent34 {
+  .home14_PG,
+  .rectangle-parent34_PG {
     position: absolute;
     top: 881px;
     left: 455px;
     width: 1119px;
     height: 76px;
   }
-  .home14 {
+  .home14_PG {
     top: 0;
     left: 44px;
     font-size: var(--font-size-21xl);
@@ -625,7 +625,7 @@
     width: 98px;
     height: 49px;
   }
-  .vector-icon65 {
+  .vector-icon65_PG {
     position: absolute;
     height: 61.22%;
     width: 18.94%;
@@ -637,13 +637,13 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .home-parent8 {
+  .home-parent8_PG {
     position: relative;
     width: 142px;
     height: 49px;
     cursor: pointer;
   }
-  .home13 {
+  .home13_PG {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -656,7 +656,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .group-icon11 {
+  .group-icon11_PG {
     position: absolute;
     height: 35.71%;
     width: 10.47%;
@@ -668,7 +668,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .settings23 {
+  .settings23_PG {
     position: absolute;
     top: 0;
     left: 44px;
@@ -680,13 +680,13 @@
     width: 231px;
     height: 84px;
   }
-  .group-parent28 {
+  .group-parent28_PG {
     position: relative;
     width: 275px;
     height: 84px;
     cursor: pointer;
   }
-  .settings22 {
+  .settings22_PG {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -699,7 +699,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon66 {
+  .vector-icon66_PG {
     position: absolute;
     height: 35.71%;
     width: 7.84%;
@@ -711,7 +711,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .courses22 {
+  .courses22_PG {
     position: absolute;
     top: 0;
     left: 42px;
@@ -723,13 +723,13 @@
     width: 231px;
     height: 84px;
   }
-  .vector-parent32 {
+  .vector-parent32_PG {
     position: relative;
     width: 273px;
     height: 84px;
     cursor: pointer;
   }
-  .courses21 {
+  .courses21_PG {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -742,7 +742,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .group-child57 {
+  .group-child57_PG {
     position: absolute;
     top: 0;
     left: 0;
@@ -751,14 +751,14 @@
     width: 84px;
     height: 46px;
   }
-  .group-child58 {
+  .group-child58_PG {
     position: absolute;
     top: 4px;
     left: 39px;
     width: 38px;
     height: 38px;
   }
-  .rectangle-parent35 {
+  .rectangle-parent35_PG {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -769,7 +769,7 @@
     width: 84px;
     height: 46px;
   }
-  .dashboard-parent-progress {
+  .dashboard-parent-progress_PG {
     position: relative;
     background-color: var(--color-deepskyblue-200);
     width: 100%;

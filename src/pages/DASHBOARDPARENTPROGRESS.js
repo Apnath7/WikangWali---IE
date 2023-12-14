@@ -51,143 +51,143 @@ const DASHBOARDPARENTPROGRESS = () => {
 
   return (
     <>
-      <div className="dashboard-parent-progress">
-        <div className="rectangle-parent32">
-          <div className="group-child51" />
-          <div className="contact-us-parent14">
-            <button className="contact-us18" onClick={onContactUsClick}>
+      <div className="dashboard-parent-progress_PG">
+        <div className="rectangle-parent32_PG">
+          <div className="group-child51_PG" />
+          <div className="contact-us-parent14_PG">
+            <button className="contact-us18_PG" onClick={onContactUsClick}>
               <div
-                className="contact-us-inner6"
+                className="contact-us-inner6_PG"
                 onClick={onGroupContainer1Click}
               >
-                <div className="contact-us-parent15">
+                <div className="contact-us-parent15_PG">
                 <div className="contact-us21_HP">Contact Us</div>
                       <Icon className="vector-icon67_HP" icon="mdi:about-circle-outline" color="white" />
                 </div>
               </div>
             </button>
-            <button className="progress19">
-              <div className="vector-parent30">
+            <button className="progress19_PG">
+              <div className="vector-parent30_PG">
               <Icon className="vector-icon68_HP" alt="" icon="material-symbols:progress-activity" color="white"/>
                     <div className="progress22_HP">Progress</div>
               </div>
             </button>
-            <div className="vector-parent31">
+            <div className="vector-parent31_PG">
             <Icon className="vector-icon69_HP" alt="" icon="ri:parent-line" color="#F24E1E" />
                   <div className="parent-mode12_HP">Parent Mode</div>
             </div>
           </div>
         </div>
-        <div className="dashboard-parent-progress-child" />
-        <div className="dashboard-parent-progress-item" />
-        <div className="rectangle-statistics" />
-        <div className="dashboard-parent-progress-inner">
-          <div className="group-child52" />
+        <div className="dashboard-parent-progress-child_PG" />
+        <div className="dashboard-parent-progress-item_PG" />
+        <div className="rectangle-statistics_PG" />
+        <div className="dashboard-parent-progress-inner_PG">
+          <div className="group-child52_PG" />
         </div>
-        <div className="progress-tracker">Progress Tracker</div>
+        <div className="progress-tracker_PG">Progress Tracker</div>
         <Icon
-          className="charmgraduate-cap-icon"
+          className="charmgraduate-cap-icon_PG"
           alt=""
-          icon="charm:graduate-cap" color="gray"
+          icon="charm:graduate-cap_PG" color="gray"
         />
-        <div className="gelu-marie-ursal">Gelu Marie Ursal</div>
-        <div className="student2">Student</div>
-        <div className="eggs2">
-          <img className="noto-v1egg-icon" alt="" src="/grayegg.png" />
-          <Icon className="noto-v1egg-icon" alt="" icon="noto-v1:egg" />
-          <img className="noto-v1egg-icon" alt="" src="/goldenegg.png" />
+        <div className="gelu-marie-ursal_PG">Gelu Marie Ursal</div>
+        <div className="student2_PG">Student</div>
+        <div className="eggs2_PG">
+          <img className="noto-v1egg-icon_PG" alt="" src="/grayegg.png" />
+          <Icon className="noto-v1egg-icon_PG" alt="" icon="noto-v1:egg" />
+          <img className="noto-v1egg-icon_PG" alt="" src="/goldenegg.png" />
         </div>
-        <div className="line-div" />
-        <div className="circular-progress-parent">
+        <div className="line-div_PG" />
+        <div className="circular-progress-parent_PG">
           <img
-            className="circular-progress-icon"
+            className="circular-progress-icon_PG"
             alt=""
             src="/progress.png"
           />
-          <div className="summary">Summary</div>
-          <div className="gelus-average-study">Gelu’s Average Study Time</div>
-          <div className="awards">Awards</div>
-          <div className="percentageprogress">
-            <div className="group">
-              <div className="div10">25%</div>
-              <div className="to-begin">to begin</div>
+          <div className="summary_PG">Summary</div>
+          <div className="gelus-average-study_PG">Gelu’s Average Study Time</div>
+          <div className="awards_PG">Awards</div>
+          <div className="percentageprogress_PG">
+            <div className="group_PG">
+              <div className="div10_PG">25%</div>
+              <div className="to-begin_PG">to begin</div>
             </div>
-            <div className="container">
-              <div className="div10">25%</div>
-              <div className="to-begin">in progress</div>
+            <div className="container_PG">
+              <div className="div10_PG">25%</div>
+              <div className="to-begin_PG">in progress</div>
             </div>
-            <div className="parent1">
-              <div className="div10">50%</div>
-              <div className="to-begin">completed</div>
+            <div className="parent1_PG">
+              <div className="div10_PG">50%</div>
+              <div className="to-begin_PG">completed</div>
             </div>
           </div>
-          <div className="circle-colors">
-            <div className="circle-colors-inner">
-              <div className="frame-child5" />
+          <div className="circle-colors_PG">
+            <div className="circle-colors-inner_PG">
+              <div className="frame-child5_PG" />
             </div>
-            <div className="circle-colors-inner">
-              <div className="frame-child6" />
+            <div className="circle-colors-inner_PG">
+              <div className="frame-child6_PG" />
             </div>
-            <div className="circle-colors-inner">
-              <div className="frame-child7" />
+            <div className="circle-colors-inner_PG">
+              <div className="frame-child7_PG" />
             </div>
           </div>
         </div>
-        <div className="sun">Sun</div>
-        <div className="min">10min</div>
-        <div className="min1">15min</div>
-        <div className="min2">20min</div>
-        <div className="min3">25min</div>
-        <div className="min4">30min</div>
-        <div className="min5">35min</div>
-        <div className="mon">Mon</div>
-        <div className="tue">Tue</div>
-        <div className="wed">Wed</div>
-        <div className="thu">Thu</div>
-        <div className="fri">Fri</div>
-        <div className="sat">Sat</div>
+        <div className="sun_PG">Sun</div>
+        <div className="min_PG">10min</div>
+        <div className="min1_PG">15min</div>
+        <div className="min2_PG">20min</div>
+        <div className="min3_PG">25min</div>
+        <div className="min4_PG">30min</div>
+        <div className="min5_PG">35min</div>
+        <div className="mon_PG">Mon</div>
+        <div className="tue_PG">Tue</div>
+        <div className="wed_PG">Wed</div>
+        <div className="thu_PG">Thu</div>
+        <div className="fri_PG">Fri</div>
+        <div className="sat_PG">Sat</div>
         <img
-          className="microsoftteams-image-1-3"
+          className="microsoftteams-image-1-3_PG"
           alt=""
           src="/wikangwali.png"
         />
-        <Icon className="tablerdots-icon" alt="" icon="tabler:dots" />
-        <div className="div13">_________________________________________</div>
-        <div className="div14">_________________________________________</div>
-        <div className="div15">_________________________________________</div>
-        <div className="div16">_________________________________________</div>
-        <div className="div17">_________________________________________</div>
-        <div className="div18">_________________________________________</div>
-        <div className="dashboard-parent-progress-child1" />
-        <div className="dashboard-parent-progress-child2" />
-        <div className="dashboard-parent-progress-child3" />
-        <div className="dashboard-parent-progress-child4" />
-        <div className="dashboard-parent-progress-child5" />
-        <div className="dashboard-parent-progress-child6" />
-        <div className="dashboard-parent-progress-child7" />
-        <div className="dashboard-parent-progress-child8" />
-        <div className="rectangle-parent33">
-          <div className="group-child53" />
-          <div className="kurso-2-pagsasalita1">
+        <Icon className="tablerdots-icon_PG" alt="" icon="tabler:dots" />
+        <div className="div13_PG">_________________________________________</div>
+        <div className="div14_PG">_________________________________________</div>
+        <div className="div15_PG">_________________________________________</div>
+        <div className="div16_PG">_________________________________________</div>
+        <div className="div17_PG">_________________________________________</div>
+        <div className="div18_PG">_________________________________________</div>
+        <div className="dashboard-parent-progress-child1_PG" />
+        <div className="dashboard-parent-progress-child2_PG" />
+        <div className="dashboard-parent-progress-child3_PG" />
+        <div className="dashboard-parent-progress-child4_PG" />
+        <div className="dashboard-parent-progress-child5_PG" />
+        <div className="dashboard-parent-progress-child6_PG" />
+        <div className="dashboard-parent-progress-child7_PG" />
+        <div className="dashboard-parent-progress-child8_PG" />
+        <div className="rectangle-parent33_PG">
+          <div className="group-child53_PG" />
+          <div className="kurso-2-pagsasalita1_PG">
             Kurso 2: Pagsasalita at Pagsusulat
           </div>
           <img
-            className="microsoftteams-image-5-1"
+            className="microsoftteams-image-5-1_PG"
             alt=""
             src="undefined74.png"
           />
-          <div className="in-progress2">in progress</div>
-          <div className="group-child54" />
+          <div className="in-progress2_PG">in progress</div>
+          <div className="group-child54_PG" />
         </div>
-        <div className="rectangle-parent34">
-          <div className="group-child53" />
-          <div className="kurso-2-pagsasalita1">
+        <div className="rectangle-parent34_PG">
+          <div className="group-child53_PG" />
+          <div className="kurso-2-pagsasalita1_PG">
             Kurso 1: Pambungad sa Wikang Filipino
           </div>
-          <div className="in-progress2">completed</div>
-          <div className="group-child56" />
+          <div className="in-progress2_PG">completed</div>
+          <div className="group-child56_PG" />
           <img
-            className="ca88b0e1-977b-4453-99ba-b1a77c-icon"
+            className="ca88b0e1-977b-4453-99ba-b1a77c-icon_PG"
             alt=""
             src="/undefined61.png"
           />
@@ -204,8 +204,8 @@ const DASHBOARDPARENTPROGRESS = () => {
             <div className="settings17_CUS">Settings</div>
           </div>
         </button>
-        <button className="courses21" onClick={onCoursesClick}>
-          <div className="vector-parent32" onClick={onGroupContainer12Click}>
+        <button className="courses21_PG" onClick={onCoursesClick}>
+          <div className="vector-parent32_PG" onClick={onGroupContainer12Click}>
           <Icon className="vector-icon71_HP" alt="" icon="carbon:course" color="white" />
                 <div className="courses24_HP">Courses</div>
           </div>
