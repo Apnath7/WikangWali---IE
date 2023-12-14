@@ -33,6 +33,7 @@ import DASHBOARDHOMEPARETNT from "./pages/DASHBOARDHOMEPARETNT";
 import DASHBOARDPARENTCONTACTUS from "./pages/DASHBOARDPARENTCONTACTUS";
 import DASHBOARDCONTACTPARENT from "./pages/DASHBOARDCONTACTPARENT";
 import DASHBOARDPARENTCOURSES from "./pages/DASHBOARDPARENTCOURSES";
+import DASHBOARDPARENTPROGRESS from "./pages/DASHBOARDPARENTPROGRESS";
 
 function App() {
   const action = useNavigationType();
@@ -196,6 +197,7 @@ function App() {
       <Route path="/22-dashboard-parent-contact-us" element={<DASHBOARDPARENTCONTACTUS/>} />
       <Route path="/21-dashboard-contact-parent" element={<DASHBOARDCONTACTPARENT/>} />
       <Route path="/22-dashboard-parent-courses" element={<DASHBOARDPARENTCOURSES/>} />
+      <Route path="/21-dashboard-parent-progress" element={<DASHBOARDPARENTPROGRESS/>} />
     </Routes>
   );
 }
