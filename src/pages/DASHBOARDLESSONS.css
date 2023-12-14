@@ -367,8 +367,8 @@
 }
 .start-course1_LNS {
   position: absolute;
-  top: 32px;
-  left: 54px;
+  top: -30px;
+  left: 20px;
   font-size: var(--font-size-45xl);
   font-family: var(--font-bangers);
   color: var(--color-white);
@@ -380,7 +380,7 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 291px;
+  top: 290px;
   left: 1242px;
   width: 270px;
   height: 190px;
