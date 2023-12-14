@@ -391,8 +391,8 @@
 }
 .return-arrow-child {
   position: absolute;
-  top: -2px;
-  left: -10px;
+  top: -165px;
+  left: -690px;
   border-radius: var(--br-31xl) 0px 0px var(--br-31xl);
   background-color: var(--color-goldenrod);
   width: 99px;
@@ -400,16 +400,12 @@
 }
 .group-icon8 {
   position: absolute;
-  height: 65.12%;
-  width: 68.69%;
-  top: 34.88%;
-  right: 15.15%;
-  bottom: 0%;
-  left: 16.16%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
+  top: -165px;
+  left: -690px;
+  border-radius: var(--br-31xl) 0px 0px var(--br-31xl);
+  background-color: var(--color-goldenrod);
+  width: 99px;
+  height: 140px;
 }
 .return-arrow {
   cursor: pointer;
