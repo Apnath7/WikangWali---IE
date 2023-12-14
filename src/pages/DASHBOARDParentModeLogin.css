@@ -71,8 +71,8 @@
   }
   .progress20 {
     position: absolute;
-    top: 0;
-    left: 46px;
+    top: 200px; /* Update the top value according to your desired position */
+    left: 1px; /* Update the left value according to your desired position */
     font-size: var(--font-size-21xl);
     font-family: var(--font-love-ya-like-a-sister);
     color: var(--color-white);
@@ -81,6 +81,7 @@
     width: 240px;
     height: 84px;
   }
+  
   .vector-parent30 {
     position: relative;
     width: 286px;
@@ -361,7 +362,13 @@
     width: 1287px;
     height: 725px;
   }
-
+.birdicon{
+  position: absolute;
+  top: 380px;
+    left: 895px;
+    width: 380px;
+    height: 390px;
+}
   .dashboard-parentmode-login-child3 {
     top: 401px;
     left: 765px;

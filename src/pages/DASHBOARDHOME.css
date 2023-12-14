@@ -684,19 +684,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.arrowdown {
-  position: absolute;
-  height: 13.37%;
-  width: 3.2%;
-  top: 48.98%;
-  right: 13.96%;
-  bottom: 37.65%;
-  left: 82.84%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
+
 .statsContainer {
   position: absolute;
   top: 113px;
