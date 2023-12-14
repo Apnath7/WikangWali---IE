@@ -250,7 +250,7 @@ const DASHBOARDCOURSES = () => {
             src="/undefined47.png"
           />
           <Icon className="vector-icon52" alt="" icon="ph:bell-fill" />
-          <Icon className="vector-icon53" alt="" icon="bxs:down-arrow" />
+          
         </div>
         <div className="dashboard-courses-inner1">
           <div className="kurso-group">
