@@ -3,6 +3,7 @@ import { useState, useCallback } from "react";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDHOMEPARETNT.css";
+import { Icon } from "@iconify/react";
 
 const DASHBOARDHOMEPARETNT = () => {
   const [isStudentModeOpen, setStudentModeOpen] = useState(false);
@@ -67,7 +68,7 @@ const DASHBOARDHOMEPARETNT = () => {
                   >
                     <div className="contact-us-parent17_HP">
                       <div className="contact-us21_HP">Contact Us</div>
-                      <img className="vector-icon67_HP" alt="" src="/vector.svg" />
+                      <Icon className="vector-icon67_HP" icon="mdi:about-circle-outline" color="white" />
                     </div>
                   </div>
                 </button>
@@ -76,30 +77,30 @@ const DASHBOARDHOMEPARETNT = () => {
                     className="vector-parent33_HP"
                     onClick={onGroupContainer2Click}
                   >
-                    <img className="vector-icon68_HP" alt="" src="/vector1.svg" />
+                    <Icon className="vector-icon68_HP" alt="" icon="material-symbols:progress-activity" color="white"/>
                     <div className="progress22_HP">Progress</div>
                   </div>
                 </button>
                 <div className="vector-parent34_HP">
-                  <img className="vector-icon69_HP" alt="" src="/vector2.svg" />
+                  <Icon className="vector-icon69_HP" alt="" icon="ri:parent-line" color="#F24E1E" />
                   <div className="parent-mode12_HP">Parent Mode</div>
                 </div>
                 <div className="home-parent9_HP">
                   <div className="home15_HP">Home</div>
-                  <img className="vector-icon70_HP" alt="" src="/vector3.svg" />
+                  <Icon className="vector-icon70_HP" alt="" icon="material-symbols-light:home-outline" />
                 </div>
               </div>
             </div>
             <button className="courses23_HP" onClick={onCoursesClick}>
               <div className="vector-parent35_HP" onClick={onGroupContainer7Click}>
-                <img className="vector-icon71_HP" alt="" src="/vector4.svg" />
+                <Icon className="vector-icon71_HP" alt="" icon="carbon:course" color="white" />
                 <div className="courses24_HP">Courses</div>
               </div>
             </button>
           </div>
           <button className="settings24_HP" onClick={onSettingsClick}>
             <div className="group-parent31_HP" onClick={onGroupContainer9Click}>
-              <img className="group-icon12_HP" alt="" src="/group.svg" />
+              <Icon className="group-icon12_HP" alt="" icon="solar:settings-outline" color="white" />
               <div className="settings25_HP">Settings</div>
             </div>
           </button>
@@ -109,9 +110,9 @@ const DASHBOARDHOMEPARETNT = () => {
         <img
           className="microsoftteams-image-1-17_HP"
           alt=""
-          src="/microsoftteamsimage-1-1@2x.png"
+          src="/wikangwali.png"
         />
-        <img
+        <div
           className="dashboard-home-paretnt-inner_HP"
           alt=""
           src="/rectangle-83.svg"
@@ -119,7 +120,7 @@ const DASHBOARDHOMEPARETNT = () => {
         <div className="rectangle-parent37_HP">
           <div className="group-child60_HP" />
           <div className="group-child61_HP" />
-          <img className="group-child62_HP" alt="" src="/ellipse-12@2x.png" />
+          <img className="group-child62_HP" alt="" src="/mother.png.png" />
           <div className="marie-antoinette-cruz-container3_HP">
             <p className="marie-antoinette-cruz3_HP">Marie ANTOINETTE CRUZ</p>
           </div>
@@ -144,6 +145,7 @@ const DASHBOARDHOMEPARETNT = () => {
             <div className="wed1_HP">Wed</div>
             <div className="thu1_HP">Thu</div>
             <div className="fri1_HP">Fri</div>
+            <div className="sat1_HP">Sat</div>
             <div className="div19_HP">
               _________________________________________
             </div>
@@ -169,7 +171,7 @@ const DASHBOARDHOMEPARETNT = () => {
             <div className="group-child68_HP" />
             <div className="group-child69_HP" />
           </div>
-          <div className="group-child70_HP" />
+          
         </div>
         <button className="dots_HP" onClick={onDotsClick}>
           <div className="dots-child_HP" />
@@ -189,9 +191,9 @@ const DASHBOARDHOMEPARETNT = () => {
           <div className="completed8_HP">completed</div>
           <div className="group-child72_HP" />
           <img
-            className="ca88b0e1-977b-4453-99ba-b1a77c-icon1_HP"
+            className="blueBird_HP"
             alt=""
-            src="/-ca88b0e1977b445399bab1a77caee010-11@2x.png"
+            src="/undefined61.png"
           />
         </div>
         <div className="rectangle-parent40_HP">
@@ -210,12 +212,11 @@ const DASHBOARDHOMEPARETNT = () => {
           <img
             className="microsoftteams-image-5-11_HP"
             alt=""
-            src="/microsoftteamsimage-5-11@2x.png"
+            src="/undefined101.png"
           />
         </div>
         <button className="rectangle-parent41_HP" onClick={openStudentMode}>
-          <div className="group-child75_HP" />
-          <img className="group-child76_HP" alt="" src="/ellipse-5.svg" />
+          <Icon className="group-child76_HP" alt="" icon="twemoji:white-circle" />
         </button>
       </div>
       {isStudentModeOpen && (
