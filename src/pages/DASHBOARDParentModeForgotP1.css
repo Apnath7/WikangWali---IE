@@ -1,4 +1,4 @@
-.group-child24 {
+.group-child24_P1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -7,7 +7,7 @@
     width: 336px;
     height: 94px;
   }
-  .contact-us8 {
+  .contact-us8_P1 {
     position: absolute;
     top: 0;
     left: 46px;
@@ -19,7 +19,7 @@
     width: 198px;
     height: 58px;
   }
-  .vector-icon26 {
+  .vector-icon26_P1 {
     position: absolute;
     height: 51.72%;
     width: 12.3%;
@@ -31,20 +31,20 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .contact-us-parent5 {
+  .contact-us-parent5_P1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 244px;
     height: 58px;
   }
-  .contact-us-inner1 {
+  .contact-us-inner1_P1 {
     position: relative;
     width: 244px;
     height: 58px;
     cursor: pointer;
   }
-  .contact-us7 {
+  .contact-us7_P1 {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -57,7 +57,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon27 {
+  .vector-icon27_P1 {
     position: absolute;
     height: 35.71%;
     width: 10.49%;
@@ -69,7 +69,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .progress9 {
+  .progress9_P1 {
     position: absolute;
     top: 0;
     left: 46px;
@@ -81,13 +81,13 @@
     width: 240px;
     height: 84px;
   }
-  .vector-parent13 {
+  .vector-parent13_P1 {
     position: relative;
     width: 286px;
     height: 84px;
     cursor: pointer;
   }
-  .progress8 {
+  .progress8_P1 {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -100,7 +100,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vector-icon28 {
+  .vector-icon28_P1 {
     position: absolute;
     height: 58.4%;
     width: 45.83%;
@@ -112,7 +112,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .parent-mode6 {
+  .parent-mode6_P1 {
     position: absolute;
     top: 64px;
     left: 0;
@@ -122,7 +122,7 @@
     width: 168px;
     height: 61px;
   }
-  .vector-parent14 {
+  .vector-parent14_P1 {
     position: absolute;
     height: 23.5%;
     width: 58.74%;
@@ -131,7 +131,7 @@
     bottom: 0;
     left: 9.44%;
   }
-  .home6 {
+  .home6_P1 {
     position: absolute;
     top: 0;
     left: 44px;
@@ -139,7 +139,7 @@
     width: 171px;
     height: 84px;
   }
-  .vector-icon29 {
+  .vector-icon29_P1 {
     position: absolute;
     height: 35.71%;
     width: 12.51%;
@@ -151,7 +151,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .home-parent3 {
+  .home-parent3_P1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -161,15 +161,15 @@
     font-size: var(--font-size-21xl);
     color: var(--color-white);
   }
-  .contact-us-parent4,
-  .vector-icon30 {
+  .contact-us-parent4_P1,
+  .vector-icon30_P1 {
     position: absolute;
     top: 21px;
     left: 30px;
     width: 286px;
     height: 532px;
   }
-  .vector-icon30 {
+  .vector-icon30_P1 {
     height: 35.71%;
     width: 7.84%;
     top: 10.71%;
@@ -180,7 +180,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .courses11 {
+  .courses11_P1 {
     position: absolute;
     top: 0;
     left: 42px;
@@ -192,13 +192,13 @@
     width: 231px;
     height: 84px;
   }
-  .vector-parent15 {
+  .vector-parent15_P1 {
     position: relative;
     width: 273px;
     height: 84px;
     cursor: pointer;
   }
-  .courses10 {
+  .courses10_P1 {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -211,15 +211,15 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .group-icon6,
-  .group-parent17 {
+  .group-icon6_P1,
+  .group-parent17_P1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 336px;
     height: 553px;
   }
-  .group-icon6 {
+  .group-icon6_P1 {
     height: 48%;
     width: 10.47%;
     top: 25%;
@@ -229,7 +229,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .settings13 {
+  .settings13_P1 {
     position: absolute;
     top: 0;
     left: 44px;
@@ -241,13 +241,13 @@
     width: 231px;
     height: 84px;
   }
-  .group-parent18 {
+  .group-parent18_P1 {
     position: relative;
     width: 275px;
     height: 84px;
     cursor: pointer;
   }
-  .settings12 {
+  .settings12_P1 {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -260,7 +260,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .group-parent16 {
+  .group-parent16_P1 {
     position: absolute;
     top: 335px;
     left: 16px;
@@ -270,7 +270,7 @@
     font-size: var(--font-size-11xl);
     color: var(--color-orangered);
   }
-  .dashboard-parentmode-forgot-p-child4 {
+  .dashboard-parentmode-forgot-p-child4_P1 {
     position: absolute;
     top: 56px;
     left: 315px;
@@ -279,24 +279,24 @@
     width: 1361px;
     height: 1013px;
   }
-  .group-child25 {
+  .group-child25_P1 {
     border-radius: var(--br-42xl-5) 0 0 0;
     background-color: var(--color-goldenrod);
   }
-  .dashboard-parentmode-forgot-p-inner2,
-  .group-child25,
-  .rectangle-wrapper2 {
+  .dashboard-parentmode-forgot-p-inner2_P1,
+  .group-child25_P1,
+  .rectangle-wrapper2_P1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 1279px;
     height: 155px;
   }
-  .dashboard-parentmode-forgot-p-inner2 {
+  .dashboard-parentmode-forgot-p-inner2_P1 {
     top: 84px;
     left: 352px;
   }
-  .microsoftteams-image-1-12 {
+  .microsoftteams-image-1-12_P1 {
     position: absolute;
     top: 20px;
     left: 0;
@@ -304,7 +304,7 @@
     height: 336px;
     object-fit: cover;
   }
-  .dashboard-parentmode-forgot-p-child5 {
+  .dashboard-parentmode-forgot-p-child5_P1 {
     position: absolute;
     top: 103px;
     left: 373px;
@@ -313,7 +313,7 @@
     width: 125px;
     height: 118px;
   }
-  .dashboard-parentmode-forgot-p-child6 {
+  .dashboard-parentmode-forgot-p-child6_P1 {
     position: absolute;
     top: 113px;
     left: 389px;
@@ -322,30 +322,30 @@
     height: 98px;
     object-fit: cover;
   }
-  .marie5 {
+  .marie5_P1 {
     margin: 0;
   }
-  .marie4,
-  .mother2 {
+  .marie4_P1,
+  .mother2_P1 {
     position: absolute;
     display: inline-block;
     height: 63px;
   }
-  .marie4 {
+  .marie4_P1 {
     top: 113px;
     left: 539px;
     font-size: var(--font-size-51xl);
     font-family: var(--font-bangers);
     width: 278px;
   }
-  .mother2 {
+  .mother2_P1 {
     top: 188px;
     left: 554px;
     font-size: var(--font-size-17xl);
     color: var(--color-black);
     width: 197px;
   }
-  .vector-icon31 {
+  .vector-icon31_P1 {
     position: absolute;
     height: 25.78%;
     width: 29.63%;
@@ -357,22 +357,24 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .dashboard-parentmode-forgot-p-child7,
-  .dashboard-parentmode-forgot-p-child8 {
+  .dashboard-parentmode-forgot-p-child7_P1,
+  .dashboard-parentmode-forgot-p-child8_P1 {
     position: absolute;
+    background-color: #FFFF70;
     top: 278px;
     left: 333px;
     border-radius: var(--br-xl);
     width: 1287px;
     height: 725px;
   }
-  .dashboard-parentmode-forgot-p-child8 {
+  .dashboard-parentmode-forgot-p-child8_P1 {
+    background-color: #FF0000;
     top: 371px;
     left: 697px;
     width: 598px;
     height: 623px;
   }
-  .rectangle-email1 {
+  .rectangle-email1_P1 {
     border: 1px solid var(--color-black);
     background-color: var(--color-white);
     position: absolute;
@@ -383,13 +385,13 @@
     width: 370px;
     height: 66px;
   }
-  .enter-email-address {
+  .enter-email-address_P1 {
     position: absolute;
     top: 474px;
     left: 774px;
     font-family: var(--font-open-sans);
   }
-  .rectangle-email2 {
+  .rectangle-email2_P1 {
     border: 1px solid var(--color-black);
     background-color: var(--color-white);
     position: absolute;
@@ -400,31 +402,33 @@
     width: 370px;
     height: 66px;
   }
-  .change1,
-  .enter-new-password {
+  .change1_P1,
+  .enter-new-password_P1 {
     font-family: var(--font-open-sans);
   }
-  .enter-new-password {
+  .enter-new-password_P1 {
     position: absolute;
     top: 662px;
     left: 774px;
   }
-  .change1 {
+  .change1_P1 {
     position: relative;
     font-size: var(--font-size-6xl);
     font-weight: 600;
     color: var(--color-white);
     text-align: center;
   }
-  .change,
-  .change-wrapper {
+  .change_P1,
+  .change-wrapper_P1 {
     position: absolute;
     cursor: pointer;
+    padding: 2px;
   }
-  .change {
+  .change_P1 {
     border: 1px solid var(--color-darkslateblue-100);
-    padding: var(--padding-xs) var(--padding-27xl);
     background-color: var(--color-steelblue-100);
+    width: 200px;
+    color: white;
     top: 0;
     left: 0;
     border-radius: var(--br-11xl);
@@ -433,14 +437,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 15px
   }
-  .change-wrapper {
+  .change-wrapper_P1 {
     top: 843px;
     left: 899px;
     width: 195px;
     height: 58px;
   }
-  .image-45-icon {
+  .image-45-icon_P1 {
     position: absolute;
     top: 723px;
     left: 1332px;
@@ -448,12 +453,12 @@
     height: 303px;
     object-fit: cover;
   }
-  .return-arrow,
-  .vector-icon32 {
+  .return-arrow_P1,
+  .vector-icon32_P1 {
     cursor: pointer;
     position: absolute;
   }
-  .vector-icon32 {
+  .vector-icon32_P1 {
     height: 100%;
     width: 100%;
     top: 0;
@@ -464,7 +469,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .return-arrow {
+  .return-arrow_P1 {
     border: 0;
     padding: 0;
     background-color: transparent;
@@ -473,7 +478,7 @@
     width: 38px;
     height: 35px;
   }
-  .group-child26 {
+  .group-child26_P1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -482,14 +487,14 @@
     width: 84px;
     height: 46px;
   }
-  .group-child27 {
+  .group-child27_P1 {
     position: absolute;
     top: 4px;
     left: 39px;
     width: 38px;
     height: 38px;
   }
-  .rectangle-parent19 {
+  .rectangle-parent19_P1 {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -500,7 +505,7 @@
     width: 84px;
     height: 46px;
   }
-  .dashboard-parentmode-forgot-p1 {
+  .dashboard-parentmode-forgot-p1_P1 {
     position: relative;
     background-color: var(--color-deepskyblue-200);
     width: 100%;
