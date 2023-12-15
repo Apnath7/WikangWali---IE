@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-//import Frame from "../components/Frame";
+import Frame from "../components/Frame";
 import PortalPopup from "../components/PortalPopup";
 //import StudentMode from "../components/StudentMode";
 import { useNavigate } from "react-router-dom";
