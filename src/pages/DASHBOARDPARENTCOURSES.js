@@ -133,6 +133,21 @@ const DASHBOARDPARENTCOURSES = () => {
           src="/smallgoldenegg.png"
         />
         <img
+          className="gold1"
+          alt=""
+          src="/smallgoldenegg.png"
+        />
+        <img
+          className="gold2"
+          alt=""
+          src="/smallgoldenegg.png"
+        />
+        <img
+          className="gold3"
+          alt=""
+          src="/smallgoldenegg.png"
+        />
+        <img
           className="dashboard-parent-courses-child4_PC"
           alt=""
           src="/smallgoldenegg.png"

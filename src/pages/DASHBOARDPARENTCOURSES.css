@@ -330,29 +330,76 @@
     top: 416px;
     left: 1207px;
   }
-  .dashboard-parent-courses-child3_PC,
-  .dashboard-parent-courses-child4_PC,
-  .dashboard-parent-courses-child5_PC {
+  .dashboard-parent-courses-child3_PC {
     position: absolute;
     width: 28px;
     height: 32px;
-    top: 66.7%;
-    right: 16.38%;
-    bottom: 30.44%;
-    left: 81.94%;
+    top: 670px; /* Adjust the top position as needed */
+    bottom: 304px; /* Adjust the bottom position as needed */
+    left: 1415px; /* Adjust the left position as needed */
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
   }
-  .dashboard-parent-courses-child4_PC,
-  .dashboard-parent-courses-child5_PC {
-    top: 60.52%;
-    bottom: 36.62%;
+  
+  .dashboard-parent-courses-child4_PC {
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    top: 605px; /* Adjust the top position as needed */
+    bottom: 366px; /* Adjust the bottom position as needed */
+    left: 1415px; /* Adjust the left position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
   }
+  
   .dashboard-parent-courses-child5_PC {
-    top: 39.10%;
-    bottom: 43.42%;
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    top: 436px; /* Adjust the top position as needed */
+    left: 1415px; /* Adjust the right position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
   }
+  .gold1{
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    top: 495px; /* Adjust the top position as needed */
+    bottom: 366px; /* Adjust the bottom position as needed */
+    left: 1415px; /* Adjust the left position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .gold2{
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    top: 550px; /* Adjust the top position as needed */
+    bottom: 366px; /* Adjust the bottom position as needed */
+    left: 1415px; /* Adjust the left position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .gold3{
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    top: 740px; /* Adjust the top position as needed */
+    bottom: 366px; /* Adjust the bottom position as needed */
+    left: 1415px; /* Adjust the left position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  
+  
+  
   .eggs-child_PC {
     position: relative;
     width: 28px;
@@ -519,31 +566,39 @@
     top: 920px;
     left: 1304px;
   }
-  .dashboard-parent-courses-child6_PC,
-  .dashboard-parent-courses-child7_PC,
+  .dashboard-parent-courses-child6_PC {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    top: 855px; /* Adjust the top position as needed */
+    left: 1415px; /* Adjust the right position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  
+  .dashboard-parent-courses-child7_PC {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    top: 915px; /* Adjust the top position as needed */
+    left: 1415px; /* Adjust the right position as needed */
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  
   .group-icon10_PC {
     position: absolute;
     width: 28px;
     height: 32px;
-    top: 850px;
-    right: 285px;
-    
+    top: 109px; /* Adjust the top position as needed */
+    right: 27px; /* Adjust the right position as needed */
+    bottom: 500px; /* Adjust the bottom position as needed */
+    left: 0; /* Adjust the left position as needed */
   }
-  .dashboard-parent-courses-child7_PC,
-  .group-icon10_PC {
-    top: 81.74%;
-    right: 16.26%;
-    bottom: 15.36%;
-    left: 82.12%;
-  }
-  .group-icon10_PC {
-    height: 35.71%;
-    width: 10.47%;
-    top: 8.33%;
-    right: 89.53%;
-    bottom: 55.95%;
-    left: 0;
-  }
+  
+  
   .settings21_PC {
     position: absolute;
     top: 0;

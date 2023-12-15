@@ -471,14 +471,14 @@
   width: 99px;
   height: 140px;
 }
-.group-icon17_EX1 {
+.returnButton_EX1{
   position: absolute;
   height: 65.12%;
   width: 68.69%;
-  top: 34.88%;
+  top: 20%;
   right: 15.15%;
   bottom: 0%;
-  left: 16.16%;
+  left: 10%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -663,6 +663,13 @@
 }
 .group-parent14_EX1 {
   position: relative;
+  width: 203px;
+  height: 66px;
+}
+.div8_EX1{
+  position: relative;
+  top: 280px;
+  left: 1060px;
   width: 203px;
   height: 66px;
 }

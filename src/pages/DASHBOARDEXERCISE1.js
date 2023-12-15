@@ -125,7 +125,7 @@ const DASHBOARDEXERCISE1 = () => {
 
           <button className="return-arrow3_EX1" onClick={onReturnArrowClick}>
             <div className="return-arrow-child1_EX1" />
-            <Icon icon="mingcute:back-fill" color="white" className="group-icon17_EX1" alt="" src="/undefined52.png" />
+            <Icon icon="mingcute:back-fill" color="white" className="returnButton_EX1" alt="" src="/undefined52.png" />
           </button>
           <img
             className="ca88b0e1-977b-4453-99ba-b1a77c-icon1_EX1"

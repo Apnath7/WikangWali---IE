@@ -288,22 +288,25 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .div8_CUS,
+  .div8_CUS{
+    position: absolute;
+    top: 1px;
+    left: 39px;
+  }
   .vector-parent21_CUS {
     position: absolute;
     top: 1px;
     left: 39px;
   }
   .vector-parent21_CUS {
-    height: 2.6%;
-    width: 10.88%;
-    top: 80.84%;
-    right: 32.7%;
-    bottom: 16.56%;
-    left: 56.42%;
+    height: 30px; /* Adjust the height as needed */
+    width: 130px; /* Adjust the width as needed */
+    top: 895px; /* Adjust the top position as needed */
+    left: 970px; /* Adjust the left position as needed */
     font-size: var(--font-size-xl);
     color: var(--color-gray-400);
   }
+  
   .vector-icon44_CUS {
     position: absolute;
     height: 81.48%;
@@ -324,15 +327,14 @@
   }
   .vector-parent22_CUS {
     position: absolute;
-    height: 2.42%;
-    width: 15.05%;
-    top: 84.15%;
-    right: 28.53%;
-    bottom: 13.43%;
-    left: 56.42%;
+    height: 28px; /* Adjust the height as needed */
+    width: 150px; /* Adjust the width as needed */
+    top: 930px; /* Adjust the top position as needed */
+    left: 970px; /* Adjust the left position as needed */
     font-size: var(--font-size-xl);
     color: var(--color-gray-400);
   }
+  
   .for-more-contact_CUS {
     position: absolute;
     top: 870px;
