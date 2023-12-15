@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-//import StudentMode from "../components/StudentMode";
+import StudentMode from "../components/StudentMode";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDHOMEPARETNT.css";

@@ -665,7 +665,11 @@
   height: 51.2px;
 }
 .a-greeting-someone {
+  cursor: pointer;
   position: absolute;
+  background-color: transparent;
+  font-size: 25px;
+  border: none;
   top: 7.7px;
   left: 16px;
   display: flex;
@@ -673,6 +677,7 @@
   width: 450px;
   height: 33.8px;
 }
+
 .rectangle-parent17 {
   position: absolute;
   top: 636.8px;

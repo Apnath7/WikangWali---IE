@@ -204,6 +204,7 @@
   }
   .div5_CUS,
   .div7_CUS {
+    font-size: 20px;
     position: absolute;
     padding: 6px;
     top: 448px;
@@ -217,6 +218,7 @@
 
 .div6_CUS {
     position: absolute;
+    font-size: 20px;
     padding: 6px;
     top: 448px;
     left: 600px;

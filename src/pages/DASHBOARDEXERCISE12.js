@@ -177,7 +177,7 @@ const DASHBOARDEXERCISE12 = () => {
           <div className="group-child49" />
           <div className="e-saying-goodbye">5.) Paalam!</div>
           <div className="group-child50" />
-          <div className="a-greeting-someone">1.) Magandang umaga!</div>
+          <button className="a-greeting-someone">1.) Magandang umaga!</button>
         </div>
         <button className="logout2" onClick={openLogoutPopup}>
           <div className="group-parent10">
