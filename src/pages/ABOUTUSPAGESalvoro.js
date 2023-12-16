@@ -51,7 +51,7 @@ const ABOUTUSPAGESalvoro = () => {
       />
       <div className="about-us-page-salvoro-item" />
       <div className="about-us-page-salvoro-inner" />
-      <div className="ellipse-div" />
+      <div className="about-us-page-paez-child1" />
       <Icon className="group-icon" icon="mingcute:message-3-line" color="white"/>
       <img className="wikang-wali-logo-1" alt="" src="/undefined2.png" />
       <Icon className="vector-icon" icon="bi:person-gear" color="white" />

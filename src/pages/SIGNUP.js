@@ -84,7 +84,7 @@ const SIGNUP = () => {
           onChange={handleUsernameChange}
           placeholder="Username"
         />
-        <Icon className="group-icon5" alt="" icon="solar:user-outline" />
+        <Icon className="group-icon51" alt="" icon="solar:user-outline" />
       </div>
 
       <div>

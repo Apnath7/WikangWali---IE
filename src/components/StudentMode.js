@@ -11,23 +11,22 @@ const StudentMode = () => {
 
   return (
     <div className="student-mode_SM">
-      <img className="student-mode-child_SM" alt="" src="/rectangle-131.svg" />
+      <div className="student-mode-child_SM"/>
       <div className="are-you-sure_SM">
         Are you sure you want to return to student mode?
       </div>
       <div className="student-mode-inner_SM" onClick={onGroupContainer2Click}>
         <div className="group-wrapper_SM">
           <div className="group-wrapper_SM">
-            <div className="group-child_SM" />
-            <div className="yes_SM">yes</div>
+            <button className="yes_SM">yes</button>
           </div>
         </div>
       </div>
       <div className="group-div_SM">
         <div className="group-wrapper_SM">
           <div className="group-wrapper_SM">
-            <div className="group-item_SM" />
-            <div className="yes_SM">cancel</div>
+
+            <button className="cancel_SM">cancel</button>
           </div>
         </div>
       </div>

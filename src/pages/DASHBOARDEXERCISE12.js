@@ -124,7 +124,7 @@ const DASHBOARDEXERCISE12 = () => {
           <div className="div8">2/2</div>
           <button className="return-arrow2" onClick={onReturnArrowClick}>
             <div className="return-arrow-inner" />
-            <Icon icon="mingcute:back-fill" color="white" className="group-icon17" alt="" src="/undefined52.png" />
+            <Icon className="group-icon17" icon="mingcute:back-line"/>
           </button>
           <div className="ehersisyo-1-2">{`Ehersisyo 1  - GREETING MATCH - UP `}</div>
         </div>
@@ -149,7 +149,7 @@ const DASHBOARDEXERCISE12 = () => {
             </span>
           </div>
         </div>
-        <div className="rectangle-parent17">
+        <div className="rectangle-parent171">
           <div className="group-child46" />
           <div className="b-greeting-someone">
             b. Greeting someone in the afternoon.

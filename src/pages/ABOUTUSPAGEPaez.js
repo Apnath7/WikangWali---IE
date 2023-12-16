@@ -29,7 +29,7 @@ const ABOUTUSPAGEPaez = () => {
       </div>
       <div className="about-us1">ABOUT US</div>
       <div className="marie-antoinette-paez">Marie Antoinette Paez</div>
-      <div className="role1">Role</div>
+      <div className="role">Role</div>
       <div className="hobbies1">Hobbies</div>
       <div className="motto1">Motto</div>
       <div className="uiux-designer-developer1">UI/UX Designer, Developer</div>

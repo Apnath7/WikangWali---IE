@@ -34,6 +34,7 @@ const DASHBOARDPROGRESS = () => {
 
   const onGroupButtonClick = useCallback(() => {
     // Please sync "16- DASHBOARD -ParentMode Login" to the project
+    navigate("/dashboard-parent-mode");
   }, []);
 
   const openLogoutPopup = useCallback(() => {

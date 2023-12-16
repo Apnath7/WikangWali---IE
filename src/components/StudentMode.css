@@ -1,5 +1,6 @@
 .student-mode-child_SM {
     position: absolute;
+    background-color: #88E9FF;
     top: 0px;
     left: 0px;
     border-radius: var(--br-11xl);
@@ -29,6 +30,14 @@
   }
   .yes_SM {
     position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 40px;
+    font-family: var(--font-bangers);
+    background-color: #2B6BB0;
+    color: white;
     top: 12.7px;
     left: 49.9px;
     display: flex;
@@ -36,6 +45,24 @@
     justify-content: center;
     width: 159.8px;
     height: 54.6px;
+  }
+
+  .cancel_SM {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 40px;
+    font-family: var(--font-bangers);
+    color: #2B6BB0;
+    top: 288px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 159.8px;
+    height: 54.6px
   }
   .group-wrapper_SM {
     position: absolute;

@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
-//import StudentMode from "../components/StudentMode";
+import StudentMode from "../components/StudentMode";
 import PortalPopup from "../components/PortalPopup";
 import "./DASHBOARDParentModeLogin.css";
 import { Icon } from "@iconify/react";
@@ -65,47 +65,47 @@ const DASHBOARDParentModeLogin = () => {
             <div className="dashboard">
               <div className="group-child68" />
               <div className="contact-us-parent16">
-              <button className="contact-us7_P1" onClick={onContactUsClick}>
+              <button className="contact-us20_HP" onClick={onContactUsClick}>
                   <div
-                    className="contact-us-inner1_P1"
+                    className="contact-us-inner7_HP"
                     onClick={onGroupContainer1Click}
                   >
-                    <div className="contact-us-parent5_P1">
-                      <div className="contact-us8_P1">Contact Us</div>
+                    <div className="contact-us-parent17_HP">
+                      <div className="contact-us21_HP">Contact Us</div>
                       <Icon className="vector-icon67_HP" icon="mdi:about-circle-outline" color="white" />
                     </div>
                   </div>
                 </button>
-                <button className="progress8_P1" onClick={onProgressClick}>
+                <button className="progress21_HP" onClick={onProgressClick}>
                   <div
-                    className="vector-parent13_P1"
+                    className="vector-parent33_HP"
                     onClick={onGroupContainer2Click}
                   >
                     <Icon className="vector-icon68_HP" alt="" icon="material-symbols:progress-activity" color="white"/>
-                    <div className="progress9_P1">Progress</div>
+                    <div className="progress22_HP">Progress</div>
                   </div>
                 </button>
                 <div className="vector-parent34_HP">
                   <Icon className="vector-icon69_HP" alt="" icon="ri:parent-line" color="#F24E1E" />
                   <div className="parent-mode12_HP">Parent Mode</div>
                 </div>
-                <div className="home-parent3_P1">
-                  <div className="home6_P1">Home</div>
+                <div className="home-parent9_HP">
+                  <div className="home15_HP">Home</div>
                   <Icon className="vector-icon70_HP" alt="" icon="material-symbols-light:home-outline" />
                 </div>
               </div>
             </div>
-            <button className="courses10_P1" onClick={onCoursesClick}>
-              <div className="vector-parent15_P1" onClick={onGroupContainer7Click}>
-              <Icon className="vector-icon71_HP" alt="" icon="carbon:course" color="white" />
-                <div className="courses11_P1">Courses</div>
+            <button className="courses23_HP" onClick={onCoursesClick}>
+              <div className="vector-parent35_HP" onClick={onGroupContainer7Click}>
+                <Icon className="vector-icon71_HP" alt="" icon="carbon:course" color="white" />
+                <div className="courses24_HP">Courses</div>
               </div>
             </button>
           </div>
-          <button className="settings12_P1" onClick={onSettingsClick}>
-            <div className="group-parent18_P1" onClick={onGroupContainer9Click}>
-            <Icon className="group-icon12_HP" alt="" icon="solar:settings-outline" color="white" />
-              <div className="settings13_P1">Settings</div>
+          <button className="settings24_HP" onClick={onSettingsClick}>
+            <div className="group-parent31_HP" onClick={onGroupContainer9Click}>
+              <Icon className="group-icon12_HP" alt="" icon="solar:settings-outline" color="white" />
+              <div className="settings25_HP">Settings</div>
             </div>
           </button>
         </div>
@@ -144,9 +144,8 @@ const DASHBOARDParentModeLogin = () => {
         >
           Forgot Password?
         </Link>
-        <button className="rectangle-parent36" onClick={openStudentMode}>
-          <div className="group-child69" />
-          <img className="group-child70" alt="" src="/ellipse-5.svg" />
+        <button className="rectangle-parent41_HP" onClick={openStudentMode}>
+          <Icon className="group-child76_HP" alt="" icon="twemoji:white-circle" />
         </button>
         <div className="enter-container" onClick={onFrameContainerClick}>
           <div className="enter2">ENTER</div>

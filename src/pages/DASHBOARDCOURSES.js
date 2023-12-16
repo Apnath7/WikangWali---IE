@@ -22,6 +22,7 @@ const DASHBOARDCOURSES = () => {
 
   const onGroupButtonClick = useCallback(() => {
     // Please sync "16- DASHBOARD -ParentMode Login" to the project
+    navigate("/dashboard-parent-mode");
   }, []);
 
   const onHomeClick = useCallback(() => {
@@ -44,6 +45,8 @@ const DASHBOARDCOURSES = () => {
     setLogoutPopupOpen(false);
   }, []);
 
+  
+
   return (
     <>
       <div className="dashboard-courses">
@@ -60,10 +63,10 @@ const DASHBOARDCOURSES = () => {
                 <div className="progress11">Progress</div>
               </div>
             </button>
-            <button className="settings10" onClick={onSettingsClick}>
-              <div className="group-parent21">
-                <Icon className="group-icon21" alt="" icon="solar:settings-outline" color="white" />
-                <div className="settings11">Settings</div>
+            <button className="settingsButton" onClick={onSettingsClick}>
+              <div className="group-parent24">
+                <Icon className="group-icon23" alt="" icon="solar:settings-outline" color="white" />
+                <div className="settings13">Settings</div>
               </div>
             </button>
             <div className="parentButton">

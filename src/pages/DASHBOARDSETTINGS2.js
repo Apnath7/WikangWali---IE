@@ -57,6 +57,7 @@ const DASHBOARDSETTINGS2 = () => {
 
   const onGroupButtonClick = useCallback(() => {
     // Please sync "16- DASHBOARD -ParentMode Login" to the project
+    navigate("/dashboard-parent-mode");
   }, []);
 
   const openLogoutPopup = useCallback(() => {
@@ -73,28 +74,28 @@ const DASHBOARDSETTINGS2 = () => {
         <div className="rectangle-parent31">
           <div className="group-child88" />
           <div className="courses-group">
-            <button className="courses8" onClick={onCoursesClick}>
-              <div className="vector-parent31" onClick={onGroupContainerClick}>
-                <Icon className="vector-icon677" alt="" icon="carbon:course" color="white" />
-                <div className="courses9">Courses</div>
+          <button className="coursesButton" onClick={onCoursesClick}>
+              <div className="vector-parent37" onClick={onGroupContainerClick}>
+                <Icon className="vector-icon75" alt="" icon="carbon:course" color="white"/>
+                <div className="courses12">Courses</div>
               </div>
             </button>
-            <button className="progress14" onClick={onProgressClick}>
-              <div className="vector-parent32" onClick={onGroupContainer1Click}>
-                <Icon className="vector-icon688" alt="" icon="material-symbols:progress-activity" color="white" />
-                <div className="progress15">Progress</div>
+            <button className="progress18" onClick={onProgressClick}>
+              <div className="vector-parent38" onClick={onGroupContainer1Click}>
+                <Icon className="vector-icon76" alt="" icon="material-symbols:progress-activity" color="white" />
+                <div className="progress19">Progress</div>
               </div>
             </button>
-            <button className="settings14">
-              <div className="group-parent28" onClick={onGroupContainer2Click}>
-                <Icon className="group-icon255" alt="" icon="solar:settings-outline" color="white"/>
-                <div className="settings155">Settings</div>
+            <button className="settingsButton">
+              <div className="groupSettings" onClick={onGroupContainer2Click}>
+                <Icon className="settingsIcon" alt="" icon="solar:settings-outline" color="white"/>
+                <div className="settingsText">Settings</div>
               </div>
             </button>
-            <button className="home13" onClick={onHomeClick}>
-              <div className="home-parent5" onClick={onGroupContainer3Click}>
-                <div className="home14">Home</div>
-                <Icon className="homeIcon" alt="" icon="material-symbols-light:home-outline" color="white"/>
+            <button className="home17" onClick={onHomeClick}>
+              <div className="home-parent7" onClick={onGroupContainer3Click}>
+                <div className="home18">Home</div>
+                <Icon className="vector-icon77" alt="" icon="material-symbols-light:home-outline" color="white" />
               </div>
             </button>
           </div>
@@ -158,15 +159,15 @@ const DASHBOARDSETTINGS2 = () => {
             <Icon className="group-child91" alt="" icon="twemoji:white-circle" />
           </button>
         </div>
-        <button className="logout7" onClick={openLogoutPopup}>
-          <div className="group-parent29">
-            <div className="group-parent30">
-              <div className="rectangle-sign-in-button-wrapper5">
-                <div className="rectangle-sign-in-button7" />
+        <button className="logout9" onClick={openLogoutPopup}>
+          <div className="group-parent35">
+            <div className="group-parent36">
+              <div className="rectangle-sign-in-button-wrapper7">
+                <div className="rectangle-sign-in-button9" />
               </div>
-              <div className="log-out8">Log Out</div>
+              <div className="log-out10">Log Out</div>
             </div>
-            <Icon className="group-icon26" alt="" icon="carbon:logout" color="white" />
+            <Icon className="group-icon30" alt="" icon="carbon:logout" color="white"/>
           </div>
         </button>
       </div>

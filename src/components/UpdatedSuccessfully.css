@@ -1,5 +1,6 @@
 .updated-successfully-child {
   position: absolute;
+  background-color: white;
   top: 0px;
   left: 0px;
   border-radius: var(--br-11xl);
@@ -17,32 +18,24 @@
   width: 520px;
   height: 152px;
 }
-.group-child6 {
+
+.done1_SS {
+  cursor: pointer;
   position: absolute;
-  top: 0px;
-  left: 0px;
-  border-radius: var(--br-31xl);
-  background-color: var(--color-steelblue-100);
-  width: 260.9px;
-  height: 80px;
-}
-.done1 {
-  position: absolute;
-  top: 12.7px;
-  left: 49.9px;
-  display: flex;
+  border: none;
+  background-color: #2B6BB0;
+  color: white;
+  font-family: var(--font-bangers);
+  font-size: 30px;
+  border-radius: 30px;
+  top: 400px;
+  left: 290px;
   align-items: center;
   justify-content: center;
   width: 159.8px;
-  height: 54.6px;
+  height: 60px;
 }
-.group-wrapper {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 260.9px;
-  height: 80px;
-}
+
 .updated-successfully-inner {
   position: absolute;
   top: 382px;
@@ -67,7 +60,6 @@
   height: 489px;
   max-width: 100%;
   max-height: 100%;
-  overflow: auto;
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--color-darkslateblue-100);
