@@ -118,8 +118,8 @@ const DASHBOARDSETTINGS2 = () => {
         <div className="dashboard-settings-2-inner" />
         <div className="dashboard-settings-2-child1" />
         <div className="dashboard-settings-2-child2" />
-        <input className="rectangle-input" type="text" />
-        <input className="dashboard-settings-2-child3" type="text" />
+        <input className="rectangle-input" type="password" />
+        <input className="dashboard-settings-2-child3" type="password" />
         <img
           className="dashboard-settings-2-child4"
           alt=""

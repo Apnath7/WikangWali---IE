@@ -1,0 +1,627 @@
+.group-child16_PTS2 {
+    position: absolute;
+    top: 227px;
+    left: 0;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-darkslateblue-100);
+    width: 336px;
+    height: 94px;
+  }
+  .contact-us4_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 198px;
+    height: 58px;
+  }
+  .vector-icon15_PTS2 {
+    position: absolute;
+    height: 51.72%;
+    width: 12.3%;
+    top: 17.24%;
+    right: 87.7%;
+    bottom: 31.03%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .contact-us-parent1_PTS2,
+  .group-wrapper6_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 244px;
+    height: 58px;
+  }
+  .group-wrapper6_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+  .vector-icon16_PTS2 {
+    position: absolute;
+    height: 35.71%;
+    width: 10.49%;
+    top: 8.33%;
+    right: 89.51%;
+    bottom: 55.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .progress5_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 240px;
+    height: 84px;
+  }
+  .vector-parent7_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 18.34%;
+    width: 100%;
+    top: 36.03%;
+    right: 0;
+    bottom: 45.63%;
+    left: 0;
+  }
+  .group-icon4_PTS2 {
+    position: absolute;
+    height: 35.71%;
+    width: 10.47%;
+    top: 8.33%;
+    right: 89.53%;
+    bottom: 55.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .settings8_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 231px;
+    height: 84px;
+  }
+  .group-parent12_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 18.34%;
+    width: 96.15%;
+    top: 54.37%;
+    right: 3.85%;
+    bottom: 27.29%;
+    left: 0;
+  }
+  .vector-icon17_PTS2 {
+    position: absolute;
+    height: 58.4%;
+    width: 45.83%;
+    top: 0;
+    right: 27.98%;
+    bottom: 41.6%;
+    left: 26.19%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .parent-mode4_PTS2 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 61px;
+  }
+  .vector-parent8_PTS2 {
+    position: absolute;
+    height: 27.29%;
+    width: 58.74%;
+    top: 72.71%;
+    right: 31.82%;
+    bottom: 0;
+    left: 9.44%;
+  }
+  .group-parent11_PTS2,
+  .home4_PTS2,
+  .rectangle-parent11_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 286px;
+    height: 458px;
+  }
+  .home4_PTS2,
+  .rectangle-parent11_PTS2 {
+    top: 74px;
+    left: 0;
+    width: 336px;
+  }
+  .home4_PTS2 {
+    top: 0;
+    left: 44px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 98px;
+    height: 49px;
+  }
+  .vector-icon18_PTS2 {
+    position: absolute;
+    height: 61.22%;
+    width: 18.94%;
+    top: 14.29%;
+    right: 81.06%;
+    bottom: 24.49%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .home-parent1_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 142px;
+    height: 49px;
+  }
+  .group-parent10_PTS2,
+  .vector-icon19_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 532px;
+  }
+  .vector-icon19_PTS2 {
+    height: 35.71%;
+    width: 7.84%;
+    top: 10.71%;
+    right: 92.16%;
+    bottom: 53.57%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .courses6_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 42px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 231px;
+    height: 84px;
+  }
+  .vector-parent9_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 15.79%;
+    width: 81.25%;
+    top: 29.14%;
+    right: 9.82%;
+    bottom: 55.08%;
+    left: 8.93%;
+  }
+  .group-parent9_PTS2 {
+    position: absolute;
+    top: 356px;
+    left: 16px;
+    width: 336px;
+    height: 532px;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-orangered);
+  }
+  .dashboard-settings-parent-child_PTS2 {
+    position: absolute;
+    top: 64px;
+    left: 336px;
+    border-radius: var(--br-87xl) 0 0 var(--br-xl);
+    background-color: var(--color-white);
+    width: 1361px;
+    height: 1013px;
+  }
+  .div4_PTS2,
+  .settings9_PTS2 {
+    position: absolute;
+    left: 397px;
+    display: inline-block;
+  }
+  .div4_PTS2 {
+    top: 547px;
+    font-size: var(--font-size-xl);
+    font-weight: 100;
+    font-family: var(--font-inter);
+    width: 1220px;
+  }
+  .settings9_PTS2 {
+    top: 125px;
+    font-size: var(--font-size-51xl);
+    font-family: var(--font-bangers);
+    color: var(--color-black);
+    width: 237px;
+    height: 63px;
+  }
+  .frame-child_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 128px;
+    height: 59px;
+  }
+  .profile3_PTS2 {
+    position: absolute;
+    top: 15px;
+    left: 27px;
+    font-size: var(--font-size-3xl);
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 76px;
+    height: 22px;
+  }
+  .dashboard-settings-parent-inner_PTS2,
+  .rectangle-parent12_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 128px;
+    height: 59px;
+  }
+  .dashboard-settings-parent-inner_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 225px;
+    left: 397px;
+  }
+  .dashboard-settings-parent-item_PTS2 {
+    position: absolute;
+    top: 628px;
+    left: 397px;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 597px;
+    height: 59px;
+  }
+  .dashboard-settings-parent-child1_PTS2,
+  .dashboard-settings-parent-child2_PTS2,
+  .dashboard-settings-parent-child3_PTS2,
+  .dashboard-settings-parent-child4_PTS2,
+  .dashboard-settings-parent-child5_PTS2 {
+    position: absolute;
+    top: 628px;
+    left: 1069px;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 540px;
+    height: 59px;
+  }
+  .dashboard-settings-parent-child2_PTS2,
+  .dashboard-settings-parent-child3_PTS2,
+  .dashboard-settings-parent-child4_PTS2,
+  .dashboard-settings-parent-child5_PTS2 {
+    top: 749px;
+  }
+  .dashboard-settings-parent-child3_PTS2,
+  .dashboard-settings-parent-child4_PTS2,
+  .dashboard-settings-parent-child5_PTS2 {
+    left: 397px;
+    width: 597px;
+  }
+  .dashboard-settings-parent-child4_PTS2,
+  .dashboard-settings-parent-child5_PTS2 {
+    top: 870px;
+  }
+  .dashboard-settings-parent-child5_PTS2 {
+    left: 1069px;
+    width: 540px;
+  }
+  .dashboard-settings-parent-child6_PTS2 {
+    position: absolute;
+    top: 408px;
+    left: 397px;
+    border-radius: 50%;
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+  }
+  .cruz_PTS2,
+  .marie-antoinette_PTS2,
+  .parent_PTS2 {
+    position: absolute;
+    top: 644px;
+    left: 424px;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 183px;
+    height: 63px;
+  }
+  .cruz_PTS2,
+  .parent_PTS2 {
+    left: 1091px;
+  }
+  .parent_PTS2 {
+    top: 766px;
+    left: 1085px;
+  }
+  .your-avatar2_PTS2 {
+    position: absolute;
+    top: 371px;
+    left: 397px;
+  }
+  .firstname2_PTS2,
+  .lastname2_PTS2,
+  .role2_PTS2 {
+    position: absolute;
+    top: 598px;
+    left: 397px;
+  }
+  .lastname2_PTS2,
+  .role2_PTS2 {
+    left: 1069px;
+  }
+  .role2_PTS2 {
+    top: 722px;
+  }
+  .new-password1_PTS2,
+  .password3_PTS2 {
+    position: absolute;
+    top: 721px;
+    left: 397px;
+  }
+  .new-password1_PTS2 {
+    top: 842px;
+  }
+  .confirm-passowrd1_PTS2,
+  .frame-item_PTS2 {
+    position: absolute;
+    top: 842px;
+    left: 1069px;
+  }
+  .frame-item_PTS2 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-deepskyblue-200);
+    box-sizing: border-box;
+    width: 128px;
+    height: 59px;
+  }
+  .password4_PTS2 {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 183px;
+    height: 63px;
+  }
+  .dashboard-settings-parent-inner1_PTS2,
+  .rectangle-parent13_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 199px;
+    height: 80px;
+  }
+  .dashboard-settings-parent-inner1_PTS2 {
+    top: 225px;
+    left: 549px;
+    font-size: var(--font-size-2xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .n-2-icon2_PTS2 {
+    position: absolute;
+    top: 70px;
+    left: 1465px;
+    width: 215px;
+    height: 185px;
+    object-fit: cover;
+  }
+  .group-child17_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-deepskyblue-200);
+    width: 164px;
+    height: 59px;
+  }
+  .update2_PTS2 {
+    position: absolute;
+    top: 17px;
+    left: 46px;
+    font-weight: 500;
+    display: inline-block;
+    width: 118px;
+    height: 25px;
+  }
+  .rectangle-parent14_PTS2 {
+    position: absolute;
+    top: 949px;
+    left: 1445px;
+    width: 164px;
+    height: 59px;
+    cursor: pointer;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .fluent-mdl2radio-bullet-icon13_PTS2 {
+    position: absolute;
+    top: 769px;
+    left: 424px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .fluent-mdl2radio-bullet-icon14_PTS2,
+  .fluent-mdl2radio-bullet-icon15_PTS2,
+  .fluent-mdl2radio-bullet-icon16_PTS2 {
+    position: absolute;
+    top: 769px;
+    left: 438px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .fluent-mdl2radio-bullet-icon15_PTS2,
+  .fluent-mdl2radio-bullet-icon16_PTS2 {
+    left: 452px;
+  }
+  .fluent-mdl2radio-bullet-icon16_PTS2 {
+    left: 466px;
+  }
+  .fluent-mdl2radio-bullet-icon17_PTS2,
+  .fluent-mdl2radio-bullet-icon18_PTS2,
+  .fluent-mdl2radio-bullet-icon19_PTS2 {
+    position: absolute;
+    top: 769px;
+    left: 480px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .fluent-mdl2radio-bullet-icon18_PTS2,
+  .fluent-mdl2radio-bullet-icon19_PTS2 {
+    left: 494px;
+  }
+  .fluent-mdl2radio-bullet-icon19_PTS2 {
+    left: 508px;
+  }
+  .fluent-mdl2radio-bullet-icon20_PTS2,
+  .fluent-mdl2radio-bullet-icon21_PTS2,
+  .fluent-mdl2radio-bullet-icon22_PTS2 {
+    position: absolute;
+    top: 769px;
+    left: 522px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .fluent-mdl2radio-bullet-icon21_PTS2,
+  .fluent-mdl2radio-bullet-icon22_PTS2 {
+    left: 536px;
+  }
+  .fluent-mdl2radio-bullet-icon22_PTS2 {
+    left: 550px;
+  }
+  .fluent-mdl2radio-bullet-icon23_PTS2,
+  .fluent-mdl2radio-bullet-icon24_PTS2,
+  .fluent-mdl2radio-bullet-icon25_PTS2 {
+    position: absolute;
+    top: 769px;
+    left: 564px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .fluent-mdl2radio-bullet-icon24_PTS2,
+  .fluent-mdl2radio-bullet-icon25_PTS2 {
+    left: 578px;
+  }
+  .fluent-mdl2radio-bullet-icon25_PTS2 {
+    left: 592px;
+  }
+  .microsoftteams-image-1-51_PTS2 {
+    position: absolute;
+    top: 129px;
+    left: 0;
+    width: 372px;
+    height: 116px;
+    object-fit: cover;
+  }
+  .group-child18_PTS2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-orangered);
+    width: 84px;
+    height: 46px;
+  }
+  .group-child19_PTS2 {
+    position: absolute;
+    top: 4px;
+    left: 39px;
+    width: 38px;
+    height: 38px;
+  }
+  .rectangle-parent15_PTS2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 880px;
+    left: 114px;
+    width: 84px;
+    height: 46px;
+  }
+  .dashboard-settings-parent_PTS2 {
+    position: relative;
+    background-color: var(--color-deepskyblue-200);
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-3xl);
+    color: var(--color-gray-400);
+    font-family: var(--font-love-ya-like-a-sister);
+  }
+  
