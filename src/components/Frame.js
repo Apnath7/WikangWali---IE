@@ -17,7 +17,7 @@ const Frame = () => {
           <div className="group-child9" />
           <div className="done1">Done</div>
         </div>
-        <img className="image-53-icon" alt="" src="/image-53@2x.png" />
+        <img className="image-53-icon" alt="" src="/parentbird.png" />
       </div>
     </div>
   );
