@@ -46,7 +46,7 @@ const DASHBOARDParentModeForgotP1 = () => {
   }, [navigate]);
 
   const onReturnArrowClick = useCallback(() => {
-    navigate("/16-dashboard-parentmode-login");
+    navigate("/dashboard-parent-mode");
   }, [navigate]);
 
   const onVectorIcon4Click = useCallback(() => {

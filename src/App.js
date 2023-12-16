@@ -36,6 +36,7 @@ import DASHBOARDPARENTCOURSES from "./pages/DASHBOARDPARENTCOURSES";
 import DASHBOARDPARENTPROGRESS from "./pages/DASHBOARDPARENTPROGRESS";
 import DASHBOARDPARENTSETTINGS from "./pages/DASHBOARDPARENTSETTINGS";
 import DASHBOARDSETTINGSPARENT from "./pages/DASHBOARDSETTINGSPARENT";
+import DASHBOARDParentModeForgotP from "./pages/DASHBOARDParentModeForgotP";
 
 function App() {
   const action = useNavigationType();
@@ -202,6 +203,7 @@ function App() {
       <Route path="/21-dashboard-parent-progress" element={<DASHBOARDPARENTPROGRESS/>} />
       <Route path="/14-dashboard-parent-settings" element={<DASHBOARDPARENTSETTINGS/>} />
       <Route path="/15-dashboard-settings-parent-mode" element={<DASHBOARDSETTINGSPARENT/>} />
+      <Route path="/19-dashboard-parentmode-forgot-password-2" element={<DASHBOARDParentModeForgotP/>} />
     </Routes>
   );
 }

@@ -1,0 +1,480 @@
+.group-child20 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-darkslateblue-100);
+    width: 336px;
+    height: 94px;
+  }
+  .contact-us6 {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 198px;
+    height: 58px;
+  }
+  .vector-icon20 {
+    position: absolute;
+    height: 51.72%;
+    width: 12.3%;
+    top: 17.24%;
+    right: 87.7%;
+    bottom: 31.03%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .contact-us-parent3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 244px;
+    height: 58px;
+  }
+  .contact-us-child {
+    position: relative;
+    width: 244px;
+    height: 58px;
+    cursor: pointer;
+  }
+  .contact-us5 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-icon21 {
+    position: absolute;
+    height: 35.71%;
+    width: 10.49%;
+    top: 8.33%;
+    right: 89.51%;
+    bottom: 55.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .progress7 {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 240px;
+    height: 84px;
+  }
+  .vector-parent10 {
+    position: relative;
+    width: 286px;
+    height: 84px;
+    cursor: pointer;
+  }
+  .progress6 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 239px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-icon22 {
+    position: absolute;
+    height: 58.4%;
+    width: 45.83%;
+    top: 0;
+    right: 27.98%;
+    bottom: 41.6%;
+    left: 26.19%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .parent-mode5 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 61px;
+  }
+  .vector-parent11 {
+    position: absolute;
+    height: 23.5%;
+    width: 58.74%;
+    top: 76.5%;
+    right: 31.82%;
+    bottom: 0;
+    left: 9.44%;
+  }
+  .home5 {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    display: inline-block;
+    width: 171px;
+    height: 84px;
+  }
+  .vector-icon23 {
+    position: absolute;
+    height: 35.71%;
+    width: 12.51%;
+    top: 8.33%;
+    right: 87.49%;
+    bottom: 55.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .home-parent2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 215px;
+    height: 84px;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+  }
+  .contact-us-parent2,
+  .vector-icon24 {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    width: 286px;
+    height: 532px;
+  }
+  .vector-icon24 {
+    height: 35.71%;
+    width: 7.84%;
+    top: 10.71%;
+    right: 92.16%;
+    bottom: 53.57%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .courses9 {
+    position: absolute;
+    top: 0;
+    left: 42px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 231px;
+    height: 84px;
+  }
+  .vector-parent12 {
+    position: relative;
+    width: 273px;
+    height: 84px;
+    cursor: pointer;
+  }
+  .courses8 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 176px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-icon5,
+  .group-parent14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 553px;
+  }
+  .group-icon5 {
+    height: 35.71%;
+    width: 10.47%;
+    top: 8.33%;
+    right: 89.53%;
+    bottom: 55.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .settings11 {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-love-ya-like-a-sister);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 231px;
+    height: 84px;
+  }
+  .group-parent15 {
+    position: relative;
+    width: 275px;
+    height: 84px;
+    cursor: pointer;
+  }
+  .settings10 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 344px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-parent13 {
+    position: absolute;
+    top: 335px;
+    left: 16px;
+    width: 336px;
+    height: 553px;
+    font-size: var(--font-size-11xl);
+    color: var(--color-orangered);
+  }
+  .dashboard-parentmode-forgot-p-child {
+    position: absolute;
+    top: 56px;
+    left: 315px;
+    border-radius: var(--br-87xl) 0 0 var(--br-xl);
+    background-color: var(--color-white);
+    width: 1361px;
+    height: 1013px;
+  }
+  .group-child21 {
+    border-radius: var(--br-42xl-5) 0 0 0;
+    background-color: var(--color-goldenrod);
+  }
+  .dashboard-parentmode-forgot-p-inner,
+  .group-child21,
+  .rectangle-wrapper1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1279px;
+    height: 155px;
+  }
+  .dashboard-parentmode-forgot-p-inner {
+    top: 84px;
+    left: 352px;
+  }
+  .microsoftteams-image-1-11 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 372px;
+    height: 336px;
+    object-fit: cover;
+  }
+  .dashboard-parentmode-forgot-p-item {
+    position: absolute;
+    top: 103px;
+    left: 373px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 125px;
+    height: 118px;
+  }
+  .dashboard-parentmode-forgot-p-child1 {
+    position: absolute;
+    top: 113px;
+    left: 389px;
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    object-fit: cover;
+  }
+  .marie3 {
+    margin: 0;
+  }
+  .marie2,
+  .mother1 {
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    height: 63px;
+  }
+  .marie2 {
+    top: 113px;
+    left: 539px;
+    font-family: var(--font-bangers);
+    width: 278px;
+  }
+  .mother1 {
+    top: 188px;
+    left: 554px;
+    font-size: 40px;
+    color: var(--color-black);
+    width: 197px;
+  }
+  .vector-icon25 {
+    position: absolute;
+    height: 25.78%;
+    width: 29.63%;
+    top: 108.42%;
+    right: 73.26%;
+    bottom: -34.2%;
+    left: -2.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .dashboard-parentmode-forgot-p-child2 {
+    background-color: #FFFF70;
+  }
+  .dashboard-parentmode-forgot-p-child2,
+  .dashboard-parentmode-forgot-p-child3 {
+    position: absolute;
+    top: 305px;
+    left: 348px;
+    border-radius: var(--br-xl);
+    width: 1287px;
+    height: 725px;
+  }
+  .dashboard-parentmode-forgot-p-child3 {
+    background-color: #FF0000;
+    top: 459px;
+    left: 447px;
+    width: 1044px;
+    height: 376px;
+  }
+  
+  .continue-wrapper_SCSS {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-steelblue-100);
+    border: 1px solid var(--color-darkslateblue-100);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) 33px;
+  }
+  .dashboard-parentmode-forgot-p-inner1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 871px;
+    left: 879px;
+    width: 196px;
+    height: 58px;
+  }
+  .you-have-successfully {
+    position: absolute;
+    top: 555px;
+    left: 691px;
+    font-family: var(--font-bangers);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 757px;
+    height: 184px;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 47.7px;
+    left: 55.4px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 123.1px;
+    height: 138.5px;
+  }
+  .image-47-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-81xl);
+    width: 237px;
+    height: 229.3px;
+    object-fit: cover;
+  }
+  .ellipse-parent,
+  .group-child22 {
+    position: absolute;
+    top: 522px;
+    left: 535px;
+    width: 237px;
+    height: 229.3px;
+  }
+  .group-child22 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-81xl);
+    background-color: var(--color-orangered);
+    width: 84px;
+    height: 46px;
+  }
+  .group-child23 {
+    position: absolute;
+    top: 4px;
+    left: 39px;
+    width: 38px;
+    height: 38px;
+  }
+  .rectangle-parent17 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 880px;
+    left: 114px;
+    width: 84px;
+    height: 46px;
+  }
+  .dashboard-parentmode-forgot-p {
+    position: relative;
+    background-color: var(--color-deepskyblue-200);
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-51xl);
+    color: var(--color-white);
+    font-family: var(--font-love-ya-like-a-sister);
+  }
+  

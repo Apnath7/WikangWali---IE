@@ -65,47 +65,47 @@ const DASHBOARDParentModeLogin = () => {
             <div className="dashboard">
               <div className="group-child68" />
               <div className="contact-us-parent16">
-                <button className="contact-us20" onClick={onContactUsClick}>
+              <button className="contact-us7_P1" onClick={onContactUsClick}>
                   <div
-                    className="contact-us-inner7"
+                    className="contact-us-inner1_P1"
                     onClick={onGroupContainer1Click}
                   >
-                    <div className="contact-us-parent17">
-                      <div className="contact-us21">Contact Us</div>
-                      <Icon className="vector-icon63"   icon="mingcute:information-line" color="white" /> 
+                    <div className="contact-us-parent5_P1">
+                      <div className="contact-us8_P1">Contact Us</div>
+                      <Icon className="vector-icon67_HP" icon="mdi:about-circle-outline" color="white" />
                     </div>
                   </div>
                 </button>
-                <button className="progress19" onClick={onProgressClick}>
+                <button className="progress8_P1" onClick={onProgressClick}>
                   <div
-                    className="vector-parent30"
+                    className="vector-parent13_P1"
                     onClick={onGroupContainer2Click}
                   >
-                    <img className="vector-icon64" alt="" src="/vector1.svg" />
-                    <div className="progress20">Progress</div>
+                    <Icon className="vector-icon68_HP" alt="" icon="material-symbols:progress-activity" color="white"/>
+                    <div className="progress9_P1">Progress</div>
                   </div>
                 </button>
-                <div className="vector-parent31">
-                  <img className="vector-icon65" alt="" src="/vector2.svg" />
-                  <div className="parent-mode10">Parent Mode</div>
+                <div className="vector-parent34_HP">
+                  <Icon className="vector-icon69_HP" alt="" icon="ri:parent-line" color="#F24E1E" />
+                  <div className="parent-mode12_HP">Parent Mode</div>
                 </div>
-                <div className="home-parent8">
-                  <div className="home13">Home</div>
-                  <img className="vector-icon66" alt="" src="/vector3.svg" />
+                <div className="home-parent3_P1">
+                  <div className="home6_P1">Home</div>
+                  <Icon className="vector-icon70_HP" alt="" icon="material-symbols-light:home-outline" />
                 </div>
               </div>
             </div>
-            <button className="courses21" onClick={onCoursesClick}>
-              <div className="vector-parent32" onClick={onGroupContainer7Click}>
-                <Icon className="vector-icon67" icon="carbon:course" color="white"/>
-                <div className="courses22">Courses</div>
+            <button className="courses10_P1" onClick={onCoursesClick}>
+              <div className="vector-parent15_P1" onClick={onGroupContainer7Click}>
+              <Icon className="vector-icon71_HP" alt="" icon="carbon:course" color="white" />
+                <div className="courses11_P1">Courses</div>
               </div>
             </button>
           </div>
-          <button className="settings21" onClick={onSettingsClick}>
-            <div className="group-parent30" onClick={onGroupContainer9Click}>
-              <img className="group-icon10" alt="" src="/group.svg" />
-              <div className="settings22">Settings</div>
+          <button className="settings12_P1" onClick={onSettingsClick}>
+            <div className="group-parent18_P1" onClick={onGroupContainer9Click}>
+            <Icon className="group-icon12_HP" alt="" icon="solar:settings-outline" color="white" />
+              <div className="settings13_P1">Settings</div>
             </div>
           </button>
         </div>
