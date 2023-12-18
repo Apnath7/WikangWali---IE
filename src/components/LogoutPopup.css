@@ -25,16 +25,23 @@
   width: 385px;
   height: 133px;
 }
-.group-child7 {
+
+.cancel {
+  cursor: pointer;
   position: absolute;
   top: 0px;
   left: 0px;
+  border: none;
   border-radius: var(--br-31xl);
   background-color: var(--color-white);
+  font-family: var(--font-bangers);
+  color: var(--color-steelblue-100);
+  font-size: 40px;
   width: 260.9px;
   height: 80px;
 }
-.cancel {
+
+.logout {
   position: absolute;
   top: 12.7px;
   left: 49.9px;

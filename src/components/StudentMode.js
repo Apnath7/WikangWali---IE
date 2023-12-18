@@ -2,12 +2,16 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./StudentMode.css";
 
-const StudentMode = () => {
+const StudentMode = ({ onClose }) => {
   const navigate = useNavigate();
 
   const onGroupContainer2Click = useCallback(() => {
     navigate("/6-dashboard-home");
   }, [navigate]);
+
+  const handleCancelClick = () => {
+    onClose();
+  };
 
   return (
     <div className="student-mode_SM">
@@ -26,7 +30,7 @@ const StudentMode = () => {
         <div className="group-wrapper_SM">
           <div className="group-wrapper_SM">
 
-            <button className="cancel_SM">cancel</button>
+            <button className="cancel_SM" onClick={handleCancelClick}>cancel</button>
           </div>
         </div>
       </div>

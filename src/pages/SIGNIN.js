@@ -48,7 +48,7 @@ const SIGNIN = () => {
 
 
       <div className="password2">Password</div>
-      <input className="rectangle-password" type="text" />
+      <input className="rectangle-password" type="password" />
 
       
       <button className="signinbutton" onClick={onSigninButtonClick}>
