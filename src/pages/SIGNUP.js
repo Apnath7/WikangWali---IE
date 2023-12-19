@@ -2,8 +2,9 @@ import React, { useCallback, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from 'axios'; // Import axios for API requests
 import "./SIGNUP.css";
+import { Icon } from "@iconify/react";
 
-const SignIn = () => {
+const SIGNUP = () => {
   const navigate = useNavigate();
   const [users, setUsers] = useState([]);
   const [emailValue, setEmailValue] = useState("");
@@ -26,6 +27,10 @@ const SignIn = () => {
     // Your sign-in logic here
   };
 
+  const SigninClick = useCallback(() => {
+    navigate("/3-sign-in");
+  }, [navigate]);
+
   const handleEmailChange = (event) => {
     setEmailValue(event.target.value);
   };
@@ -43,8 +48,33 @@ const SignIn = () => {
   }, [navigate]);
 
   return (
-    <div className="sign-in">
-      {/* Your sign-in form components */}
+    <div className="sign-up">
+      <img className="notocloud-icon" alt="" src="/cloud.png" />
+      <img className="notocloud-icon1" alt="" src="/cloud.png" />
+      <div className="sign-up-child" />
+      <img className="sign-up-item" alt="" src="/socialmedia.png" />
+      <div className="sign-up-inner" />
+      <img className="notocloud-icon2" alt="" src="/cloud.png" />
+      <img className="wikang-wali-logo" alt="" src="/undefined14.png" />
+      <div className="welcome">Welcome!</div>
+      <div className="notocloud-icon3" alt="" src="/undefined12.png" />
+      <div className="notocloud-icon4" alt="" src="/undefined15.png" />
+      <div className="create-your-account">Create your Account</div>
+      <div className="notocloud-icon3" alt="" icon="cloud.png" />
+
+      <div>
+        
+        <input
+          className="username"
+          type="text"
+          //value={usernameValue}
+          //onChange={handleUsernameChange}
+          placeholder="Username"
+        />
+        <Icon className="group-icon51" alt="" icon="solar:user-outline" />
+      </div>
+
+      <div>
       <input
         className="email"
         type="text"
@@ -52,7 +82,10 @@ const SignIn = () => {
         onChange={handleEmailChange}
         placeholder="Email"
       />
+      <Icon icon="ic:outline-email" className='emailicon'/>
+      </div>
 
+      <div>
       <input
         className="password"
         type="password"
@@ -60,17 +93,34 @@ const SignIn = () => {
         onChange={handlePasswordChange}
         placeholder="Password"
       />
-
-      <button className="sign-in-button" onClick={onSignInButtonClick}>
-        Sign In
-      </button>
-
-      <div className="sign-up-link" onClick={onSignUpClick}>
-        Sign Up
+      <Icon className="octiconlock-24" alt="" icon="solar:lock-outline" />
       </div>
 
-      <button className="return-button" onClick={onReturnButtonClick}>
-        Return
+      <div>
+        
+        <input
+          className="confirm-password"
+          type="password"
+          //value={confirmPasswordValue}
+          //onChange={handleConfirmPasswordChange}
+          placeholder="Confirm Password"
+        />
+        <Icon className="octiconlock-241" alt="" icon="solar:lock-outline" />
+      </div>
+
+      <div class="dont-have-an">Already have an account?</div>
+      <a className="sign-in" onClick={SigninClick}>
+        Sign In
+      </a>
+
+      <div class="or-login-with2">or login with </div>
+      <button className="sign-up-button" onClick={onSignUpClick}>
+        <div className="sign-up1">SIGN UP</div>
+      </button>
+
+      <button className="return-button1" onClick={onReturnButtonClick}>
+        <div className="return-button-item" />
+        <Icon icon="mingcute:back-fill" className="mingcuteback-line-icon1"/>
       </button>
 
       {/* Display fetched users for testing purposes */}
@@ -88,4 +138,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SIGNUP;
