@@ -28,9 +28,10 @@ const SIGNIN = () => {
       const user = users.find(
         (u) => u.username === usernameValue && u.password === passwordValue
       );
-
+  
       if (user) {
-        navigate("/6-dashboard-home");
+        navigate("/6-dashboard-home", { state: { loggedInUser: user } });
+        // ^^^ Insert the navigation logic here after finding the user
       } else {
         alert("Invalid username or password. Please try again.");
       }
@@ -38,7 +39,7 @@ const SIGNIN = () => {
       console.error("Sign-in Error:", error);
     }
   }, [navigate, users, usernameValue, passwordValue]);
-
+  
   
   const handleUsernameChange = (event) => {
     setUsernameValue(event.target.value);

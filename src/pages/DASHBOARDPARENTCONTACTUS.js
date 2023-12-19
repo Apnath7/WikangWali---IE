@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import Frame from "../components/Frame";
 import PortalPopup from "../components/PortalPopup";
-//import StudentMode from "../components/StudentMode";
+import StudentMode from "../components/StudentMode";
 import { useNavigate } from "react-router-dom";
 import "./DASHBOARDPARENTCONTACTUS.css";
 import { Icon } from "@iconify/react";
@@ -9,7 +9,61 @@ import { Icon } from "@iconify/react";
 const DASHBOARDPARENTCONTACTUS = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isStudentModeOpen, setStudentModeOpen] = useState(false);
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
   const navigate = useNavigate();
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const handleSubmit = async () => {
+    const confirmation = window.confirm("Are you sure you want to submit?");
+    
+    if (confirmation) {
+      // Proceed with submission logic
+      const feedbackData = {
+        email,
+        parentName: name,
+        feedbackMessage: message,
+      };
+  
+      try {
+        const response = await fetch("http://localhost:8080/feedback/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(feedbackData),
+        });
+  
+        if (response.ok) {
+          // Feedback successfully submitted
+          // You might want to handle this success case (e.g., show a success message)
+          console.log("Feedback submitted successfully");
+        } else {
+          // Handle error response from the server
+          // You might want to display an error message to the user
+          console.error("Failed to submit feedback");
+        }
+      } catch (error) {
+        // Handle fetch error
+        console.error("Error submitting feedback:", error);
+      }
+    } else {
+      // User canceled the submission
+      console.log("Submission canceled");
+    }
+  };
 
   const onProgressClick = useCallback(() => {
     navigate("/21-dashboard-parent-progress");
@@ -97,13 +151,28 @@ const DASHBOARDPARENTCONTACTUS = () => {
         <div className="any-questions-or_CUS">
           Any questions or remarks? Just write us a message
         </div>
-        <input type="email" className="div5_CUS" placeholder="Email"/>
-        <input type="text" className="div7_CUS" placeholder="Name"/>
+        <input
+        type="email"
+        className="div5_CUS"
+        placeholder="Email"
+        value={email}
+        onChange={handleEmailChange}
+      />
+      <input
+        type="text"
+        className="div7_CUS"
+        placeholder="Name"
+        value={name}
+        onChange={handleNameChange}
+      />
          
-        <textarea className="div6_CUS" placeholder="Message"/>
+      <textarea
+        className="div6_CUS"
+        placeholder="Message"
+        value={message}
+        onChange={handleMessageChange}
+      />
 
-        
-        
         <div className="call-us-bird_CUS">
           <div className="call-us-bird-child_CUS" />
           <img
@@ -121,10 +190,12 @@ const DASHBOARDPARENTCONTACTUS = () => {
           <div className="wikangwaligmailcom_CUS">wikangwali@gmail.com</div>
         </div>
         <div className="for-more-contact_CUS">for more contact information</div>
-        <button className="rectangle-parent23_CUS" onClick={openFrame}>
-          <div className="group-child33_CUS" />
-          <div className="submit_CUS">Submit</div>
+
+        <button className="rectangle-parent23_CUS" onClick={handleSubmit}>
+        <div className="group-child33_CUS" />
+        <div className="submit_CUS">Submit</div>
         </button>
+
         <button className="home8_CUS" onClick={onHomeClick}>
           <div className="home-parent5_CUS" onClick={onGroupContainer8Click}>
             <div className="home9_CUS">Home</div>
