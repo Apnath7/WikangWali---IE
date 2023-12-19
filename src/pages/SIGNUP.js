@@ -1,34 +1,60 @@
-import React, { useCallback, useState, useEffect } from "react";
+import React, { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Icon } from '@iconify/react';
 import axios from 'axios'; // Import axios for API requests
 import "./SIGNUP.css";
-import { Icon } from "@iconify/react";
 
 const SIGNUP = () => {
   const navigate = useNavigate();
-  const [users, setUsers] = useState([]);
   const [emailValue, setEmailValue] = useState("");
   const [passwordValue, setPasswordValue] = useState("");
-
-  const fetchUsers = async () => {
-    try {
-      const response = await axios.get("http://localhost:8080/user/getAllUsers");
-      setUsers(response.data);
-    } catch (error) {
-      console.error("Error fetching users:", error);
+  const [usernameValue, setUsernameValue] = useState("");
+  const [confirmPasswordValue, setConfirmPasswordValue] = useState("");
+  
+  const onSignUpButtonClick = async () => {
+    if (
+      emailValue &&
+      passwordValue &&
+      confirmPasswordValue &&
+      passwordValue === confirmPasswordValue
+    ) {
+      const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+      const isPasswordValid = passwordRegex.test(passwordValue);
+  
+      if (!isPasswordValid) {
+        alert("Password must have a minimum of 8 characters, a combination of uppercase and lowercase letters, with special character/s.");
+        return; // Stop signup process if the password doesn't meet the criteria
+      }
+  
+      const confirmed = window.confirm("Are you sure you want to sign up?");
+    
+      if (confirmed) {
+        try {
+          const response = await axios.post("http://localhost:8080/user/insertUser", {
+            username: usernameValue,
+            password: passwordValue,
+            email: emailValue,
+            isAdmin: false // Set admin status as needed
+          });
+      
+          if (response.status === 200) {
+            navigate("/3-sign-in");
+          }
+        } catch (error) {
+          console.error("Signup Error:", error);
+        }
+      }
+    } else {
+      alert("Password and confirm password do not match.");
     }
   };
 
-  useEffect(() => {
-    fetchUsers();
-  }, []);
-
-  const onSignInButtonClick = async () => {
-    // Your sign-in logic here
-  };
-
-  const SigninClick = useCallback(() => {
+  const onSignInClick = useCallback(() => {
     navigate("/3-sign-in");
+  }, [navigate]);
+
+  const onReturnButtonClick = useCallback(() => {
+    navigate("/2-sign-in-sign-up");
   }, [navigate]);
 
   const handleEmailChange = (event) => {
@@ -39,13 +65,14 @@ const SIGNUP = () => {
     setPasswordValue(event.target.value);
   };
 
-  const onSignUpClick = useCallback(() => {
-    navigate("/3-sign-up");
-  }, [navigate]);
+  const handleUsernameChange = (event) => {
+    setUsernameValue(event.target.value);
+  };
 
-  const onReturnButtonClick = useCallback(() => {
-    navigate("/2-sign-in-sign-up");
-  }, [navigate]);
+  const handleConfirmPasswordChange = (event) => {
+    setConfirmPasswordValue(event.target.value);
+  };
+  
 
   return (
     <div className="sign-up">
@@ -67,8 +94,8 @@ const SIGNUP = () => {
         <input
           className="username"
           type="text"
-          //value={usernameValue}
-          //onChange={handleUsernameChange}
+          value={usernameValue}
+          onChange={handleUsernameChange}
           placeholder="Username"
         />
         <Icon className="group-icon51" alt="" icon="solar:user-outline" />
@@ -98,23 +125,24 @@ const SIGNUP = () => {
 
       <div>
         
-        <input
-          className="confirm-password"
-          type="password"
-          //value={confirmPasswordValue}
-          //onChange={handleConfirmPasswordChange}
-          placeholder="Confirm Password"
-        />
+      <input
+        className="confirm-password"
+        type="password"
+        value={confirmPasswordValue}
+        onChange={handleConfirmPasswordChange}
+        placeholder="Confirm Password"
+      />
+
         <Icon className="octiconlock-241" alt="" icon="solar:lock-outline" />
       </div>
 
       <div class="dont-have-an">Already have an account?</div>
-      <a className="sign-in" onClick={SigninClick}>
+      <a className="sign-in" onClick={onSignInClick}>
         Sign In
       </a>
 
       <div class="or-login-with2">or login with </div>
-      <button className="sign-up-button" onClick={onSignUpClick}>
+      <button className="sign-up-button" onClick={onSignUpButtonClick}>
         <div className="sign-up1">SIGN UP</div>
       </button>
 
@@ -123,17 +151,6 @@ const SIGNUP = () => {
         <Icon icon="mingcute:back-fill" className="mingcuteback-line-icon1"/>
       </button>
 
-      {/* Display fetched users for testing purposes */}
-      <div>
-        <h3>Users:</h3>
-        <ul>
-          {users.map((user) => (
-            <li key={user.id}>
-              Username: {user.username}, Email: {user.email}
-            </li>
-          ))}
-        </ul>
-      </div>
     </div>
   );
 };
