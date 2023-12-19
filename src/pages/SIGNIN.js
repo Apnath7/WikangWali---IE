@@ -1,14 +1,52 @@
-import { useCallback } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./SIGNIN.css";
+import axios from 'axios';
 import { Icon } from '@iconify/react';
+import "./SIGNIN.css";
 
 const SIGNIN = () => {
   const navigate = useNavigate();
+  const [users, setUsers] = useState([]);
+  const [usernameValue, setUsernameValue] = useState("");
+  const [passwordValue, setPasswordValue] = useState("");
 
-  const onSigninButtonClick = useCallback(() => {
-    navigate("/6-dashboard-home");
-  }, [navigate]);
+  const fetchUsers = async () => {
+    try {
+      const response = await axios.get("http://localhost:8080/user/getAllUsers");
+      setUsers(response.data);
+    } catch (error) {
+      console.error("Error fetching users:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchUsers();
+  }, []);
+
+  const onSignInButtonClick = useCallback(async () => {
+    try {
+      const user = users.find(
+        (u) => u.username === usernameValue && u.password === passwordValue
+      );
+
+      if (user) {
+        navigate("/6-dashboard-home");
+      } else {
+        alert("Invalid username or password. Please try again.");
+      }
+    } catch (error) {
+      console.error("Sign-in Error:", error);
+    }
+  }, [navigate, users, usernameValue, passwordValue]);
+
+  
+  const handleUsernameChange = (event) => {
+    setUsernameValue(event.target.value);
+  };
+
+  const handlePasswordChange = (event) => {
+    setPasswordValue(event.target.value);
+  };
 
   const onForgotPasswordClick = useCallback(() => {
     navigate("/4-forgot-passwordnew-password");
@@ -41,19 +79,43 @@ const SIGNIN = () => {
       
       
       <label className="email2">Username</label>
+      <label className="email2">Username</label>
       <div className="email-border-parent">
-        <input className="email-border" type="text" />
+        <input
+          className="email-border"
+          type="text"
+          value={usernameValue}
+          onChange={handleUsernameChange}
+        />
         <Icon icon="ic:outline-email" className="group-icon6"/>
       </div>
 
 
       <div className="password2">Password</div>
-      <input className="rectangle-password" type="password" />
-
+      <input
+        className="rectangle-password"
+        type="password"
+        value={passwordValue}
+        onChange={handlePasswordChange}
+      />
       
-      <button className="signinbutton" onClick={onSigninButtonClick}>
+      <button className="signinbutton" onClick={onSignInButtonClick}>
         <div className="sign-in4">SIGN IN</div>
       </button>
+
+
+      {/* Display fetched users for testing purposes */}
+      <div>
+        <h3>Users:</h3>
+        <ul>
+          {users.map((user) => (
+            <li key={user.id}>
+              Username: {user.username}, Email: {user.email}
+            </li>
+          ))}
+        </ul>
+      </div>
+
       
 
       <div className="or-login-with">{`or login with `}</div>
