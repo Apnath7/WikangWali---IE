@@ -8,6 +8,10 @@ const LogoutPopup = ({ onClose }) => {
     navigate("/lougoutthankyou");
   }, [navigate]);
 
+  const handleCancelClick = () => {
+    onClose();
+  };
+
   return (
     <div className="logout-popup">
       <div className="logout-popup-child" />
@@ -22,7 +26,7 @@ const LogoutPopup = ({ onClose }) => {
           <div className="group-frame">
             <div className="group-frame">
               <div className="group-child7" />
-              <div className="cancel">cancel</div>
+              <button className="cancel" onClick={handleCancelClick}>cancel</button>
             </div>
           </div>
         </div>
@@ -30,7 +34,7 @@ const LogoutPopup = ({ onClose }) => {
           <div className="group-wrapper2" onClick={onGroupContainer4Click}>
             <div className="group-frame">
               <div className="group-child8" />
-              <div className="cancel">Log out</div>
+              <div className="logout">Log out</div>
             </div>
           </div>
         </div>

@@ -55,7 +55,10 @@
   object-fit: cover;
 }
 .updated-successfully {
-  position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 740px;
   height: 489px;
   max-width: 100%;
