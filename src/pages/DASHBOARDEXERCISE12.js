@@ -124,7 +124,7 @@ const DASHBOARDEXERCISE12 = () => {
           <div className="div8">2/2</div>
           <button className="return-arrow2" onClick={onReturnArrowClick}>
             <div className="return-arrow-inner" />
-            <Icon className="group-icon17" icon="mingcute:back-line"/>
+            <Icon className="group-icon17_12" icon="mingcute:back-line"/>
           </button>
           <div className="ehersisyo-1-2">{`Ehersisyo 1  - GREETING MATCH - UP `}</div>
         </div>

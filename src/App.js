@@ -160,14 +160,14 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ABOUTUSPAGESalvoro />} />
+      <Route path="/" element={<LANDINGPAGE />} />
       <Route path="/1-about-us-page-paez" element={<ABOUTUSPAGEPaez />} />
       <Route path="/1-about-us-page-ursal" element={<ABOUTUSPAGEUrsal />} />
       <Route path="/1-about-us-page-gumagay" element={<ABOUTUSPAGEGumagay />} />
       <Route path="/5-sign-up" element={<SIGNUP />} />
       <Route path="/2-sign-in-sign-up" element={<SIGNINSIGNUP />} />
       <Route path="/3-sign-in" element={<SIGNIN />} />
-      <Route path="/1-landing-page" element={<LANDINGPAGE />} />
+      <Route path="/1-about-us-page-salvoro" element={<ABOUTUSPAGESalvoro />} />
       <Route path="/contact-us-page" element={<CONTACTUSPAGE />} />
       <Route path="/lougoutthankyou" element={<LOUGOUTTHANKYOU />} />
       <Route

@@ -6,7 +6,7 @@ const ABOUTUSPAGEPaez = () => {
   const navigate = useNavigate();
 
   const onIcroundPlayArrowClick = useCallback(() => {
-    navigate("/");
+    navigate("/1-about-us-page-salvoro");
   }, [navigate]);
 
   const onIcroundPlayArrow1Click = useCallback(() => {
@@ -14,7 +14,7 @@ const ABOUTUSPAGEPaez = () => {
   }, [navigate]);
 
   const onGETSTARTEDClick = useCallback(() => {
-    navigate("/1-landing-page");
+    navigate("/");
   }, [navigate]);
 
   const onCONTACTUSClick = useCallback(() => {

@@ -60,40 +60,40 @@ const DASHBOARDEXERCISE14 = () => {
         onClick={onDASHBOARDEXERCISE14Click}
       >
         <div className="rectangle-parent10">
-          <div className="group-child23" />
+        <div className="group-child56_EX1" />
           <div className="group-parent4">
-            <div className="vector-parent1" onClick={onGroupContainerClick}>
-            <Icon className="vector-icon58" alt="" icon="carbon:course" color="white" />
-              <div className="courses1">Courses</div>
+          <div className="vector-parent4" onClick={onGroupContainerClick}>
+              <Icon className="vector-icon58" alt="" icon="carbon:course" color="white" />
+              <div className="courses2">Courses</div>
             </div>
-            <button className="progress2" onClick={onProgressClick}>
-              <div className="vector-parent2">
-              <Icon className="vector-icon59" alt="" icon="material-symbols:progress-activity" color="white" />
-                <div className="progress3">Progress</div>
+            <button className="progress4" onClick={onProgressClick}>
+              <div className="vector-parent5">
+                <Icon className="vector-icon59" alt="" icon="material-symbols:progress-activity" color="white" />
+                <div className="progress5">Progress</div>
               </div>
             </button>
-            <button className="settings2" onClick={onSettingsClick}>
-              <div className="group-parent5">
+            <button className="settings4" onClick={onSettingsClick}>
+              <div className="group-parent9">
               <Icon className="group-icon23" alt="" icon="solar:settings-outline" color="white" />
-                <div className="settings3">Settings</div>
+                <div className="settings5">Settings</div>
               </div>
             </button>
-            <div className="parent-mode2">
-              <div className="vector-parent3">
+            <div className="parent-mode4">
+              <div className="vector-parent6">
               <Icon className="vector-icon61" alt="" icon="ri:parent-line" />
-                <div className="parent-mode3">Parent Mode</div>
+                <div className="parent-mode5">Parent Mode</div>
               </div>
               <button
-                className="rectangle-parent11"
+                className="rectangle-parent14"
                 onClick={onGroupButtonClick}
               >
-                <div className="group-child24" />
+                <div className="group-child33" />
                 <Icon className="group-child86" alt="" icon="twemoji:white-circle" />
               </button>
             </div>
-            <button className="home2" onClick={onHomeClick}>
-              <div className="home-group">
-                <div className="home3">Home</div>
+            <button className="home4" onClick={onHomeClick}>
+              <div className="home-container">
+                <div className="home5">Home</div>
                 <Icon className="vector-icon60" alt="" icon="material-symbols-light:home-outline" color="white" />
               </div>
             </button>
@@ -118,8 +118,8 @@ const DASHBOARDEXERCISE14 = () => {
             alt=""
             src="/undefined47.png"
           />
-          <Icon icon="ph:bell-fill" className="vector-icon20" alt="" src="/undefined48.png" />
-          <Icon icon="bxs:down-arrow" className="vector-icon21" alt="" src="/undefined49.png" />
+          <Icon icon="ph:bell-fill" className="vector-icon20_13" alt="" src="/undefined48.png" />
+          <Icon icon="bxs:down-arrow" className="vector-icon21_13" alt="" src="/undefined49.png" />
           <div className="group-child30" alt="" src="/undefined50.png" />
           <div className="group-child31" alt="" src="/undefined51.png" />
           <button className="return-arrow1" onClick={onReturnArrowClick}>
@@ -149,15 +149,15 @@ const DASHBOARDEXERCISE14 = () => {
             src="/undefined58.png"
           />
         </div>
-        <button className="logout1" onClick={openLogoutPopup}>
-          <div className="group-parent6">
-            <div className="group-parent7">
-              <div className="rectangle-sign-in-button-container">
-                <div className="rectangle-sign-in-button1" />
+        <button className="logout2" onClick={openLogoutPopup}>
+          <div className="group-parent10">
+            <div className="group-parent11">
+              <div className="rectangle-sign-in-button-frame">
+                <div className="rectangle-sign-in-button2" />
               </div>
-              <div className="log-out2">Log Out</div>
+              <div className="log-out3">Log Out</div>
             </div>
-            <img className="group-icon12" alt="" src="/undefined56.png" />
+            <Icon className="group-icon24" alt="" icon="carbon:logout" color="white" />
           </div>
         </button>
       </div>

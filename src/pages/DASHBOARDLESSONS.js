@@ -101,11 +101,7 @@ const DASHBOARDLESSONS = () => {
           alt=""
           src="/undefined44.png"
         />
-        <img
-          className="dashboard-lessons-inner_LNS"
-          alt=""
-          src="/undefined30.png"
-        />
+      
         <div
           className="dashboard-lessons-child1_LNS"
           alt=""
@@ -206,11 +202,8 @@ const DASHBOARDLESSONS = () => {
             </div>
           </div>
         </div>
-        <img
-          className="dashboard-lessons-child4_LNS"
-          alt=""
-          src="/undefined70.png"
-        />
+        <div className="dashboard-lessons-child4_LNS"></div>
+          
         <button className="logout4_LNS" onClick={openLogoutPopup}>
           <div className="group-parent18_LNS">
             <div className="group-parent19_LNS">

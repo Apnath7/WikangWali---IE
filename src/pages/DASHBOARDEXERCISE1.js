@@ -138,6 +138,8 @@ const DASHBOARDEXERCISE1 = () => {
           </button>
           <div className="ehersisyo-1-3_EX1">{`EHERSIsYO 1  - GREETING `}</div>
         </div>
+
+        
         <div className="hello-little-friends_EX1">
           Hello, little friends! Today, we will learn some simple words in
           Tagalog, the language spoken in the Philippines. It's like learning a
@@ -187,6 +189,7 @@ const DASHBOARDEXERCISE1 = () => {
           people in Tagalog. Tagalog is a special language, and when you use
           these words, you'll make friends and be a polite friend.
         </div>
+        </div>
         <button className="logout3_EX1" onClick={openLogoutPopup}>
           <div className="group-parent14_EX1">
             <div className="group-parent15_EX1">
@@ -198,7 +201,7 @@ const DASHBOARDEXERCISE1 = () => {
             <Icon className="group-icon24" alt="" icon="carbon:logout" color="white" />
           </div>
         </button>
-      </div>
+      
       {isLogoutPopupOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"

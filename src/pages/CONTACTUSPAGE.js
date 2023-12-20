@@ -9,7 +9,7 @@ const CONTACTUSPAGE = () => {
   const navigate = useNavigate();
 
   const onGETSTARTEDTextClick = useCallback(() => {
-    navigate("/1-landing-page");
+    navigate("/");
   }, [navigate]);
 
   const openFrame = useCallback(() => {
@@ -27,7 +27,7 @@ const CONTACTUSPAGE = () => {
           <div className="group-child12" />
           <div className="group-child13" />
         </div>
-        <div className="contact-us5">CONTACT US</div>
+        <div className="contact-us5_1">CONTACT US</div>
         <div className="lets-talk">Let’s talk</div>
         <div className="were-here-to">We’re here to help you</div>
         <div className="feel-free-to">Feel free to drop us a line below</div>

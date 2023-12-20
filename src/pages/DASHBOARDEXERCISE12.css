@@ -678,6 +678,28 @@
   height: 33.8px;
 }
 
+.group-icon17_12 {
+  z-index: 1;
+}
+
+.group-icon17 {
+  position: absolute;
+  color: white;
+  width: 90px;
+  height: 70px;
+  top: 27%;
+  left: 0.9%;
+}
+
+.group-icon17_12 {
+  position: absolute;
+  color: white;
+  width: 90px;
+  height: 70px;
+  top: 27%;
+  left: 0.9%;
+}
+
 .rectangle-parent171 {
   position: absolute;
   top: 636.8px;

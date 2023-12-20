@@ -6,7 +6,7 @@ const ABOUTUSPAGEGumagay = () => {
   const navigate = useNavigate();
 
   const onGETSTARTEDClick = useCallback(() => {
-    navigate("/1-landing-page");
+    navigate("/");
   }, [navigate]);
 
   const onCONTACTUSClick = useCallback(() => {

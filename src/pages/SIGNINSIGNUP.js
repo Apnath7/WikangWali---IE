@@ -7,7 +7,7 @@ const SIGNINSIGNUP = () => {
   const navigate = useNavigate();
 
   const onReturnButtonClick = useCallback(() => {
-    navigate("/1-landing-page");
+    navigate("/");
   }, [navigate]);
 
   const onSignInClick = useCallback(() => {

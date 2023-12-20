@@ -427,6 +427,7 @@
   height: 115px;
   object-fit: cover;
   background-color: #FDFD96;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -636,9 +637,14 @@
   top: 344px;
   left: 1550px;
   width: 30px;
-  height: 684px;
+  height: 120px;
   object-fit: cover;
+  background-color: gray;
+  border-radius: 20px;
 }
+
+
+
 .rectangle-sign-in-button4_LNS {
   position: absolute;
   top: 0px;
