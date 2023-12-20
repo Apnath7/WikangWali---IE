@@ -28,9 +28,10 @@ const SIGNIN = () => {
       const user = users.find(
         (u) => u.username === usernameValue && u.password === passwordValue
       );
-
+  
       if (user) {
-        navigate("/6-dashboard-home");
+        navigate("/6-dashboard-home", { state: { loggedInUser: user } });
+        // ^^^ Insert the navigation logic here after finding the user
       } else {
         alert("Invalid username or password. Please try again.");
       }
@@ -38,7 +39,7 @@ const SIGNIN = () => {
       console.error("Sign-in Error:", error);
     }
   }, [navigate, users, usernameValue, passwordValue]);
-
+  
   
   const handleUsernameChange = (event) => {
     setUsernameValue(event.target.value);
@@ -102,22 +103,6 @@ const SIGNIN = () => {
       <button className="signinbutton" onClick={onSignInButtonClick}>
         <div className="sign-in4">SIGN IN</div>
       </button>
-
-
-      {/* Display fetched users for testing purposes */}
-      <div>
-        <h3>Users:</h3>
-        <ul>
-          {users.map((user) => (
-            <li key={user.id}>
-              Username: {user.username}, Email: {user.email}
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      
-
       <div className="or-login-with">{`or login with `}</div>
       <a className="forgot-password" onClick={onForgotPasswordClick}>
         Forgot Password?
