@@ -22,7 +22,9 @@ const DASHBOARDLESSONS = () => {
 
   const onGroupButtonClick = useCallback(() => {
     // Please sync "16- DASHBOARD -ParentMode Login" to the project
-  }, []);
+    navigate("/dashboard-parent-mode");
+  }, [navigate]);
+ 
 
   const onHomeClick = useCallback(() => {
     navigate("/6-dashboard-home");
