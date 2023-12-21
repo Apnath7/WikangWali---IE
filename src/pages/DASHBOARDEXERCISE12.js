@@ -7,8 +7,97 @@ import { Icon } from '@iconify/react';
 
 const DASHBOARDEXERCISE12 = () => {
   const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
   const navigate = useNavigate();
 
+  var Questionbank = [
+    {
+      Question: "Magandang umaga!",
+      Answers: [
+        { Answer: "Greeting someone in the morning", isCorrect: true },
+        { Answer: "Greeting someone in the afternoon", isCorrect: false },
+        { Answer: "Greeting someone in the evening", isCorrect: false },
+        { Answer: "Asking someone how they are", isCorrect: false },
+        { Answer: "Saying goodbye to someone", isCorrect: false },
+
+      ]
+    },
+    {
+      Question: "Magandang hapon!",
+      Answers: [
+        { Answer: "Greeting someone in the morning", isCorrect: false },
+        { Answer: "Greeting someone in the afternoon", isCorrect: true },
+        { Answer: "Greeting someone in the evening", isCorrect: false },
+        { Answer: "Asking someone how they are", isCorrect: false },
+        { Answer: "Saying goodbye to someone", isCorrect: false },
+
+      ]
+    },
+    {
+      Question: "Magandang gabi!",
+      Answers: [
+        { Answer: "Greeting someone in the morning", isCorrect: false },
+        { Answer: "Greeting someone in the afternoon", isCorrect: false },
+        { Answer: "Greeting someone in the evening", isCorrect: true },
+        { Answer: "Asking someone how they are", isCorrect: false },
+        { Answer: "Saying goodbye to someone", isCorrect: false },
+
+      ]
+    },
+    {
+      Question: "Kumusta ka?",
+      Answers: [
+        { Answer: "Greeting someone in the morning", isCorrect: false },
+        { Answer: "Greeting someone in the afternoon", isCorrect: false },
+        { Answer: "Greeting someone in the evening", isCorrect: false },
+        { Answer: "Asking someone how they are", isCorrect: true },
+        { Answer: "Saying goodbye to someone", isCorrect: false },
+
+      ]
+    },
+    {
+      Question: "Paalam!",
+      Answers: [
+        { Answer: "Greeting someone in the morning", isCorrect: false },
+        { Answer: "Greeting someone in the afternoon", isCorrect: false },
+        { Answer: "Greeting someone in the evening", isCorrect: false },
+        { Answer: "Asking someone how they are", isCorrect: false },
+        { Answer: "Saying goodbye to someone", isCorrect: true },
+
+      ]
+    }
+  ]
+
+  //useState Hook
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+
+  const handleAnswerResponse=(isCorrect)=>
+{
+    if(isCorrect)
+    {
+        setScore(score+1);
+    }
+
+   const nextQuestion= currentQuestion+1;
+   if(nextQuestion<Questionbank.length)
+   {
+    setCurrentQuestion(nextQuestion);
+   }
+   else{
+    setShowScore(true);
+   }
+}
+
+const resetQuiz=()=>
+{
+    setCurrentQuestion(0);
+    setScore(0);
+    setShowScore(false);
+}
+  
+//callbacks
   const onGroupContainerClick = useCallback(() => {
     navigate("/7-dashboard-courses");
   }, [navigate]);
@@ -35,8 +124,14 @@ const DASHBOARDEXERCISE12 = () => {
   }, [navigate]);
 
   const onSubmitClick = useCallback(() => {
-    navigate("/11-dashboard-exercise-13");
-  }, [navigate]);
+    // Check if the user has completed the exercise (showScore is true)
+    if (showScore) {
+      navigate("/11-dashboard-exercise-13");
+    } else {
+      // Handle the case where the exercise is still ongoing
+      alert("Please answer all questions before submitting!");
+    }
+  }, [navigate, showScore]);
 
   const openLogoutPopup = useCallback(() => {
     setLogoutPopupOpen(true);
@@ -150,36 +245,44 @@ const DASHBOARDEXERCISE12 = () => {
             </span>
           </div>
         </div>
-        <div className="rectangle-parent171">
-          <div className="group-child46" />
-          <div className="b-greeting-someone">
-            b. Greeting someone in the afternoon.
-          </div>
-          <div className="group-child47" />
-          <div className="c-greeting-someone">
-            c. Greeting someone in the evening.
-          </div>
-          <div className="group-child48" />
-          <div className="d-asking-someone">
-            d. Asking someone how they are.
-          </div>
-          <div className="group-child49" />
-          <div className="e-saying-goodbye">e. Saying goodbye to someone.</div>
-          <div className="group-child50" />
-          <div className="a-greeting-someone">{`a. Greeting someone in the morning. `}</div>
+
+
+        {/*quiz component*/}
+        <div className='app'>
+            {showScore ? (
+                <div className='score-section'> 
+                    You have scored {score} out of {Questionbank.length}
+                    <>
+                    
+                       <button className="playAgain" type="submit" onClick={resetQuiz}>Do you want to try Again?</button>
+                    </>
+                </div>
+            )
+                : (
+                    <>
+                        <div className='question-section'>
+                            <div className='question-count'>
+                               <span>{currentQuestion+1}</span>/{Questionbank.length}
+                            </div>
+
+                            <div className='question-text'>
+                             {Questionbank[currentQuestion].Question}
+                            </div>
+                        </div>
+
+                        <div className='answer-section'>
+                          {Questionbank[currentQuestion].Answers.map((answer)=>
+                          (
+                              <button className="buttonChoices" onClick={()=>handleAnswerResponse(answer.isCorrect)}>{answer.Answer}</button>
+                          ))}
+                        </div>
+                    </>
+                )
+            }
+
         </div>
-        <div className="rectangle-parent18">
-          <div className="group-child51" />
-          <div className="b-greeting-someone">2.) Magandang hapon!</div>
-          <div className="group-child47" />
-          <div className="c-greeting-someone">3.) Magandang gabi!</div>
-          <div className="group-child48" />
-          <div className="d-asking-someone">4.) Kamusta ka?</div>
-          <div className="group-child49" />
-          <div className="e-saying-goodbye">5.) Paalam!</div>
-          <div className="group-child50" />
-          <button className="a-greeting-someone">1.) Magandang umaga!</button>
-        </div>
+
+        
         <button className="logout2" onClick={openLogoutPopup}>
           <div className="group-parent10">
             <div className="group-parent11">
