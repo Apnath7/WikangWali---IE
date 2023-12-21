@@ -5,9 +5,29 @@ import PortalPopup from "../components/PortalPopup";
 import "./DASHBOARDParentModeLogin.css";
 import { Icon } from "@iconify/react";
 
+const generateRandomPassword = () => {
+  const length = 8; // Set your desired password length
+  const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  let password = "";
+
+  for (let i = 0; i < length; i++) {
+    const randomIndex = Math.floor(Math.random() * charset.length);
+    password += charset[randomIndex];
+  }
+
+  return password;
+};
+
 const DASHBOARDParentModeLogin = () => {
+  const [password, setPassword] = useState("");
   const [isStudentModeOpen, setStudentModeOpen] = useState(false);
   const navigate = useNavigate();
+
+  const handlePasswordChange = (event) => {
+    setPassword(event.target.value);
+  };
+
+  
 
   const onContactUsClick = useCallback(() => {
     navigate("/22-dashboard-parent-contact-us");
@@ -54,8 +74,13 @@ const DASHBOARDParentModeLogin = () => {
   }, []);
 
   const onFrameContainerClick = useCallback(() => {
-    navigate("/20-dashboard-home-paretnt");
-  }, [navigate]);
+    if (password === "") {
+      alert("Please enter a password.");
+    } else {
+      navigate("/20-dashboard-home-paretnt");
+      // Add additional logic for handling non-empty password
+    }
+  }, [navigate, password]);
 
   return (
     <>
@@ -135,7 +160,10 @@ const DASHBOARDParentModeLogin = () => {
    
 </div>
 
-        <input className="rectangle-email3" type="password" />
+        <input className="rectangle-email3" 
+        type="password" 
+        value={password}
+        onChange={handlePasswordChange}/>
         <b className="enter-password1">Enter Password</b>
         <Link
           className="forgot-password1"
