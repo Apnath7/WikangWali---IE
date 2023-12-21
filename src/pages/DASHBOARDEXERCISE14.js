@@ -9,9 +9,7 @@ const DASHBOARDEXERCISE14 = () => {
   const [isLogoutPopupOpen, setLogoutPopupOpen] = useState(false);
   const navigate = useNavigate();
 
-  const onDASHBOARDEXERCISE14Click = useCallback(() => {
-    navigate("/9-dashboard-exercise-1");
-  }, [navigate]);
+  
 
   const onGroupContainerClick = useCallback(() => {
     navigate("/7-dashboard-courses");
@@ -57,9 +55,9 @@ const DASHBOARDEXERCISE14 = () => {
   return (
     <>
       <div
-        className="dashboard-exercise-14"
-        onClick={onDASHBOARDEXERCISE14Click}
-      >
+        className="dashboard-exercise-14">
+        
+      
         <div className="rectangle-parent10">
         <div className="group-child56_EX1" />
           <div className="group-parent4">
@@ -112,15 +110,12 @@ const DASHBOARDEXERCISE14 = () => {
           <div className="group-child27" />
           <div className="group-child28" />
           <div className="group-child29" alt="" src="/undefined45.png" />
-          <b className="gelu-ursal1">Gelu Ursal</b>
+          <b className="gelu-ursal1">Gelu Marie Ursal</b>
+          <p className="student-ursal1">student</p>
+          
           <Icon icon="carbon:course" color="white" className="vector-icon26" alt="" src="/undefined46.png" />
-          <img
-            className="microsoftteams-image-1-61"
-            alt=""
-            src="/undefined47.png"
-          />
-          <Icon icon="ph:bell-fill" className="vector-icon20_13" alt="" src="/undefined48.png" />
-          <Icon icon="bxs:down-arrow" className="vector-icon21_13" alt="" src="/undefined49.png" />
+          
+          
           <div className="group-child30" alt="" src="/undefined50.png" />
           <div className="group-child31" alt="" src="/undefined51.png" />
           <button className="return-arrow1" onClick={onReturnArrowClick}>

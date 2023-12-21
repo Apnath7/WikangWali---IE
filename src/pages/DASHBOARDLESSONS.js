@@ -193,14 +193,10 @@ const DASHBOARDLESSONS = () => {
           <div className="group-child77_LNS" />
           <div className="vector-parent19_LNS">
             <div className="group-child78_LNS" alt=""/>
-            <b className="gelu-ursal4_LNS">Gelu Ursal</b>
-            <img
-              className="microsoftteams-image-1-72_LNS"
-              alt=""
-              src="/undefined47.png"
-            />
-            <Icon className="bellIcon" alt="" icon="ph:bell-fill" color="black" />
-            <Icon className="arrowdown" alt="" icon="bxs:down-arrow" />
+            
+            <b className="gelu-ursal5">Gelu Marie Ursal</b>
+            <p className="student-ursal5">student</p>
+            
           </div>
           <div className="group-wrapper4_LNS">
             <div className="kurso-parent_LNS">

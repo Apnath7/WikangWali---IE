@@ -213,12 +213,7 @@ const DASHBOARDCOURSES = () => {
         />
         <div className="vector-parent25">
           <div className="group-child82" />
-          <b className="gelu-ursal5">Gelu Ursal</b>
-          <img
-            className="microsoftteams-image-1-73"
-            alt=""
-            src="/undefined47.png"
-          />
+          
           <Icon className="vector-icon52" alt="" icon="ph:bell-fill" />
           <Icon className="vector-icon53" alt="" icon="bxs:down-arrow" />
         </div>
@@ -245,13 +240,10 @@ const DASHBOARDCOURSES = () => {
         </div>
         <div className="vector-parent25">
           <div className="group-child82" alt="" src="/undefined45.png" />
-          <b className="gelu-ursal5">Gelu Ursal</b>
-          <img
-            className="microsoftteams-image-1-73"
-            alt=""
-            src="/undefined47.png"
-          />
-          <Icon className="vector-icon52" alt="" icon="ph:bell-fill" />
+          <b className="gelu-ursal5">Gelu Marie Ursal</b>
+          <p className="student-ursal5">student</p>
+          
+          
           
         </div>
         <Icon className="rilock-2-line-icon" alt="" icon="ri:lock-2-line" />

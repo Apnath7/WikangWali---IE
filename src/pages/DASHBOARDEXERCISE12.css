@@ -407,6 +407,7 @@
 .pagbati-at-karaniwang2 {
   margin: 0;
   font-size: var(--font-size-21xl);
+  color: white;
 }
 .aralin-1-pagbati-container2 {
   position: absolute;
@@ -499,40 +500,21 @@
   text-align: center;
   font-size: var(--font-size-45xl);
 }
-.submit-child {
-  position: absolute;
-  top: -0.5px;
-  left: -3px;
-  border-radius: var(--br-31xl);
-  width: 217px;
-  height: 82.7px;
-  object-fit: cover;
-  background-color: var(--color-goldenrod);
-}
-.submit2 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-size: var(--font-size-21xl);
-  font-family: var(--font-bangers);
-  color: var(--color-white);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 208px;
-  height: 74.4px;
-}
+
 .submit1 {
   cursor: pointer;
   border: none;
   padding: 0;
-  background-color: transparent;
+  background-color: var(--color-goldenrod);
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-bangers);
+  color: var(--color-white);
+  border-radius: 20px;
   position: absolute;
   top: 956.6px;
   left: 962px;
   width: 208px;
-  height: 74.4px;
+  height: 74px;
   
 }
 .ca88b0e1-977b-4453-99ba-b1a77c-icon {
@@ -556,6 +538,7 @@
 }
 .exercise {
   margin: 0;
+  color: white;
 }
 .match-the-greetings {
   margin: 0;

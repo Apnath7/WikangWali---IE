@@ -495,14 +495,7 @@
   width: 99px;
   height: 129px;
 }
-.ca88b0e1-977b-4453-99ba-b1a77c-icon1_EX1 {
-  position: absolute;
-  top: 757px;
-  left: 112px;
-  width: 173px;
-  height: 168px;
-  object-fit: cover;
-}
+
 .group-child69_EX1 {
   position: absolute;
   top: 399px;
@@ -514,38 +507,22 @@
   width: 943px;
   height: 556px;
 }
-.continue-inner_EX1 {
-  position: absolute;
-  top: -0.7px;
-  left: -3px;
-  border-radius: var(--br-31xl);
-  width: 217px;
-  height: 71.9px;
-  object-fit: cover;
-  background-color: #FBB52E;
-}
-.continue5_EX1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-size: var(--font-size-21xl);
-  font-family: var(--font-bangers);
-  color: var(--color-white);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 208px;
-  height: 63px;
-}
+
+
 .continue4_EX1 {
   cursor: pointer;
   border: none;
   padding: 0;
-  background-color: transparent;
+  background-color: #FBB52E;
+  border-radius: var(--br-31xl);
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-bangers);
+  color: white;
+  text-align: center;
+  
   position: absolute;
   top: 868px;
-  left: 675px;
+  left: 620px;
   width: 208px;
   height: 63px;
 }
@@ -572,7 +549,7 @@
 .hello-little-friends_EX1 {
   position: absolute;
   top: 470px;
-  left: 683px;
+  left: 570px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -592,8 +569,8 @@
 }
 .hello-kamusta-container_EX1 {
   position: absolute;
-  top: 543px;
-  left: 757px;
+  top: 530px;
+  left: 660px;
   font-size: var(--font-inherit);
   text-align: left;
   display: flex;
@@ -604,12 +581,13 @@
 .these-are-some_EX1 {
   position: absolute;
   top: 721px;
-  left: 812px;
+  left: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 563px;
-  height: 248px;
+  height: 220px;
+  
 }
 .rectangle-sign-in-button3_EX1 {
   position: absolute;

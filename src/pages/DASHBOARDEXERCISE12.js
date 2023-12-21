@@ -198,14 +198,10 @@ const resetQuiz=()=>
             <div className="group-child40" />
             <div className="vector-parent7">
               <div className="group-child41" alt="" src="/undefined45.png" />
-              <b className="gelu-ursal2">Gelu Ursal</b>
-              <img
-                className="microsoftteams-image-1-7"
-                alt=""
-                src="/undefined47.png"
-              />
-              <Icon className="vector-icon65" alt="" icon="ph:bell-fill" color="black" />
-              <Icon className="vector-icon66" alt="" icon="bxs:down-arrow" />
+
+              <b className="gelu-ursal5">Gelu Marie Ursal</b>
+              <p className="student-ursal5">student</p>
+
             </div>
             <Icon icon="carbon:course" color="white" className="group-child42" alt="" src="/undefined46.png" />
           </div>
@@ -225,8 +221,7 @@ const resetQuiz=()=>
           <div className="ehersisyo-1-2">{`Ehersisyo 1  - GREETING MATCH - UP `}</div>
         </div>
         <button className="submit1" onClick={onSubmitClick}>
-          <div className="submit-child" alt="" src="/undefined60.png" />
-          <div className="submit2">submit</div>
+          submit
         </button>
         <div className="ca88b0e1-977b-4453-99ba-b1a77c-parent">
           <img

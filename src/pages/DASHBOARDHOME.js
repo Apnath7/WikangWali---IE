@@ -180,13 +180,8 @@ const DASHBOARDHOME = () => {
         />
         <div className="statsContainer">
           <div className="group-child87" />
-          <b className="gelu-ursal7">Gelu Ursal</b>
-          <img
-            className="microsoftteams-image-1-75"
-            alt=""
-            src="/undefined47.png"
-          />
-          <Icon className="bellIcon" alt="" icon="ph:bell-fill" color="black" />
+          <b className="gelu-ursal5">Gelu Marie Ursal</b>
+          <p className="student-ursal5">student</p>
          
         </div>
       </div>

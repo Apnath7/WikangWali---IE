@@ -99,17 +99,17 @@ const DASHBOARDEXERCISE13 = () => {
         <div className="rectangle-parent9_13">
           <div className="group-child17_13" />
           <div className="group-child18_13" />
-          <div className="group-child19_13" />
-          <div className="rectangle-icon_13" alt="" src="/undefined45.png" />
-          <b className="gelu-ursal_13">Gelu Ursal</b>
-          <Icon icon="carbon:course_13" color="white" className="vector-icon19" alt="" src="/undefined46.png" />
-          <img
-            className="microsoftteams-image-1-6_13"
-            alt=""
-            src="/undefined47.png"
-          />
-          <Icon icon="ph:bell-fill" className="vector-icon20_13" alt="" src="/undefined48.png" />
-          <Icon icon="bxs:down-arrow" className="vector-icon21_13" alt="" src="/undefined49.png" />
+          <div className="rectangle-parent16">
+            <div className="group-child40" />
+            <div className="vector-parent7">
+              <div className="group-child41" alt="" src="/undefined45.png" />
+
+              <b className="gelu-ursal5">Gelu Marie Ursal</b>
+              <p className="student-ursal5">student</p>
+
+            </div>
+            <Icon icon="carbon:course" color="white" className="group-child42" alt="" src="/undefined46.png" />
+          </div>
           <div className="group-child20_13" alt="" src="/undefined50.png" />
           <div className="group-child21_13" alt="" src="/undefined51.png" />
           <button className="return-arrow_13" onClick={onReturnArrowClick}>
@@ -124,9 +124,9 @@ const DASHBOARDEXERCISE13 = () => {
             <div className="good-job_13">good job!</div>
             <div className="group-child22_13" alt="" src="/undefined54.png" />
           </div>
-          <div className="aralin-1-pagbati-container_13">
-            <p className="aralin-1_13">Aralin 1</p>
-            <p className="pagbati-at-karaniwang_13">
+          <div className="aralin-1-pagbati-container2">
+            <p className="exercise">Aralin 1</p>
+            <p className="pagbati-at-karaniwang2">
               pagbati AT KARANIWANG PANANALITA ARALIN
             </p>
           </div>

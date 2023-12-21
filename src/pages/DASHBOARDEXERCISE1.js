@@ -103,14 +103,10 @@ const DASHBOARDEXERCISE1 = () => {
             <div className="group-child64_EX1" />
             <div className="vector-parent11_EX1">
               <div className="group-child65_EX1" alt="" src="/undefined45.png" />
-              <b className="gelu-ursal3_EX1">Gelu Ursal</b>
-              <img
-                className="microsoftteams-image-1-71_EX1"
-                alt=""
-                src="/undefined47.png"
-              />
-              <Icon className="bellIcon" alt="" icon="ph:bell-fill" color="black" />
-              <Icon className="arrowdown" alt="" icon="bxs:down-arrow" />
+
+              <b className="gelu-ursal5">Gelu Marie Ursal</b>
+              <p className="student-ursal5">student</p>
+
             </div>
             <Icon icon="carbon:course" color='white' className="group-child66_EX1" alt="" src="/undefined46.png" />
           </div>
@@ -128,14 +124,9 @@ const DASHBOARDEXERCISE1 = () => {
             <div className="return-arrow-child1_EX1" />
             <Icon icon="mingcute:back-fill" color="white" className="returnButton_EX1" alt="" src="/undefined52.png" />
           </button>
-          <img
-            className="ca88b0e1-977b-4453-99ba-b1a77c-icon1_EX1"
-            alt=""
-            src="/undefined62.png"
-          />
+          
           <button className="continue4_EX1" onClick={onContinueClick}>
-            <div className="continue-inner_EX1" alt="" src="/undefined63.png" />
-            <div className="continue5_EX1">continue</div>
+            continue
           </button>
           <div className="ehersisyo-1-3_EX1">{`EHERSIsYO 1  - GREETING `}</div>
         </div>
