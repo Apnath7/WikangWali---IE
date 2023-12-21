@@ -47,7 +47,7 @@ const ABOUTUSPAGESalvoro = () => {
       <img
         className="about-us-page-salvoro-child"
         alt=""
-        src="/undefined.png"
+        src="/nathanielS.jpg"
       />
       <div className="about-us-page-salvoro-item" />
       <div className="about-us-page-salvoro-inner" />
