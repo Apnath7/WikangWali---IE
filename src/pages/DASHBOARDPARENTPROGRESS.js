@@ -90,8 +90,8 @@ const DASHBOARDPARENTPROGRESS = () => {
           alt=""
           icon="charm:graduate-cap_PG" color="gray"
         />
-        <div className="gelu-marie-ursal_PG">Gelu Marie Ursal</div>
-        <div className="student2_PG">Student</div>
+        <div className="gelu-marie-ursal_PG">Dawn Marie Gumagay</div>
+        <div className="student2_PG">Parent</div>
         <div className="eggs2_PG">
           <img className="noto-v1egg-icon_PG" alt="" src="/grayegg.png" />
           <Icon className="noto-v1egg-icon_PG" alt="" icon="noto-v1:egg" />

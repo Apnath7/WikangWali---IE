@@ -211,7 +211,7 @@
   }
   .student2_PG {
     top: 285px;
-    left: 477px;
+    left: 450px;
     font-size: var(--font-size-mini);
     color: gray;
   }
@@ -487,16 +487,30 @@
   }
   .dashboard-parent-progress-child2_PG,
   .dashboard-parent-progress-child3_PG,
-  .dashboard-parent-progress-child4_PG,
+  .dashboard-parent-progress-child4_PG, 
   .dashboard-parent-progress-child5_PG {
     position: absolute;
     top: 536px;
     left: 1303px;
     border-radius: var(--br-xl) var(--br-xl) 0 0;
-    background-color: var(--color-orange);
+    background-color: orange;
     width: 10px;
     height: 177px;
+    
   }
+
+.dashboard-parent-progress-child1_PG,
+.dashboard-parent-progress-child2_PG,
+.dashboard-parent-progress-child3_PG,
+.dashboard-parent-progress-child4_PG,
+.dashboard-parent-progress-child5_PG,
+.dashboard-parent-progress-child6_PG,
+.dashboard-parent-progress-child7_PG {
+  position: absolute;
+  background-color: orange;
+}
+
+
   .dashboard-parent-progress-child3_PG,
   .dashboard-parent-progress-child4_PG,
   .dashboard-parent-progress-child5_PG {
@@ -533,6 +547,7 @@
     top: 640px;
     left: 1540px;
     height: 73px;
+
   }
   .dashboard-parent-progress-child8_PG,
   .group-child53 {
