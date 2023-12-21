@@ -112,7 +112,7 @@ const DASHBOARDPARENTCOURSES = () => {
           <div className="group-child47_PC" />
           <img className="group-child48_PC" alt="" src="/mother.png.png" />
           <div className="marie-antoinette-cruz-container2_PC">
-            <p className="blank-line_PC">Marie ANTOINETTE CRUZ</p>
+            <p className="blank-line_PC">Dawn Marie Gumagay</p>
           </div>
         </div>
         <img className="vector-icon60_PC" alt="" src="/vector5.svg" />

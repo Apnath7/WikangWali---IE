@@ -148,7 +148,7 @@ const DASHBOARDParentModeLogin = () => {
           src="mother.png.png"
         />
         <div className="marie6">
-          <p className="marie7">Marie</p>
+          <p className="marie7">Dawn Marie Gumagay</p>
         </div>
         <div className="mother3">Mother</div>
         <img className="vector-icon68" alt="" src="/vector5.svg" />

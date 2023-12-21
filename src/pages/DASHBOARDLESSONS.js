@@ -205,7 +205,7 @@ const DASHBOARDLESSONS = () => {
             </div>
           </div>
         </div>
-        <div className="dashboard-lessons-child4_LNS"></div>
+        
           
         <button className="logout4_LNS" onClick={openLogoutPopup}>
           <div className="group-parent18_LNS">

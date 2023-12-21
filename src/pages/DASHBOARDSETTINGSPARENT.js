@@ -114,8 +114,8 @@ const DASHBOARDSETTINGSPARENT = () => {
           alt=""
           src="/mother.png.png"
         />
-        <div className="marie-antoinette_PTS2">{`Marie Antoinette `}</div>
-        <div className="cruz_PTS2">Cruz</div>
+        <div className="marie-antoinette_PTS2">{`Dawn Marie `}</div>
+        <div className="cruz_PTS2">Gumagay</div>
         <div className="parent_PTS2">Parent</div>
         <div className="your-avatar2_PTS2">Your Avatar</div>
         <div className="firstname2_PTS2">FirstName</div>

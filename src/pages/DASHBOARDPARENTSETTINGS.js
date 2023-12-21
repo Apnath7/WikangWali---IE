@@ -96,7 +96,7 @@ const DASHBOARDPARENTSETTINGS = () => {
         <img
           className="dashboard-settings-child4"
           alt=""
-          src="/undefined92.png"
+          src="/mother.png.png"
         />
         <button className="upload">
           <div className="upload1">
@@ -106,11 +106,11 @@ const DASHBOARDPARENTSETTINGS = () => {
         <button className="delete">
           <div className="delete-avatar">Delete Avatar</div>
         </button>
-        <div className="gelu1">Gelu</div>
+        <div className="gelu1">Dawn Marie</div>
         <div className="filipino1">Filipino</div>
         <div className="yahoogmailcom">yahoo@gmail.com</div>
-        <div className="ursal1">Ursal</div>
-        <div className="student2">Student</div>
+        <div className="ursal1">Gumagay</div>
+        <div className="student2">Parent</div>
         <div className="your-avatar1">Your Avatar</div>
         <div className="firstname1">FirstName</div>
         <div className="lastname1">LastName</div>

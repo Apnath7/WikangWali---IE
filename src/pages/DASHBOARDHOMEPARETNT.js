@@ -122,7 +122,7 @@ const DASHBOARDHOMEPARETNT = () => {
           <div className="group-child61_HP" />
           <img className="group-child62_HP" alt="" src="/mother.png.png" />
           <div className="marie-antoinette-cruz-container3_HP">
-            <p className="marie-antoinette-cruz3_HP">Marie ANTOINETTE CRUZ</p>
+            <p className="marie-antoinette-cruz3_HP">Dawn Marie Gumagay</p>
           </div>
         </div>
         <img className="vector-icon72_HP" alt="" src="/vector5.svg" />

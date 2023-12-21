@@ -207,10 +207,7 @@ const DASHBOARDCOURSES = () => {
             </div>
           </div>
         </button>
-        <div
-          className="dashboard-courses-child2"
-          
-        />
+        
         <div className="vector-parent25">
           <div className="group-child82" />
           

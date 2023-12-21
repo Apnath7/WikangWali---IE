@@ -593,16 +593,7 @@
   top: 965px;
   left: 1181px;
 }
-.dashboard-courses-child2 {
-  position: absolute;
-  top: 344px;
-  left: 1550px;
-  width: 30px;
-  height: 200px;
-  object-fit: cover;
-  background-color: gray;
-  border-radius: 20px;
-}
+
 .group-child82 {
   position: absolute;background-color: white;
   top: -2px;

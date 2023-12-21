@@ -650,16 +650,7 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-open-sans);
 }
-.dashboard-lessons-child4_LNS {
-  position: absolute;
-  top: 344px;
-  left: 1550px;
-  width: 30px;
-  height: 120px;
-  object-fit: cover;
-  background-color: gray;
-  border-radius: 20px;
-}
+
 
 
 
