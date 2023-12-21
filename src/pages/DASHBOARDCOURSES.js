@@ -254,6 +254,12 @@ const DASHBOARDCOURSES = () => {
           <Icon className="vector-icon52" alt="" icon="ph:bell-fill" />
           
         </div>
+        <Icon className="rilock-2-line-icon" alt="" icon="ri:lock-2-line" />
+      <Icon className="rilock-2-line-icon1" alt="" icon="ri:lock-2-line" />
+      <Icon className="rilock-2-line-icon2" alt="" icon="ri:lock-2-line" />
+      <Icon className="rilock-2-line-icon3" alt="" icon="ri:lock-2-line" />
+      <Icon className="rilock-2-line-icon4" alt="" icon="ri:lock-2-line" />
+      
         <div className="dashboard-courses-inner1">
           <div className="kurso-group">
             <div className="kurso1">kurso</div>

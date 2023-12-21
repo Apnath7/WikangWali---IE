@@ -363,7 +363,6 @@
   height: 214px;
 }
 .ikalawang-antas-2 {
-  cursor: pointer;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -411,7 +410,6 @@
  
 }
 .unang-antas-2 {
-  cursor: pointer;
   border: none;
   padding: 0;
   background-color: yellow;
@@ -493,7 +491,6 @@
   gap: 5px;
 }
 .ikatlong-antas-3 {
-  cursor: pointer;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -546,7 +543,6 @@
   height: 211px;
 }
 .ikatlong-antas {
-  cursor: pointer;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -558,6 +554,44 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 17px;
+}
+
+.rilock-2-line-icon {
+  position: absolute;
+  top: 390px;
+  left: 1181px;
+  width: 125px;
+  height: 103px;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.rilock-2-line-icon1,
+.rilock-2-line-icon2,
+.rilock-2-line-icon3,
+.rilock-2-line-icon4 {
+  position: absolute;
+  top: 668px;
+  left: 602px;
+  width: 125px;
+  height: 103px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rilock-2-line-icon2,
+.rilock-2-line-icon3,
+.rilock-2-line-icon4 {
+  top: 666px;
+  left: 1179px;
+}
+.rilock-2-line-icon3,
+.rilock-2-line-icon4 {
+  top: 963px;
+  left: 602px;
+}
+.rilock-2-line-icon4 {
+  top: 965px;
+  left: 1181px;
 }
 .dashboard-courses-child2 {
   position: absolute;
@@ -703,6 +737,9 @@
   width: 514px;
   height: 200px;
   border-radius: 30px;
+}
+.frame-button:hover {
+  background-color: #db5b54;
 }
 .kurso1 {
   position: absolute;

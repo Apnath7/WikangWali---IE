@@ -181,6 +181,11 @@ const DASHBOARDLESSONS = () => {
             </ul>
           </div>
         </div>
+
+        <Icon className="rilock-2-line-icon_2" alt="" icon="ri:lock-2-line" />
+      <Icon className="rilock-2-line-icon1_1" alt="" icon="ri:lock-2-line" />
+      <Icon className="rilock-2-line-icon2_1" alt="" icon="ri:lock-2-line" />
+
         <button className="return-arrow4_LNS" onClick={onReturnArrowClick}>
           <Icon icon="mingcute:back-fill" color="white" className="return-arrow-icon_LNS" alt="" src="/undefined69.png" />
         </button>
