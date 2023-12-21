@@ -41,7 +41,7 @@ const DASHBOARDEXERCISE14 = () => {
   }, [navigate]);
 
   const onContinueClick = useCallback(() => {
-    navigate("/8-dashboard-lessons");
+    navigate("/8-dashboard-lessons_unlocked");
   }, [navigate]);
 
   const openLogoutPopup = useCallback(() => {
